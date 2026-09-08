@@ -85,3 +85,8 @@ data/processed/pipeline.log
 .coverage
 htmlcov/
 .pytest_cache/
+
+nextjs-scaffold/
+
+# Temporary scaffolding directories
+nextjs-scaffold/
