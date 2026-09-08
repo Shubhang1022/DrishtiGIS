@@ -1,0 +1,43 @@
+{
+  "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+  "_disclaimer": "These discrepancy records are prototype demonstration data only. They are not derived from official government investigations and have no legal status.",
+  "specTask": "4.4 (foundation-and-data-pipeline v0.2)",
+  "discrepancies": [
+    {
+      "id": "disc-bpl-001",
+      "parcel_id": "parcel-bpl-001",
+      "feature_id": "ai-bld-001",
+      "type": "area_mismatch",
+      "official_value": 600,
+      "ai_value": 728,
+      "difference": 128,
+      "difference_pct": 21.3,
+      "severity": "medium",
+      "status": "pending_review",
+      "spatial_basis": "The AI-detected building polygon (ai-bld-001) partially extends outside the recorded boundary of parcel DRS-BPL-00101 (Plot 101) by approximately 3.6m on the northern edge. The area difference reflects this geometric extension, not only a numeric discrepancy.",
+      "description": "The AI-derived building footprint differs from the recorded property area. This is a potential discrepancy that requires field verification.",
+      "ui_label": "Potential discrepancy — Requires verification",
+      "legal_status": null,
+      "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+      "_disclaimer": "This potential discrepancy was detected by a demonstration AI model and is not a legal determination. It should be verified by a qualified surveyor before any action is taken."
+    },
+    {
+      "id": "disc-bpl-002",
+      "parcel_id": "parcel-bpl-002",
+      "feature_id": "ai-bld-002",
+      "type": "area_mismatch",
+      "official_value": 550,
+      "ai_value": 585,
+      "difference": 35,
+      "difference_pct": 6.4,
+      "severity": "low",
+      "status": "pending_review",
+      "spatial_basis": "The AI-detected building polygon (ai-bld-002) partially extends outside the recorded boundary of parcel DRS-BPL-00102 (Plot 102) by approximately 3.9m on the eastern edge. The area difference reflects this geometric extension.",
+      "description": "The AI-derived building footprint differs from the recorded property area. This is a potential discrepancy that requires field verification.",
+      "ui_label": "Potential discrepancy — Requires verification",
+      "legal_status": null,
+      "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+      "_disclaimer": "This potential discrepancy was detected by a demonstration AI model and is not a legal determination. It should be verified by a qualified surveyor before any action is taken."
+    }
+  ]
+}

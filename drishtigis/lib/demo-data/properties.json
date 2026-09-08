@@ -1,0 +1,55 @@
+{
+  "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+  "_disclaimer": "These property records are prototype demonstration data only. They are not official government property records and have no legal status.",
+  "specTask": "4.5 (foundation-and-data-pipeline v0.2)",
+  "properties": [
+    {
+      "id": "prop-bpl-001",
+      "parcel_id": "parcel-bpl-001",
+      "property_id": "DRS-BPL-00101",
+      "address": "Plot 101, Prototype Survey Zone, Bhopal",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "country": "India",
+      "land_type": "Residential",
+      "status": "Verified",
+      "record_status": "Demo record",
+      "last_updated": "2026-09-08",
+      "source_label": "Prototype Dataset — Bhopal",
+      "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+      "_disclaimer": "This is prototype demonstration data. Not an official government property record."
+    },
+    {
+      "id": "prop-bpl-002",
+      "parcel_id": "parcel-bpl-002",
+      "property_id": "DRS-BPL-00102",
+      "address": "Plot 102, Prototype Survey Zone, Bhopal",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "country": "India",
+      "land_type": "Residential",
+      "status": "Pending",
+      "record_status": "Demo record",
+      "last_updated": "2026-09-08",
+      "source_label": "Prototype Dataset — Bhopal",
+      "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+      "_disclaimer": "This is prototype demonstration data. Not an official government property record."
+    },
+    {
+      "id": "prop-bpl-003",
+      "parcel_id": "parcel-bpl-003",
+      "property_id": "DRS-BPL-00103",
+      "address": "Plot 103, Prototype Survey Zone, Bhopal",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "country": "India",
+      "land_type": "Commercial",
+      "status": "Verified",
+      "record_status": "Demo record",
+      "last_updated": "2026-09-08",
+      "source_label": "Prototype Dataset — Bhopal",
+      "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+      "_disclaimer": "This is prototype demonstration data. Not an official government property record."
+    }
+  ]
+}

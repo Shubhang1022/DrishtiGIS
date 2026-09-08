@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "_source": "AI_DERIVED_DEMO",
+    "description": "Prototype demonstration AI building detections. These are NOT from a real AI model inference run. Each polygon partially extends outside the corresponding parcel boundary — this is the geometrically correct representation of a detected structure whose footprint exceeds the recorded parcel area.",
+    "model": "demo_placeholder_v0.1",
+    "note": "area_m2 values are computed from actual polygon vertex coordinates, not asserted.",
+    "specTask": "4.3 (foundation-and-data-pipeline v0.2)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.41482151, 23.25634498],
+            [77.41509529, 23.25634498],
+            [77.41509529, 23.25611142],
+            [77.41482151, 23.25611142],
+            [77.41482151, 23.25634498]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ai-bld-001",
+        "feature_type": "building",
+        "confidence": 0.91,
+        "area_m2": 728,
+        "model": "demo_placeholder_v0.1",
+        "model_version": "0.1-demo",
+        "dataset": "Bhopal UAV Prototype",
+        "associated_parcel_id": "parcel-bpl-001",
+        "_source": "AI_DERIVED_DEMO",
+        "_disclaimer": "AI-derived observation from a prototype demonstration model. This is NOT from a real inference run, NOT a legal determination, and requires field verification before any action.",
+        "_geometry_note": "This polygon partially extends ~3.6m north beyond the boundary of parcel DRS-BPL-00101 (Plot 101). The spatial overlap represents the discrepancy geometrically, not just numerically."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.41738323, 23.25629333],
+            [77.41763745, 23.25629333],
+            [77.41763745, 23.25609121],
+            [77.41738323, 23.25609121],
+            [77.41738323, 23.25629333]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ai-bld-002",
+        "feature_type": "building",
+        "confidence": 0.87,
+        "area_m2": 585,
+        "model": "demo_placeholder_v0.1",
+        "model_version": "0.1-demo",
+        "dataset": "Bhopal UAV Prototype",
+        "associated_parcel_id": "parcel-bpl-002",
+        "_source": "AI_DERIVED_DEMO",
+        "_disclaimer": "AI-derived observation from a prototype demonstration model. This is NOT from a real inference run, NOT a legal determination, and requires field verification before any action.",
+        "_geometry_note": "This polygon partially extends ~3.9m east beyond the boundary of parcel DRS-BPL-00102 (Plot 102). The spatial overlap represents the discrepancy geometrically, not just numerically."
+      }
+    }
+  ]
+}

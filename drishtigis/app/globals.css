@@ -1,0 +1,145 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ==========================================================================
+   DrishtiGIS Design System Tokens
+   PRD section 4, requirements.md section 5.1 / 6
+   Tailwind v4 CSS-native @theme block
+   ========================================================================== */
+
+@theme {
+  /* ---- DrishtiGIS colour palette ---- */
+  --color-cream:              #F7F3EC;
+  --color-cream-light:        #FBF9F5;
+  --color-cream-dark:         #EDE8DE;
+  --color-beige:              #E8E0D0;
+  --color-beige-light:        #F0EBE1;
+
+  --color-forest:             #2D5016;
+  --color-forest-light:       #3A6B1E;
+  --color-forest-dark:        #1E360F;
+  --color-olive:              #6B7C45;
+  --color-olive-light:        #7D9154;
+  --color-olive-dark:         #566235;
+
+  --color-ochre:              #C4922A;
+  --color-ochre-light:        #D4A84B;
+  --color-ochre-dark:         #A67820;
+  --color-gold:               #D4A017;
+  --color-gold-light:         #E0B030;
+
+  --color-charcoal:           #2C2C2C;
+  --color-charcoal-light:     #3D3D3D;
+  --color-charcoal-dark:      #1A1A1A;
+  --color-soft-gray:          #8A8A8A;
+  --color-soft-gray-light:    #A0A0A0;
+  --color-soft-gray-dark:     #6B6B6B;
+
+  /* ---- Typography ---- */
+  /* Display: editorial serif (Playfair Display loaded via next/font in layout.tsx) */
+  --font-display: var(--font-display-loaded, "Playfair Display", "Georgia", serif);
+  /* UI: clean modern sans-serif (Inter loaded via next/font in layout.tsx) */
+  --font-ui:      var(--font-ui-loaded, "Inter", "system-ui", sans-serif);
+
+  /* ---- Radius ---- */
+  --radius:    0.5rem;
+  --radius-sm: 0.25rem;
+  --radius-lg: 0.75rem;
+
+  /* ---- Shadows ---- */
+  --shadow-card:  0 1px 3px 0 rgb(0 0 0 / 0.08), 0 1px 2px -1px rgb(0 0 0 / 0.06);
+  --shadow-panel: 0 4px 12px 0 rgb(0 0 0 / 0.08);
+
+  /* ---- Animation durations (PRD section 30, requirements.md section 45) ---- */
+  --duration-micro:  150ms;
+  --duration-normal: 250ms;
+  --duration-map:    550ms;
+  --duration-major:  650ms;
+}
+
+/* shadcn/ui semantic token overrides -- map to DrishtiGIS palette */
+@theme inline {
+  --color-background:              var(--color-cream);
+  --color-foreground:              var(--color-charcoal);
+  --color-primary:                 var(--color-forest);
+  --color-primary-foreground:      var(--color-cream-light);
+  --color-secondary:               var(--color-beige);
+  --color-secondary-foreground:    var(--color-charcoal);
+  --color-accent:                  var(--color-ochre);
+  --color-accent-foreground:       var(--color-cream-light);
+  --color-muted:                   var(--color-beige);
+  --color-muted-foreground:        var(--color-soft-gray);
+  --color-card:                    var(--color-cream-light);
+  --color-card-foreground:         var(--color-charcoal);
+  --color-border:                  var(--color-beige);
+  --color-input:                   var(--color-beige);
+  --color-ring:                    var(--color-olive);
+  --color-destructive:             oklch(0.577 0.245 27.325);
+  --radius-sm:   calc(var(--radius) * 0.6);
+  --radius-md:   calc(var(--radius) * 0.8);
+  --radius-lg:   var(--radius);
+  --radius-xl:   calc(var(--radius) * 1.4);
+  --radius-2xl:  calc(var(--radius) * 1.8);
+}
+
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    font-family: var(--font-ui);
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-ui);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Display serif utility */
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar        { width: 6px; height: 6px; }
+::-webkit-scrollbar-track  { background: var(--color-cream-dark); }
+::-webkit-scrollbar-thumb  { background: var(--color-olive); border-radius: 3px; }
+
+/* Design system preview utility (used in /design-system page only) */
+.ds-swatch {
+  width: 4rem;
+  height: 4rem;
+  border-radius: var(--radius);
+  border: 1px solid rgb(0 0 0 / 0.08);
+}

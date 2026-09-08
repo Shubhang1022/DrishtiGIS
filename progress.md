@@ -7,10 +7,13 @@
 
 ---
 
-## Current Phase: Phase 4 + 5 + 6 (parallel) — Demo Data · Frontend · Backend
+## Current Phase: COMPLETE — Phase 0 through Phase 6 implemented
 
 **Phase 0 — COMPLETE ✓** (verified 2026-09-08)  
-**Phase 1 — COMPLETE ✓** (verified 2026-09-08)
+**Phase 1 — COMPLETE ✓** (verified 2026-09-08)  
+**Phase 4 — COMPLETE ✓** (verified 2026-09-08)  
+**Phase 5 — COMPLETE ✓** (verified 2026-09-08, 0 TS errors, 0 lint errors, 15 routes)  
+**Phase 6 — COMPLETE ✓** (verified 2026-09-08, backend starts, all endpoints respond)
 
 ---
 
@@ -54,6 +57,31 @@
 ### Phase 1 — Bhopal Data Validation
 - [x] **1.1** — scripts/data_prep/01_validate_bhopal_tiffs.py ✓ — 30/30 PASS, EPSG:32643, 2.17cm/px, WGS84 bounds confirmed
 - [x] **1.2** — scripts/data_prep/05_extract_bhopal_bounds.py ✓ — bhopal_bounds.geojson: Bhopal MP, PROCESSED_RASTER, ring closed
+
+### Phase 4 — Demo Data Package
+- [x] **4.1** — drishtigis/lib/demo-data/types.ts ✓ — 7 DataSource values, 8 interfaces, city='Bhopal' literal
+- [x] **4.2** — bhopal-parcels.geojson ✓ — 3 parcels in verified TIFF bounds, all coords validated
+- [x] **4.3** — bhopal-ai-features.geojson ✓ — 2 AI buildings geometrically extending outside parcels
+- [x] **4.4** — bhopal-discrepancies.json ✓ — 2 records, legal_status=null, spatial_basis, no forbidden language
+- [x] **4.5** — properties.json ✓ — 3 records, city=Bhopal, source_label correct
+- [x] **4.6** — lib/demo-data/index.ts ✓ — barrel export, static imports, lookup helpers
+
+### Phase 5 — Frontend Foundation
+- [x] **5.1** — Next.js 16.3.4 project init (merged into drishtigis/) ✓
+- [x] **5.2** — Design tokens + typography (Tailwind v4 @theme, Playfair Display + Inter) ✓
+- [x] **5.3** — shadcn/ui init + button, input, card, separator, badge, skeleton ✓
+- [x] **5.4** — maplibre-gl 6.8.0 + animejs 4.5.0 installed, next.config.ts with Turbopack ✓
+- [x] **5.5** — MapLibreMap + DynamicMap client wrapper + /app/map page ✓
+- [x] **5.6** — All 15 routes implemented (0 × 404) ✓
+- [x] **5.7** — npm run build: 0 TS errors ✓ | npm run lint: 0 errors 0 warnings ✓
+
+### Phase 6 — Backend Foundation
+- [x] **6.1** — FastAPI project structure + requirements.txt ✓
+- [x] **6.2** — main.py, config.py, database.py, data_source.py, health.py ✓
+- [x] **6.3** — 8 SQLAlchemy models, change_type nullable ✓
+- [x] **6.4** — Alembic + 001_initial_schema migration (8 tables, PostGIS, GIST indexes) ✓
+- [x] **6.5** — Placeholder parcels + features API endpoints with demo data ✓
+- [x] **6.6** — Backend verified: /health OK, /api/v1/parcels OK, /docs OK ✓
 
 ### Phase 2 — GIS Processing (requires GIS environment)
 - [ ] **2.1** — GIS environment setup (conda or OSGeo4W)

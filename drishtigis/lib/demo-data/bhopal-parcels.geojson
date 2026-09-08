@@ -1,0 +1,152 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+    "description": "Prototype demonstration parcels within the Bhopal UAV orthomosaic coverage area. These are NOT official government cadastral records. All geometries are within the verified TIFF bounds (lat 23.2557–23.2567 N, lon 77.4130–77.4227 E).",
+    "coverageBounds": {
+      "minLon": 77.41299311,
+      "maxLon": 77.42267457,
+      "minLat": 23.25573135,
+      "maxLat": 23.25667101
+    },
+    "generatedBy": "drishtigis/lib/demo-data — coordinates verified against bhopal_validation_report.json",
+    "specTask": "4.2 (foundation-and-data-pipeline v0.2)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4148264,
+              23.25630905
+            ],
+            [
+              77.41507084,
+              23.25630905
+            ],
+            [
+              77.41507084,
+              23.25609345
+            ],
+            [
+              77.4148264,
+              23.25609345
+            ],
+            [
+              77.4148264,
+              23.25630905
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "parcel-bpl-001",
+        "property_id": "DRS-BPL-00101",
+        "plot_number": "Plot 101",
+        "survey_number": "BPL-SRV-101",
+        "area_m2": 600,
+        "land_type": "Residential",
+        "status": "Verified",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "country": "India",
+        "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+        "_disclaimer": "This parcel is prototype demonstration data only. It is not derived from official government cadastral records and has no legal status.",
+        "_datasetLabel": "Prototype Dataset — Bhopal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.41738323,
+              23.25631354
+            ],
+            [
+              77.41759833,
+              23.25631354
+            ],
+            [
+              77.41759833,
+              23.25608896
+            ],
+            [
+              77.41738323,
+              23.25608896
+            ],
+            [
+              77.41738323,
+              23.25631354
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "parcel-bpl-002",
+        "property_id": "DRS-BPL-00102",
+        "plot_number": "Plot 102",
+        "survey_number": "BPL-SRV-102",
+        "area_m2": 550,
+        "land_type": "Residential",
+        "status": "Pending",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "country": "India",
+        "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+        "_disclaimer": "This parcel is prototype demonstration data only. It is not derived from official government cadastral records and has no legal status.",
+        "_datasetLabel": "Prototype Dataset — Bhopal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.41988629,
+              23.25630905
+            ],
+            [
+              77.42017961,
+              23.25630905
+            ],
+            [
+              77.42017961,
+              23.25609345
+            ],
+            [
+              77.41988629,
+              23.25609345
+            ],
+            [
+              77.41988629,
+              23.25630905
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "parcel-bpl-003",
+        "property_id": "DRS-BPL-00103",
+        "plot_number": "Plot 103",
+        "survey_number": "BPL-SRV-103",
+        "area_m2": 720,
+        "land_type": "Commercial",
+        "status": "Verified",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "country": "India",
+        "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+        "_disclaimer": "This parcel is prototype demonstration data only. It is not derived from official government cadastral records and has no legal status.",
+        "_datasetLabel": "Prototype Dataset — Bhopal"
+      }
+    }
+  ]
+}
