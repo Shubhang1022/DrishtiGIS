@@ -14,8 +14,10 @@ Dataset/Drone-Images/*.zip
 # ---------------------------------------------------------------------------
 # Pipeline outputs — generated, not source-controlled
 # ---------------------------------------------------------------------------
-data/processed/
-data/osm/
+data/processed/*
+!data/processed/.gitkeep
+data/osm/bhopal-extract/*
+!data/osm/bhopal-extract/.gitkeep
 
 # ---------------------------------------------------------------------------
 # Environment / secrets — NEVER commit
