@@ -7,7 +7,10 @@
 
 ---
 
-## Current Phase: Phase 0 — Repository Bootstrap (IN PROGRESS)
+## Current Phase: Phase 4 + 5 + 6 (parallel) — Demo Data · Frontend · Backend
+
+**Phase 0 — COMPLETE ✓** (verified 2026-09-08)  
+**Phase 1 — COMPLETE ✓** (verified 2026-09-08)
 
 ---
 
@@ -45,12 +48,12 @@
 ## Task Completion Log
 
 ### Phase 0 — Repository Bootstrap
-- [ ] **0.1** — Git init, .gitignore, .env.example, progress.md
-- [ ] **0.2** — Directory structure, scripts/README.md, data/README.md
+- [x] **0.1** — Git init, .gitignore, .env.example, progress.md ✓
+- [x] **0.2** — Directory structure, scripts/README.md, data/README.md ✓
 
 ### Phase 1 — Bhopal Data Validation
-- [ ] **1.1** — scripts/data_prep/01_validate_bhopal_tiffs.py
-- [ ] **1.2** — scripts/data_prep/05_extract_bhopal_bounds.py + bhopal_bounds.geojson
+- [x] **1.1** — scripts/data_prep/01_validate_bhopal_tiffs.py ✓ — 30/30 PASS, EPSG:32643, 2.17cm/px, WGS84 bounds confirmed
+- [x] **1.2** — scripts/data_prep/05_extract_bhopal_bounds.py ✓ — bhopal_bounds.geojson: Bhopal MP, PROCESSED_RASTER, ring closed
 
 ### Phase 2 — GIS Processing (requires GIS environment)
 - [ ] **2.1** — GIS environment setup (conda or OSGeo4W)
