@@ -11,6 +11,9 @@ Dataset/Drone-Images/DEM FILES/*.zip
 Dataset/Drone-Images/*.pbf
 Dataset/Drone-Images/*.zip
 
+# NOTE: Dataset/Drone-Images/WATER_REGION(GEOJSON)/*.geojson are intentionally
+# tracked — they are small (<1MB each) OSM-derived reference files.
+
 # ---------------------------------------------------------------------------
 # Pipeline outputs — generated, not source-controlled
 # ---------------------------------------------------------------------------
