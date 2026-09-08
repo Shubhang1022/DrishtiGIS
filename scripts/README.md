@@ -51,8 +51,14 @@ python -c "import rasterio"   # Should FAIL here — confirms isolation
 3. Run all `data_prep/` scripts from within the **OSGeo4W shell** — it provides its own
    isolated Python + GDAL environment, separate from your system Python.
 
-**Chosen environment for this project:** _(update this line after setup)_
-`[ ] conda: drishtigis-gis   [ ] OSGeo4W shell`
+**Chosen environment for this project:** Python venv at `scripts/.gis-env/`  
+- Created with: `python -m venv scripts/.gis-env`  
+- Activate (Windows PowerShell): `.\scripts\.gis-env\Scripts\Activate.ps1`  
+- Activate (Windows CMD): `scripts\.gis-env\Scripts\activate.bat`  
+- Installed: `rasterio==1.5.1` (bundles GDAL 3.12.4 internally — no separate GDAL install needed)  
+- Note: The GDAL Python package (PyPI) requires MSVC 14+ to build from source on Windows and is not available as a pre-built wheel for Python 3.14. All pipeline operations use rasterio's Python API (which bundles GDAL 3.12.4) instead of CLI tools. This produces identical outputs.
+
+`[ ] conda: drishtigis-gis   [x] venv: scripts/.gis-env`
 
 ---
 

@@ -7,10 +7,11 @@
 
 ---
 
-## Current Phase: COMPLETE — Phase 0 through Phase 6 implemented
+## Current Phase: COMPLETE — Phase 0 through Phase 6 + Phase 2 implemented
 
 **Phase 0 — COMPLETE ✓** (verified 2026-09-08)  
 **Phase 1 — COMPLETE ✓** (verified 2026-09-08)  
+**Phase 2 — COMPLETE ✓** (verified 2026-09-08)  
 **Phase 4 — COMPLETE ✓** (verified 2026-09-08)  
 **Phase 5 — COMPLETE ✓** (verified 2026-09-08, 0 TS errors, 0 lint errors, 15 routes)  
 **Phase 6 — COMPLETE ✓** (verified 2026-09-08, backend starts, all endpoints respond)
@@ -22,9 +23,9 @@
 | Asset | Classification | Status |
 |---|---|---|
 | Bhopal UAV TIFF tiles (30) | `RAW_RASTER_UAV` | Available — unprocessed, read-only |
-| Bhopal mosaic VRT | `PROCESSED_RASTER` | Not yet generated (requires GIS env) |
-| Bhopal COG | `PROCESSED_RASTER` | Not yet generated (requires GIS env) |
-| Bhopal XYZ tiles (z18–21) | `PROCESSED_RASTER` | Not yet generated (requires GIS env) |
+| Bhopal mosaic VRT | `PROCESSED_RASTER` | **Generated** — data/processed/bhopal_mosaic.vrt (39 KB, EPSG:32643) |
+| Bhopal COG | `PROCESSED_RASTER` | **Generated** — data/processed/bhopal_cog.tif (32.2 MB, JPEG, 9 overviews) |
+| Bhopal XYZ tiles (z18–21) | `PROCESSED_RASTER` | **Generated** — data/processed/tiles/bhopal/ (379 tiles, EPSG:3857) |
 | Bhopal OSM buildings | `OSM_OPENSTREETMAP` | Not yet extracted |
 | Bhopal OSM roads | `OSM_OPENSTREETMAP` | Not yet extracted |
 | Bhopal OSM waterways | `OSM_OPENSTREETMAP` | Not yet extracted |
@@ -83,11 +84,12 @@
 - [x] **6.5** — Placeholder parcels + features API endpoints with demo data ✓
 - [x] **6.6** — Backend verified: /health OK, /api/v1/parcels OK, /docs OK ✓
 
-### Phase 2 — GIS Processing (requires GIS environment)
-- [ ] **2.1** — GIS environment setup (conda or OSGeo4W)
-- [ ] **2.2** — bhopal_mosaic.vrt
-- [ ] **2.3** — bhopal_cog.tif
-- [ ] **2.4** — XYZ tile pyramid + verification
+### Phase 2 — GIS Processing Pipeline
+- [x] **2.1** — GIS venv (`scripts/.gis-env/`) + rasterio 1.5.1 (GDAL 3.12.4) ✓ — isolated from main env, EPSG:32643 confirmed
+- [x] **2.2** — bhopal_mosaic.vrt ✓ — 45717×4033px, EPSG:32643, 30 tiles × 3 bands, last-file-wins overlap, bounds match report
+- [x] **2.3** — bhopal_cog.tif ✓ — 32.2MB (84% smaller than 206MB source), JPEG, 9 overview levels, EPSG:32643 preserved
+- [x] **2.4** — XYZ tile pyramid ✓ — 379 non-blank tiles z18–21, per-tile reproject EPSG:32643→3857
+- [x] **2.4b** — Tile verification ✓ — 37/37 checks PASS: center tile 39KB 256×256 R-std=70 14682 non-zero px, no fabricated coverage
 
 ### Phase 3 — OSM Extraction (requires GIS environment)
 - [ ] **3.1** — bhopal-buildings/roads/waterways/landuse GeoJSON
