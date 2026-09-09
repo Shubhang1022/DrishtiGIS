@@ -7,11 +7,12 @@
 
 ---
 
-## Current Phase: COMPLETE — Phase 0 through Phase 6 + Phase 2 implemented
+## Current Phase: COMPLETE — Phase 0 through Phase 6 + Phase 2 + Phase 3 implemented
 
 **Phase 0 — COMPLETE ✓** (verified 2026-09-08)  
 **Phase 1 — COMPLETE ✓** (verified 2026-09-08)  
 **Phase 2 — COMPLETE ✓** (verified 2026-09-08)  
+**Phase 3 — COMPLETE ✓** (verified 2026-09-09)  
 **Phase 4 — COMPLETE ✓** (verified 2026-09-08)  
 **Phase 5 — COMPLETE ✓** (verified 2026-09-08, 0 TS errors, 0 lint errors, 15 routes)  
 **Phase 6 — COMPLETE ✓** (verified 2026-09-08, backend starts, all endpoints respond)
@@ -26,9 +27,9 @@
 | Bhopal mosaic VRT | `PROCESSED_RASTER` | **Generated** — data/processed/bhopal_mosaic.vrt (39 KB, EPSG:32643) |
 | Bhopal COG | `PROCESSED_RASTER` | **Generated** — data/processed/bhopal_cog.tif (32.2 MB, JPEG, 9 overviews) |
 | Bhopal XYZ tiles (z18–21) | `PROCESSED_RASTER` | **Generated** — data/processed/tiles/bhopal/ (379 tiles, EPSG:3857) |
-| Bhopal OSM buildings | `OSM_OPENSTREETMAP` | Not yet extracted |
-| Bhopal OSM roads | `OSM_OPENSTREETMAP` | Not yet extracted |
-| Bhopal OSM waterways | `OSM_OPENSTREETMAP` | Not yet extracted |
+| Bhopal OSM buildings | `OSM_OPENSTREETMAP` | **Extracted** — 26,577 features (27 MB GeoJSON) |
+| Bhopal OSM roads | `OSM_OPENSTREETMAP` | **Extracted** — 2,933 features (3 MB GeoJSON) |
+| Bhopal OSM waterways | `OSM_OPENSTREETMAP` | **Extracted** — 31 features (58 KB GeoJSON) |
 | Bhopal parcel data | — | **NOT AVAILABLE** — Demo data will be used (labeled DEMO_DATA_PROTOTYPE_ONLY) |
 | AI feature annotations | — | **NOT AVAILABLE** — Demo data will be used (labeled AI_DERIVED_DEMO) |
 | Historical imagery (2nd epoch) | — | **NOT AVAILABLE** — Feature deferred, not fabricated |
@@ -91,8 +92,15 @@
 - [x] **2.4** — XYZ tile pyramid ✓ — 379 non-blank tiles z18–21, per-tile reproject EPSG:32643→3857
 - [x] **2.4b** — Tile verification ✓ — 37/37 checks PASS: center tile 39KB 256×256 R-std=70 14682 non-zero px, no fabricated coverage
 
-### Phase 3 — OSM Extraction (requires GIS environment)
-- [ ] **3.1** — bhopal-buildings/roads/waterways/landuse GeoJSON
+### Phase 3 — OSM Data Extraction
+- [x] **3.1a** — pyosmium 4.3.1 in GIS venv ✓ — PBF magic valid, main env isolated
+- [x] **3.1b** — scripts/data_prep/06_extract_osm_bhopal.py ✓ — two-pass, no location cache
+- [x] **3.1c** — Extraction outputs ✓:
+  - Pass 1: 260,974,604 nodes scanned, 130,371 in bbox (1116s + 741s tag enrichment)
+  - Pass 2: 29,996,486 ways scanned, 29,962 matched (536s)
+  - buildings: 26,577 features | roads: 2,933 | waterways: 31 | landuse: 98
+- [x] **3.1d** — 48/48 validation checks PASS ✓ — OSM:/OSM_VALIDATE: in pipeline.log, extraction_report.json written
+- PBF india-260905.osm.pbf: 1,706,252,573 bytes — unchanged throughout
 
 ### Phase 4 — Demo Data Package
 - [ ] **4.1** — lib/demo-data/types.ts
