@@ -7,7 +7,7 @@
 
 ---
 
-## Current Phase: COMPLETE — Phase 0 through Phase 6 + Phase 2 + Phase 3 implemented
+## Current Phase: COMPLETE — All phases + Core India WebGIS Integration
 
 **Phase 0 — COMPLETE ✓** (verified 2026-09-08)  
 **Phase 1 — COMPLETE ✓** (verified 2026-09-08)  
@@ -15,7 +15,8 @@
 **Phase 3 — COMPLETE ✓** (verified 2026-09-09)  
 **Phase 4 — COMPLETE ✓** (verified 2026-09-08)  
 **Phase 5 — COMPLETE ✓** (verified 2026-09-08, 0 TS errors, 0 lint errors, 15 routes)  
-**Phase 6 — COMPLETE ✓** (verified 2026-09-08, backend starts, all endpoints respond)
+**Phase 6 — COMPLETE ✓** (verified 2026-09-08, backend starts, all endpoints respond)  
+**Core India WebGIS — COMPLETE ✓** (2026-09-09, 91/91 backend tests, 0 TS errors, 0 lint)
 
 ---
 
@@ -130,3 +131,22 @@
 ### Phase 7 — Integration + Documentation
 - [ ] **7.1** — Full stack smoke test
 - [ ] **7.2** — progress.md final update
+
+### Core India WebGIS Integration (core-india-webgis v0.1)
+- [x] **A.1** — backend/app/gis/ package ✓
+- [x] **A.2** — india_cities.py: 44 cities, case-insensitive search ✓
+- [x] **A.3** — coverage_registry.py: Bhopal prototype, all others none, historical=False ✓
+- [x] **A.4** — tiles.py: /api/v1/tiles/bhopal/{z}/{x}/{y}.png, path traversal guard ✓
+- [x] **A.5** — osm_layers.py: /api/v1/osm/bhopal/{layer}, allowlist, FileResponse ✓
+- [x] **A.6** — coverage.py + locations.py: /api/v1/coverage/{slug}, /api/v1/locations/search ✓
+- [x] **A.7** — parcels.py: non-Bhopal returns _coverage_note ✓
+- [x] **A.8** — tests/test_webgis.py: 91 tests, 91 PASS ✓
+- [x] **A.9** — backend verified, Dataset/ unchanged ✓
+- [x] **B.1** — lib/gis/india.ts + coverage.ts ✓
+- [x] **B.2** — lib/api/ (6 modules): tiles, osm, parcels, coverage, locations, index ✓
+- [x] **B.3** — LayerControl.tsx: 7 layer toggles, accessible fieldset ✓
+- [x] **B.4** — PropertyPanel.tsx: parcel+AI+discrepancy, disclaimer always visible ✓
+- [x] **B.5** — CoverageIndicator.tsx: honest unavailability notice ✓
+- [x] **B.6** — MapLibreMap.tsx: India-scale, all data layers, lazy loading ✓
+- [x] **B.7** — /app/map page: India overview, LocationSearch, LayerControl, PropertyPanel ✓
+- [x] **B.8** — npm run build: 0 errors | npm run lint: 0 errors 0 warnings ✓

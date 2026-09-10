@@ -46,7 +46,18 @@ async def list_parcels(city: Optional[str] = None) -> JSONResponse:
     features = data.get("features", [])
 
     if city and city.lower() != "bhopal":
-        features = []
+        response_body = {
+            "type": "FeatureCollection",
+            "total": 0,
+            "features": [],
+            "_source": "DEMO_DATA_PROTOTYPE_ONLY",
+            "_coverage_note": (
+                f"No parcel data is available for {city.title()}. "
+                "DrishtiGIS currently has prototype data for Bhopal only."
+            ),
+            "_disclaimer": _DISCLAIMER,
+        }
+        return JSONResponse(content=response_body, headers=_DEMO_HEADER)
 
     response_body = {
         "type": "FeatureCollection",
