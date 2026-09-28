@@ -28,9 +28,9 @@ class AssistantResponse(BaseModel):
 
 class LLMProvider:
     def __init__(self):
-        self.api_key = os.getenv("LLM_API_KEY") or os.getenv("OPENROUTER_API_KEY") or os.getenv("GEMINI_API_KEY")
-        self.model = os.getenv("LLM_MODEL", "google/gemini-2.5-flash")
-        self.provider = os.getenv("LLM_PROVIDER", "openrouter")
+        self.api_key = os.getenv("GEMINI_API_KEY") or os.getenv("LLM_API_KEY") or os.getenv("OPENROUTER_API_KEY")
+        self.model = os.getenv("LLM_MODEL", "gemini-2.5-flash")
+        self.provider = os.getenv("LLM_PROVIDER", "gemini")
 
     def process_query(
         self,
@@ -155,7 +155,7 @@ class LLMProvider:
         elif any(kw in q for kw in [
             "dataset", "datasets", "what layers", "available layers", "imagery",
             "orthomosaic", "coverage", "bhopal data", "what data"
-        ]) and not (target_parcel_id and any(k in q for kw in ["road", "access", "landuse", "building"])):
+        ]) and not (target_parcel_id and any(kw in q for kw in ["road", "access", "landuse", "building"])):
             reg_res = tool_registry.execute("get_region_summary", {"region_id": "bhopal_mp"}, user=user)
             meta_res = tool_registry.execute("get_dataset_metadata", {"region_id": "bhopal_mp"}, user=user)
             tool_calls.extend([
@@ -411,10 +411,62 @@ class LLMProvider:
         self,
         query: str,
         context_entity: Optional[Dict[str, Any]],
-        history: Optional[List[Dict[str, Any]]]
+        history: Optional[List[Dict[str, Any]]],
+        user: Optional[Any] = None
     ) -> AssistantResponse:
-        """Call external LLM API (OpenRouter/Gemini/OpenAI compatible REST) if key provided."""
-        # For security and reliability, fallback to grounded tool engine if REST API call fails
-        return self._run_grounded_tool_engine(query, context_entity)
+        """Call Google Gemini API (or compatible provider) if key provided, with graceful fallback."""
+        grounded_resp = self._run_grounded_tool_engine(query, context_entity, user=user)
+
+        if self.provider == "gemini" and self.api_key:
+            try:
+                raw_model = self.model.replace("google/", "")
+                url = f"https://generativelanguage.googleapis.com/v1beta/models/{raw_model}:generateContent?key={self.api_key}"
+
+                prompt_content = (
+                    f"{SYSTEM_PROMPT}\n\n"
+                    "GROUNDED DATABASE EVIDENCE & OBSERVATIONS (USE THESE FACTS ACCURATELY):\n"
+                    f"{grounded_resp.text}\n\n"
+                    f"User Question: {query}"
+                )
+
+                payload = {
+                    "contents": [
+                        {
+                            "role": "user",
+                            "parts": [{"text": prompt_content}]
+                        }
+                    ],
+                    "generationConfig": {
+                        "temperature": 0.2,
+                        "maxOutputTokens": 800,
+                    }
+                }
+
+                req = urllib.request.Request(
+                    url,
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers={"Content-Type": "application/json"},
+                    method="POST"
+                )
+                with urllib.request.urlopen(req, timeout=8) as resp:
+                    if resp.status == 200:
+                        data = json.loads(resp.read().decode("utf-8"))
+                        candidates = data.get("candidates", [])
+                        if candidates:
+                            parts = candidates[0].get("content", {}).get("parts", [])
+                            text = "".join(p.get("text", "") for p in parts if "text" in p)
+                            if text:
+                                return AssistantResponse(
+                                    text=enforce_safety_policy(text),
+                                    tool_calls=grounded_resp.tool_calls,
+                                    provenance=grounded_resp.provenance,
+                                    map_actions=grounded_resp.map_actions,
+                                    mode="LLM"
+                                )
+            except Exception:
+                # Fall back gracefully to deterministic grounded tool engine response
+                pass
+
+        return grounded_resp
 
 llm_provider = LLMProvider()

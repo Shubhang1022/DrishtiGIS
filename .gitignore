@@ -28,6 +28,7 @@ drishtigis/.env
 drishtigis/.env.local
 drishtigis/.env.*.local
 
+
 # ---------------------------------------------------------------------------
 # Node / Next.js
 # ---------------------------------------------------------------------------
@@ -93,3 +94,5 @@ data/ai_models/**/*.ckpt
 scripts/.ml-env/
 scripts/.gis-env/
 **/cache_tiles/
+
+Secret/**
