@@ -8,11 +8,7 @@ const TRANSPARENT_PNG = Buffer.from(
   "base64"
 );
 
-const BACKEND_URL =
-  process.env.BACKEND_URL ||
-  process.env.NEXT_PUBLIC_API_URL ||
-  process.env.NEXT_PUBLIC_BACKEND_URL ||
-  "http://127.0.0.1:8000";
+import { BACKEND_URL } from "@/lib/api/client";
 
 export async function GET(
   request: NextRequest,

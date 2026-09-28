@@ -16,14 +16,16 @@ export type OsmLayer = "buildings" | "roads" | "waterways" | "landuse";
 
 /** Returns the URL for a Bhopal OSM layer (used for MapLibre source data URL) */
 export function getBhopalOsmLayerUrl(layer: OsmLayer): string {
-  return `/api/v1/osm/bhopal/${layer}`;
+  return `${API_BASE}/api/v1/osm/bhopal/${layer}`;
 }
 
 /** Fetch a Bhopal OSM layer as parsed GeoJSON */
 export async function fetchOsmLayer(
   layer: OsmLayer
 ): Promise<GeoJSON.FeatureCollection> {
-  const res = await fetch(getBhopalOsmLayerUrl(layer));
+  const res = await fetch(getBhopalOsmLayerUrl(layer), {
+    credentials: "include",
+  });
   if (!res.ok) {
     throw new Error(`OSM layer '${layer}' fetch failed: ${res.status}`);
   }

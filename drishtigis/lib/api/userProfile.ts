@@ -2,10 +2,9 @@
  * DrishtiGIS — User Profile API Client
  * Authenticated per-user profile management.
  */
+import { API_V1_BASE } from "./client";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_API_BASE ||
-  `${process.env.NEXT_PUBLIC_API_URL || process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000"}/api/v1`;
+const API_BASE = API_V1_BASE;
 
 export interface UserProfileData {
   user_id: string;

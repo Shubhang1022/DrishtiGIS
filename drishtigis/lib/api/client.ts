@@ -5,8 +5,25 @@
  * Base URL read from NEXT_PUBLIC_API_URL environment variable.
  */
 
-export const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+/**
+ * Retrieves the configured backend API root URL.
+ * Supports NEXT_PUBLIC_API_URL (primary) and NEXT_PUBLIC_BACKEND_URL (fallback).
+ * Strips any trailing slash and defaults to http://localhost:8000 for local dev.
+ */
+export function getBackendUrl(): string {
+  const envUrl =
+    process.env.NEXT_PUBLIC_API_URL ||
+    process.env.NEXT_PUBLIC_BACKEND_URL;
+  if (envUrl && envUrl.trim()) {
+    return envUrl.trim().replace(/\/+$/, "");
+  }
+  return "http://localhost:8000";
+}
+
+export const API_BASE = getBackendUrl();
+export const BACKEND_URL = API_BASE;
+export const API_V1_BASE = `${API_BASE}/api/v1`;
+
 
 export class ApiError extends Error {
   constructor(
@@ -43,7 +60,10 @@ export async function apiFetch<T>(
   path: string,
   options?: ApiFetchOptions
 ): Promise<T> {
-  const url = `${API_BASE}${path}`;
+  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+  const url = path.startsWith("http://") || path.startsWith("https://")
+    ? path
+    : `${API_BASE}${normalizedPath}`;
   const token = options?.token !== undefined ? options.token : getStoredAuthToken();
 
   const headers: Record<string, string> = {

@@ -11,7 +11,7 @@ import { API_BASE } from "./client";
 
 /** XYZ tile URL template for Bhopal UAV orthomosaic (z18–21) */
 export function getBhopalTileUrl(): string {
-  return "/api/v1/tiles/bhopal/{z}/{x}/{y}.png";
+  return `${API_BASE}/api/v1/tiles/bhopal/{z}/{x}/{y}.png`;
 }
 
 export const BHOPAL_TILE_ZOOM_MIN = 18;

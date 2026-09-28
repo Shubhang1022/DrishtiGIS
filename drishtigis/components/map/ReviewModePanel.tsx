@@ -21,6 +21,7 @@ import {
 
 import {
   getReviewDetail,
+  getReviewQueue,
   updateReviewStatus,
   submitGeometryEdit,
   recordFieldVerification,
@@ -92,8 +93,7 @@ export function ReviewModePanel({
       loadReviewDetails(reviewId);
     } else if (parcelId) {
       // Auto-lookup review for parcel
-      fetch(`/api/v1/reviews?city=Bhopal`)
-        .then((r) => r.json())
+      getReviewQueue({ city: "Bhopal" })
         .then((data) => {
           const match = data.items?.find((i: ReviewItem) => i.parcel_id === parcelId);
           if (match) {

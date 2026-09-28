@@ -1,6 +1,5 @@
 import { AuthTokenResponse, User, SecurityAuditLogItem } from "@/lib/types/auth";
-
-const BACKEND_URL = process.env.NEXT_PUBLIC_API_URL || process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
+import { BACKEND_URL } from "./client";
 
 export async function loginUser(email: string, password: string): Promise<AuthTokenResponse> {
   const res = await fetch(`${BACKEND_URL}/api/v1/auth/login`, {
@@ -30,6 +29,7 @@ export async function registerUser(data: {
   const res = await fetch(`${BACKEND_URL}/api/v1/auth/register`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
+    credentials: "include",
     body: JSON.stringify(data),
   });
 
@@ -44,6 +44,7 @@ export async function registerUser(data: {
 export async function getCurrentUser(token: string): Promise<User> {
   const res = await fetch(`${BACKEND_URL}/api/v1/auth/me`, {
     headers: { Authorization: `Bearer ${token}` },
+    credentials: "include",
   });
 
   if (!res.ok) {
