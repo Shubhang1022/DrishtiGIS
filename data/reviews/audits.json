@@ -1,0 +1,5772 @@
+{
+  "REV-DISC-55-00000": [
+    {
+      "audit_id": "AUDIT-128d80f1",
+      "review_id": "REV-DISC-55-00000",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-2ddb8fb4",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "OPEN",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T09:07:57.667270+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-7d461811",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T09:07:57.789215+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-1f42eab5",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Field-Surveyor-02",
+      "timestamp": "2026-09-16T09:07:57.857118+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-2d5a6171",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T09:08:38.140475+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-c801c74a",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T09:08:38.298873+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-1b60ad03",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Field-Surveyor-02",
+      "timestamp": "2026-09-16T09:08:38.391235+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-e8657075",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T09:19:23.893760+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-4938458c",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T09:19:24.064867+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-c2d58cae",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Field-Surveyor-02",
+      "timestamp": "2026-09-16T09:19:24.153350+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-16ebdebf",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T13:49:37.807184+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-17c8d70e",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T13:49:38.130290+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-e9ff4821",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Field-Surveyor-02",
+      "timestamp": "2026-09-16T13:49:38.320822+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-46ceb406",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T13:50:44.906764+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-4ebedc6d",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T13:50:45.150877+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-4513b613",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Field-Surveyor-02",
+      "timestamp": "2026-09-16T13:50:45.302298+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-86d11d5a",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T13:58:10.471294+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-d82d8d7b",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T13:58:10.682031+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-0d9174a5",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Field-Surveyor-02",
+      "timestamp": "2026-09-16T13:58:11.021930+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-7560aca3",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T14:00:49.482624+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-746d4306",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T14:00:49.856812+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-d734a0b0",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Field-Surveyor-02",
+      "timestamp": "2026-09-16T14:00:50.052712+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-98e2a274",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T14:04:13.122434+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-76577674",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Surveyor-01",
+      "timestamp": "2026-09-16T14:04:13.486017+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-4bb60b5f",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Field-Surveyor-02",
+      "timestamp": "2026-09-16T14:04:13.642815+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-d2bd54d6",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T14:41:43.639411+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-881f7a06",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T14:41:43.819745+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-1e794a9f",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T14:41:43.913351+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-b2a79d82",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T14:51:46.208050+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-5fb745e2",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T14:51:46.348600+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-1c27c7be",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T14:51:46.587648+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-bcbfd419",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:21:35.839548+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-7083b1a5",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:21:36.217077+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-8a1d8493",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:21:36.779502+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-bfd62579",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:36:57.104034+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-e6800140",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:36:57.280137+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-a7894c67",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:36:57.579324+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-2e4ed6dd",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:46:27.701761+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-284ddadb",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:46:27.908789+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-40d6658e",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:46:28.026576+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-98e24491",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:51:52.811523+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-ddca8be4",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:51:52.940937+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-be64e38f",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:51:53.016770+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-6a87f4e8",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:58:55.165234+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-e05a4f46",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:58:55.296277+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-f5f32bdf",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Anonymous Public User",
+      "timestamp": "2026-09-16T15:58:55.372095+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-c533ea10",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-16T16:03:43.349578+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-5a9834f3",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-16T16:03:43.519543+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-0642da26",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-16T16:03:43.593104+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-e8481625",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-16T16:05:26.523162+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-fa1871d2",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-16T16:06:14.327064+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-c65dedaa",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-16T16:06:42.377173+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-2f7f0bcf",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-16T16:06:48.894058+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-97606523",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-16T16:06:49.031832+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-eab8188f",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-16T16:06:49.102577+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-0abeaff6",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T09:59:49.039649+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-84a7110f",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T09:59:59.815354+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-693f3ef7",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T09:59:59.942296+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-045165ab",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T10:00:00.019761+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-3a828c95",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T10:09:14.982907+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-b069dbe4",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T10:09:23.882499+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-b3563f51",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T10:09:24.055427+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-9316d985",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T10:09:24.144474+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-da70bd4e",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:35:53.559822+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-9a684543",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:36:02.689946+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-d2061160",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:36:02.901057+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-e7aed669",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:36:03.179789+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-0f1e0ec0",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "ACCEPTED",
+      "reviewer": "Pytest Default User",
+      "timestamp": "2026-09-17T11:38:26.969933+00:00",
+      "notes": "Unauthorized acceptance attempt",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-807d6013",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "ACCEPTED",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Pytest Default User",
+      "timestamp": "2026-09-17T11:38:27.047770+00:00",
+      "notes": "Test observation",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-33b27ac5",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:38:27.132462+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-99fb30d5",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:38:35.260041+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-70999650",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:38:35.447189+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-0d3bc120",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:38:35.564677+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-733c6f01",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:39:45.786451+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-a5aa7b47",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:39:52.704728+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-caac191f",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:39:52.906194+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-da7f318b",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:39:53.036474+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-90022b27",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:40:36.030975+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-7ad5de59",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:40:44.330585+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-0517a13a",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:40:44.522333+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-ad275dcb",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:40:44.638928+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-1ddb4b54",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:41:44.103607+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-ae335608",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:41:52.373234+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-907e7093",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:41:52.586954+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-f2137bfd",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:41:52.692985+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-50465aac",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:48:22.228120+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-2809c69e",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:48:28.692347+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-0300565f",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:48:28.821392+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-cde08232",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T11:48:28.896741+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-31b63f7a",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T13:09:50.186314+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-ea90e12c",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T13:09:59.257811+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-4e1bf92e",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T13:09:59.435392+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-dca181a8",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T13:09:59.530008+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-036ab0a9",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T13:52:57.977098+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-8e9ba952",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T13:53:09.118638+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-36555790",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T13:53:09.319510+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-3fd72a16",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-17T13:53:09.420932+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-1a6101c7",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T08:29:00.707978+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-ba5b2a84",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T08:29:13.455616+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-75d661ce",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T08:29:13.584643+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-a66863cc",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T08:29:13.840659+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-56399924",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T08:57:08.238551+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-a3d2d30d",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T08:57:16.201174+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-1890b392",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T08:57:16.377713+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-9bc0eadd",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T08:57:16.473279+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-7bc96523",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T12:59:07.202588+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-fd76e589",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T12:59:22.273815+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-797afb8e",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T12:59:22.437200+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-9b8ee119",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-20T12:59:22.526039+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-e89ccdff",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T15:36:53.735640+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-0fe85679",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T15:37:12.785682+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-dbf6674f",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T15:37:13.059477+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-50d29608",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T15:37:13.210826+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-44a909ef",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T16:09:30.550564+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-4c54fbf6",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T16:09:44.488742+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-59653e91",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T16:09:44.724507+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-e5e4de60",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T16:09:44.847408+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-1af22451",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T16:13:21.004581+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-bcf43bc7",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T16:13:31.807729+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-41b0abe9",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T16:13:32.015940+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-92b979da",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-21T16:13:32.342623+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-e4386e50",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:15:27.160270+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-79ae6b4b",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:15:44.696075+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-d836abcc",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:15:44.880823+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-a87a70e4",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:15:44.992537+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-cf67864d",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:18:41.210192+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-204193d9",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:18:50.556985+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-b9c44a8f",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:18:50.742662+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-19e85d80",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:18:50.860277+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-fca68456",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:34:24.270040+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-e5478e35",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:34:34.832405+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-60b299fb",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:34:35.073276+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-bdefad11",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-22T17:34:35.417141+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-f0451e49",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T11:24:45.558568+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-ec790c5d",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T11:25:15.832891+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-bd1c85c2",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T11:25:16.089323+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-3f207652",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T11:25:16.216159+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-83d45818",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:02:29.864938+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-b4e8d379",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:02:41.231252+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-b61df74c",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:02:41.430739+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-dcd93b05",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:02:41.554895+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-5d57f0e8",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:05:38.610625+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-0c5751ac",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:05:50.175270+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-a43f7500",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:05:50.381614+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-970eb2bd",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:05:50.722371+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-220a1e3d",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:43:10.964573+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-46a25764",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:43:23.389842+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-9d0fde82",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:43:23.622307+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-6ad26884",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:43:23.734285+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-9824a24a",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:45:27.855454+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-d875393e",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:45:39.897952+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-09567f17",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:45:40.115420+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-64628cbe",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T12:45:40.218611+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-897b9018",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T13:20:34.407713+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-e4c1e31d",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T13:21:07.044985+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-860bd586",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T13:21:07.237901+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-a752a444",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T13:21:07.340199+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-0e78f097",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T13:37:21.337156+00:00",
+      "notes": "Surveyor updating to IN_REVIEW",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-2e1d5bc0",
+      "review_id": "REV-DISC-55-00000",
+      "action": "STATUS_CHANGE",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T13:37:52.623920+00:00",
+      "notes": "Inspecting discrepancy evidence.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    },
+    {
+      "audit_id": "AUDIT-6f82f659",
+      "review_id": "REV-DISC-55-00000",
+      "action": "GEOMETRY_EDITED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "IN_REVIEW",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T13:37:52.794944+00:00",
+      "notes": "Adjusted boundary.",
+      "geometry_changed": true,
+      "evidence_reference": {
+        "area_m2": 53949.68,
+        "geometry_type": "Polygon",
+        "vertex_count": 5,
+        "is_valid": true,
+        "crs": "EPSG:4326"
+      }
+    },
+    {
+      "audit_id": "AUDIT-6005e542",
+      "review_id": "REV-DISC-55-00000",
+      "action": "FIELD_VERIFICATION_RECORDED",
+      "previous_status": "IN_REVIEW",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "timestamp": "2026-09-24T13:37:52.898802+00:00",
+      "notes": "Observed boundary differs from preliminary AI-derived boundary.",
+      "geometry_changed": false,
+      "evidence_reference": {
+        "method": "GNSS",
+        "observed_feature": "Observed boundary",
+        "photo_filename": null
+      }
+    }
+  ],
+  "REV-DISC-55-00001": [
+    {
+      "audit_id": "AUDIT-f02a4536",
+      "review_id": "REV-DISC-55-00001",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00002": [
+    {
+      "audit_id": "AUDIT-fe81246a",
+      "review_id": "REV-DISC-55-00002",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00003": [
+    {
+      "audit_id": "AUDIT-c06dea2e",
+      "review_id": "REV-DISC-55-00003",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00004": [
+    {
+      "audit_id": "AUDIT-3a6d2da7",
+      "review_id": "REV-DISC-55-00004",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00005": [
+    {
+      "audit_id": "AUDIT-19245279",
+      "review_id": "REV-DISC-55-00005",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00006": [
+    {
+      "audit_id": "AUDIT-4ac0add8",
+      "review_id": "REV-DISC-55-00006",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00007": [
+    {
+      "audit_id": "AUDIT-7ea5ac86",
+      "review_id": "REV-DISC-55-00007",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00008": [
+    {
+      "audit_id": "AUDIT-878e8f84",
+      "review_id": "REV-DISC-55-00008",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00009": [
+    {
+      "audit_id": "AUDIT-ba1c3f81",
+      "review_id": "REV-DISC-55-00009",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00010": [
+    {
+      "audit_id": "AUDIT-7746a0e3",
+      "review_id": "REV-DISC-55-00010",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00011": [
+    {
+      "audit_id": "AUDIT-fefe4dfb",
+      "review_id": "REV-DISC-55-00011",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00012": [
+    {
+      "audit_id": "AUDIT-3be16b90",
+      "review_id": "REV-DISC-55-00012",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00013": [
+    {
+      "audit_id": "AUDIT-17a55dd4",
+      "review_id": "REV-DISC-55-00013",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00014": [
+    {
+      "audit_id": "AUDIT-28216e0f",
+      "review_id": "REV-DISC-55-00014",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00015": [
+    {
+      "audit_id": "AUDIT-0aba65cf",
+      "review_id": "REV-DISC-55-00015",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00016": [
+    {
+      "audit_id": "AUDIT-46adc886",
+      "review_id": "REV-DISC-55-00016",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00017": [
+    {
+      "audit_id": "AUDIT-bb80ead9",
+      "review_id": "REV-DISC-55-00017",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00018": [
+    {
+      "audit_id": "AUDIT-4767b6f3",
+      "review_id": "REV-DISC-55-00018",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00019": [
+    {
+      "audit_id": "AUDIT-387d3a08",
+      "review_id": "REV-DISC-55-00019",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00020": [
+    {
+      "audit_id": "AUDIT-d4213dad",
+      "review_id": "REV-DISC-55-00020",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00021": [
+    {
+      "audit_id": "AUDIT-cf1796e6",
+      "review_id": "REV-DISC-55-00021",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00022": [
+    {
+      "audit_id": "AUDIT-ae118738",
+      "review_id": "REV-DISC-55-00022",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00023": [
+    {
+      "audit_id": "AUDIT-b5f2bd7b",
+      "review_id": "REV-DISC-55-00023",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00024": [
+    {
+      "audit_id": "AUDIT-2727f63e",
+      "review_id": "REV-DISC-55-00024",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00025": [
+    {
+      "audit_id": "AUDIT-c238ded8",
+      "review_id": "REV-DISC-55-00025",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00026": [
+    {
+      "audit_id": "AUDIT-cc02501b",
+      "review_id": "REV-DISC-55-00026",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00027": [
+    {
+      "audit_id": "AUDIT-7c82e591",
+      "review_id": "REV-DISC-55-00027",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.476793+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00028": [
+    {
+      "audit_id": "AUDIT-62a14578",
+      "review_id": "REV-DISC-55-00028",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00029": [
+    {
+      "audit_id": "AUDIT-4aff6c67",
+      "review_id": "REV-DISC-55-00029",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00030": [
+    {
+      "audit_id": "AUDIT-e22cb898",
+      "review_id": "REV-DISC-55-00030",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00031": [
+    {
+      "audit_id": "AUDIT-7d3923c2",
+      "review_id": "REV-DISC-55-00031",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00032": [
+    {
+      "audit_id": "AUDIT-e3d2f207",
+      "review_id": "REV-DISC-55-00032",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00033": [
+    {
+      "audit_id": "AUDIT-0802e016",
+      "review_id": "REV-DISC-55-00033",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00034": [
+    {
+      "audit_id": "AUDIT-7c8da4ca",
+      "review_id": "REV-DISC-55-00034",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00035": [
+    {
+      "audit_id": "AUDIT-aed1f80e",
+      "review_id": "REV-DISC-55-00035",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00036": [
+    {
+      "audit_id": "AUDIT-a4612b66",
+      "review_id": "REV-DISC-55-00036",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00037": [
+    {
+      "audit_id": "AUDIT-3a66ddcb",
+      "review_id": "REV-DISC-55-00037",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00038": [
+    {
+      "audit_id": "AUDIT-75b05dc1",
+      "review_id": "REV-DISC-55-00038",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00039": [
+    {
+      "audit_id": "AUDIT-2f40bc53",
+      "review_id": "REV-DISC-55-00039",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00040": [
+    {
+      "audit_id": "AUDIT-47a97aba",
+      "review_id": "REV-DISC-55-00040",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00041": [
+    {
+      "audit_id": "AUDIT-052b7ba4",
+      "review_id": "REV-DISC-55-00041",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00042": [
+    {
+      "audit_id": "AUDIT-caa60d39",
+      "review_id": "REV-DISC-55-00042",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00043": [
+    {
+      "audit_id": "AUDIT-b0276c6c",
+      "review_id": "REV-DISC-55-00043",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00044": [
+    {
+      "audit_id": "AUDIT-7e9e1717",
+      "review_id": "REV-DISC-55-00044",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00045": [
+    {
+      "audit_id": "AUDIT-3d6f67d9",
+      "review_id": "REV-DISC-55-00045",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00046": [
+    {
+      "audit_id": "AUDIT-5a6bc027",
+      "review_id": "REV-DISC-55-00046",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00047": [
+    {
+      "audit_id": "AUDIT-84c79e51",
+      "review_id": "REV-DISC-55-00047",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00048": [
+    {
+      "audit_id": "AUDIT-b34d1326",
+      "review_id": "REV-DISC-55-00048",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00049": [
+    {
+      "audit_id": "AUDIT-4f7a388a",
+      "review_id": "REV-DISC-55-00049",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00050": [
+    {
+      "audit_id": "AUDIT-2936d28d",
+      "review_id": "REV-DISC-55-00050",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00051": [
+    {
+      "audit_id": "AUDIT-4e582d6e",
+      "review_id": "REV-DISC-55-00051",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00052": [
+    {
+      "audit_id": "AUDIT-21f5713d",
+      "review_id": "REV-DISC-55-00052",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00053": [
+    {
+      "audit_id": "AUDIT-553802bf",
+      "review_id": "REV-DISC-55-00053",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00054": [
+    {
+      "audit_id": "AUDIT-bda6acc5",
+      "review_id": "REV-DISC-55-00054",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00055": [
+    {
+      "audit_id": "AUDIT-d0defb11",
+      "review_id": "REV-DISC-55-00055",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00056": [
+    {
+      "audit_id": "AUDIT-915ee5a6",
+      "review_id": "REV-DISC-55-00056",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00057": [
+    {
+      "audit_id": "AUDIT-7be5884b",
+      "review_id": "REV-DISC-55-00057",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00058": [
+    {
+      "audit_id": "AUDIT-6198a929",
+      "review_id": "REV-DISC-55-00058",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00059": [
+    {
+      "audit_id": "AUDIT-2ffe4dee",
+      "review_id": "REV-DISC-55-00059",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00060": [
+    {
+      "audit_id": "AUDIT-a464dcbe",
+      "review_id": "REV-DISC-55-00060",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00061": [
+    {
+      "audit_id": "AUDIT-287afeb6",
+      "review_id": "REV-DISC-55-00061",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00062": [
+    {
+      "audit_id": "AUDIT-c45921be",
+      "review_id": "REV-DISC-55-00062",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00063": [
+    {
+      "audit_id": "AUDIT-01ad9127",
+      "review_id": "REV-DISC-55-00063",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00064": [
+    {
+      "audit_id": "AUDIT-e454c14c",
+      "review_id": "REV-DISC-55-00064",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00065": [
+    {
+      "audit_id": "AUDIT-48bc9e8b",
+      "review_id": "REV-DISC-55-00065",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00066": [
+    {
+      "audit_id": "AUDIT-def36978",
+      "review_id": "REV-DISC-55-00066",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00067": [
+    {
+      "audit_id": "AUDIT-996e5a93",
+      "review_id": "REV-DISC-55-00067",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00068": [
+    {
+      "audit_id": "AUDIT-0f57c59d",
+      "review_id": "REV-DISC-55-00068",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00069": [
+    {
+      "audit_id": "AUDIT-63a8049a",
+      "review_id": "REV-DISC-55-00069",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00070": [
+    {
+      "audit_id": "AUDIT-ab532a5a",
+      "review_id": "REV-DISC-55-00070",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00071": [
+    {
+      "audit_id": "AUDIT-a7bf36d7",
+      "review_id": "REV-DISC-55-00071",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00072": [
+    {
+      "audit_id": "AUDIT-e5be0009",
+      "review_id": "REV-DISC-55-00072",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00073": [
+    {
+      "audit_id": "AUDIT-e56ab788",
+      "review_id": "REV-DISC-55-00073",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00074": [
+    {
+      "audit_id": "AUDIT-9ebbf3c4",
+      "review_id": "REV-DISC-55-00074",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00075": [
+    {
+      "audit_id": "AUDIT-d5f795d6",
+      "review_id": "REV-DISC-55-00075",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00076": [
+    {
+      "audit_id": "AUDIT-6cfa063a",
+      "review_id": "REV-DISC-55-00076",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00077": [
+    {
+      "audit_id": "AUDIT-257f11ff",
+      "review_id": "REV-DISC-55-00077",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00078": [
+    {
+      "audit_id": "AUDIT-bf59124c",
+      "review_id": "REV-DISC-55-00078",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00079": [
+    {
+      "audit_id": "AUDIT-8d8aff9a",
+      "review_id": "REV-DISC-55-00079",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00080": [
+    {
+      "audit_id": "AUDIT-14c943d4",
+      "review_id": "REV-DISC-55-00080",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.477789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00081": [
+    {
+      "audit_id": "AUDIT-6faba756",
+      "review_id": "REV-DISC-55-00081",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00082": [
+    {
+      "audit_id": "AUDIT-f9583be1",
+      "review_id": "REV-DISC-55-00082",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00083": [
+    {
+      "audit_id": "AUDIT-d8116d92",
+      "review_id": "REV-DISC-55-00083",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00084": [
+    {
+      "audit_id": "AUDIT-60430c73",
+      "review_id": "REV-DISC-55-00084",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00085": [
+    {
+      "audit_id": "AUDIT-3916989f",
+      "review_id": "REV-DISC-55-00085",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00086": [
+    {
+      "audit_id": "AUDIT-62835c12",
+      "review_id": "REV-DISC-55-00086",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00087": [
+    {
+      "audit_id": "AUDIT-8a35ae78",
+      "review_id": "REV-DISC-55-00087",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00088": [
+    {
+      "audit_id": "AUDIT-2afd6178",
+      "review_id": "REV-DISC-55-00088",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00089": [
+    {
+      "audit_id": "AUDIT-5d68a20a",
+      "review_id": "REV-DISC-55-00089",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00090": [
+    {
+      "audit_id": "AUDIT-92067d0e",
+      "review_id": "REV-DISC-55-00090",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00091": [
+    {
+      "audit_id": "AUDIT-55665bc8",
+      "review_id": "REV-DISC-55-00091",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00092": [
+    {
+      "audit_id": "AUDIT-25713c3c",
+      "review_id": "REV-DISC-55-00092",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00093": [
+    {
+      "audit_id": "AUDIT-964a4ef5",
+      "review_id": "REV-DISC-55-00093",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00094": [
+    {
+      "audit_id": "AUDIT-03f79b73",
+      "review_id": "REV-DISC-55-00094",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00095": [
+    {
+      "audit_id": "AUDIT-237466d6",
+      "review_id": "REV-DISC-55-00095",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00096": [
+    {
+      "audit_id": "AUDIT-df6b8d96",
+      "review_id": "REV-DISC-55-00096",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00097": [
+    {
+      "audit_id": "AUDIT-47534977",
+      "review_id": "REV-DISC-55-00097",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00098": [
+    {
+      "audit_id": "AUDIT-9255584e",
+      "review_id": "REV-DISC-55-00098",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00099": [
+    {
+      "audit_id": "AUDIT-8286ffbe",
+      "review_id": "REV-DISC-55-00099",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00100": [
+    {
+      "audit_id": "AUDIT-475dbd8c",
+      "review_id": "REV-DISC-55-00100",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00101": [
+    {
+      "audit_id": "AUDIT-7f81b4cc",
+      "review_id": "REV-DISC-55-00101",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00102": [
+    {
+      "audit_id": "AUDIT-f22cbd44",
+      "review_id": "REV-DISC-55-00102",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00103": [
+    {
+      "audit_id": "AUDIT-7f5f2e16",
+      "review_id": "REV-DISC-55-00103",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00104": [
+    {
+      "audit_id": "AUDIT-1894bf6c",
+      "review_id": "REV-DISC-55-00104",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00105": [
+    {
+      "audit_id": "AUDIT-6e634a53",
+      "review_id": "REV-DISC-55-00105",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00106": [
+    {
+      "audit_id": "AUDIT-713faf3a",
+      "review_id": "REV-DISC-55-00106",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00107": [
+    {
+      "audit_id": "AUDIT-284ca54a",
+      "review_id": "REV-DISC-55-00107",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00108": [
+    {
+      "audit_id": "AUDIT-056ad043",
+      "review_id": "REV-DISC-55-00108",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00109": [
+    {
+      "audit_id": "AUDIT-5b0beb34",
+      "review_id": "REV-DISC-55-00109",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00110": [
+    {
+      "audit_id": "AUDIT-992eec30",
+      "review_id": "REV-DISC-55-00110",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00111": [
+    {
+      "audit_id": "AUDIT-a125413b",
+      "review_id": "REV-DISC-55-00111",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00112": [
+    {
+      "audit_id": "AUDIT-c1bcaf2c",
+      "review_id": "REV-DISC-55-00112",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00113": [
+    {
+      "audit_id": "AUDIT-475c70a1",
+      "review_id": "REV-DISC-55-00113",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00114": [
+    {
+      "audit_id": "AUDIT-ea4aaf1f",
+      "review_id": "REV-DISC-55-00114",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00115": [
+    {
+      "audit_id": "AUDIT-e5a5558e",
+      "review_id": "REV-DISC-55-00115",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00116": [
+    {
+      "audit_id": "AUDIT-fb5a0487",
+      "review_id": "REV-DISC-55-00116",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00117": [
+    {
+      "audit_id": "AUDIT-243eb1e6",
+      "review_id": "REV-DISC-55-00117",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00118": [
+    {
+      "audit_id": "AUDIT-66fcaa75",
+      "review_id": "REV-DISC-55-00118",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00119": [
+    {
+      "audit_id": "AUDIT-daac4f12",
+      "review_id": "REV-DISC-55-00119",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00120": [
+    {
+      "audit_id": "AUDIT-e3e5aaa8",
+      "review_id": "REV-DISC-55-00120",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00121": [
+    {
+      "audit_id": "AUDIT-fb3ee755",
+      "review_id": "REV-DISC-55-00121",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00122": [
+    {
+      "audit_id": "AUDIT-bcb5aa36",
+      "review_id": "REV-DISC-55-00122",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00123": [
+    {
+      "audit_id": "AUDIT-d192e252",
+      "review_id": "REV-DISC-55-00123",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00124": [
+    {
+      "audit_id": "AUDIT-59f9cac6",
+      "review_id": "REV-DISC-55-00124",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00125": [
+    {
+      "audit_id": "AUDIT-03937b19",
+      "review_id": "REV-DISC-55-00125",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00126": [
+    {
+      "audit_id": "AUDIT-4ff525fb",
+      "review_id": "REV-DISC-55-00126",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00127": [
+    {
+      "audit_id": "AUDIT-a5c4dd06",
+      "review_id": "REV-DISC-55-00127",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00128": [
+    {
+      "audit_id": "AUDIT-912e08a3",
+      "review_id": "REV-DISC-55-00128",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00129": [
+    {
+      "audit_id": "AUDIT-28997eeb",
+      "review_id": "REV-DISC-55-00129",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00130": [
+    {
+      "audit_id": "AUDIT-c486ab6b",
+      "review_id": "REV-DISC-55-00130",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00131": [
+    {
+      "audit_id": "AUDIT-9db21a93",
+      "review_id": "REV-DISC-55-00131",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00132": [
+    {
+      "audit_id": "AUDIT-c882be17",
+      "review_id": "REV-DISC-55-00132",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00133": [
+    {
+      "audit_id": "AUDIT-75fa6c36",
+      "review_id": "REV-DISC-55-00133",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00134": [
+    {
+      "audit_id": "AUDIT-231a0292",
+      "review_id": "REV-DISC-55-00134",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.478789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00135": [
+    {
+      "audit_id": "AUDIT-eb8235ed",
+      "review_id": "REV-DISC-55-00135",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00136": [
+    {
+      "audit_id": "AUDIT-ff2949f6",
+      "review_id": "REV-DISC-55-00136",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00137": [
+    {
+      "audit_id": "AUDIT-be407792",
+      "review_id": "REV-DISC-55-00137",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00138": [
+    {
+      "audit_id": "AUDIT-06a09abb",
+      "review_id": "REV-DISC-55-00138",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00139": [
+    {
+      "audit_id": "AUDIT-b1ca4224",
+      "review_id": "REV-DISC-55-00139",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00140": [
+    {
+      "audit_id": "AUDIT-371ee1b6",
+      "review_id": "REV-DISC-55-00140",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00141": [
+    {
+      "audit_id": "AUDIT-c59bfe98",
+      "review_id": "REV-DISC-55-00141",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00142": [
+    {
+      "audit_id": "AUDIT-18e78640",
+      "review_id": "REV-DISC-55-00142",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00143": [
+    {
+      "audit_id": "AUDIT-651587a0",
+      "review_id": "REV-DISC-55-00143",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00144": [
+    {
+      "audit_id": "AUDIT-651240cf",
+      "review_id": "REV-DISC-55-00144",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00145": [
+    {
+      "audit_id": "AUDIT-fda18256",
+      "review_id": "REV-DISC-55-00145",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00146": [
+    {
+      "audit_id": "AUDIT-d9e0c58c",
+      "review_id": "REV-DISC-55-00146",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00147": [
+    {
+      "audit_id": "AUDIT-5f0aac18",
+      "review_id": "REV-DISC-55-00147",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00148": [
+    {
+      "audit_id": "AUDIT-7a7d5d75",
+      "review_id": "REV-DISC-55-00148",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00149": [
+    {
+      "audit_id": "AUDIT-6164aa63",
+      "review_id": "REV-DISC-55-00149",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00150": [
+    {
+      "audit_id": "AUDIT-c18428a2",
+      "review_id": "REV-DISC-55-00150",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00151": [
+    {
+      "audit_id": "AUDIT-95c86554",
+      "review_id": "REV-DISC-55-00151",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00152": [
+    {
+      "audit_id": "AUDIT-9d7a2993",
+      "review_id": "REV-DISC-55-00152",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00153": [
+    {
+      "audit_id": "AUDIT-1472e8f4",
+      "review_id": "REV-DISC-55-00153",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00154": [
+    {
+      "audit_id": "AUDIT-598b4b76",
+      "review_id": "REV-DISC-55-00154",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00155": [
+    {
+      "audit_id": "AUDIT-17b7bbce",
+      "review_id": "REV-DISC-55-00155",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00156": [
+    {
+      "audit_id": "AUDIT-a50f8dc9",
+      "review_id": "REV-DISC-55-00156",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00157": [
+    {
+      "audit_id": "AUDIT-b6ce3dd5",
+      "review_id": "REV-DISC-55-00157",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00158": [
+    {
+      "audit_id": "AUDIT-4579efdc",
+      "review_id": "REV-DISC-55-00158",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00159": [
+    {
+      "audit_id": "AUDIT-830b9064",
+      "review_id": "REV-DISC-55-00159",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00160": [
+    {
+      "audit_id": "AUDIT-0dc9caaf",
+      "review_id": "REV-DISC-55-00160",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00161": [
+    {
+      "audit_id": "AUDIT-0c6d802e",
+      "review_id": "REV-DISC-55-00161",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00162": [
+    {
+      "audit_id": "AUDIT-8414beca",
+      "review_id": "REV-DISC-55-00162",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00163": [
+    {
+      "audit_id": "AUDIT-c4e2aec9",
+      "review_id": "REV-DISC-55-00163",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00164": [
+    {
+      "audit_id": "AUDIT-d80e569b",
+      "review_id": "REV-DISC-55-00164",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00165": [
+    {
+      "audit_id": "AUDIT-025d0faa",
+      "review_id": "REV-DISC-55-00165",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00166": [
+    {
+      "audit_id": "AUDIT-b36fabcf",
+      "review_id": "REV-DISC-55-00166",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00167": [
+    {
+      "audit_id": "AUDIT-16fc9f25",
+      "review_id": "REV-DISC-55-00167",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00168": [
+    {
+      "audit_id": "AUDIT-87cb5086",
+      "review_id": "REV-DISC-55-00168",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00169": [
+    {
+      "audit_id": "AUDIT-519adabd",
+      "review_id": "REV-DISC-55-00169",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00170": [
+    {
+      "audit_id": "AUDIT-359bd52e",
+      "review_id": "REV-DISC-55-00170",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00171": [
+    {
+      "audit_id": "AUDIT-0cf60fb9",
+      "review_id": "REV-DISC-55-00171",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00172": [
+    {
+      "audit_id": "AUDIT-b8bba68e",
+      "review_id": "REV-DISC-55-00172",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00173": [
+    {
+      "audit_id": "AUDIT-bfa3a84e",
+      "review_id": "REV-DISC-55-00173",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00174": [
+    {
+      "audit_id": "AUDIT-08a99eb8",
+      "review_id": "REV-DISC-55-00174",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00175": [
+    {
+      "audit_id": "AUDIT-a75a80a3",
+      "review_id": "REV-DISC-55-00175",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00176": [
+    {
+      "audit_id": "AUDIT-72ffb51a",
+      "review_id": "REV-DISC-55-00176",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00177": [
+    {
+      "audit_id": "AUDIT-17fe7a04",
+      "review_id": "REV-DISC-55-00177",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00178": [
+    {
+      "audit_id": "AUDIT-372d2667",
+      "review_id": "REV-DISC-55-00178",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00179": [
+    {
+      "audit_id": "AUDIT-1fbb4087",
+      "review_id": "REV-DISC-55-00179",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00180": [
+    {
+      "audit_id": "AUDIT-b828bbb1",
+      "review_id": "REV-DISC-55-00180",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00181": [
+    {
+      "audit_id": "AUDIT-2577bbfa",
+      "review_id": "REV-DISC-55-00181",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00182": [
+    {
+      "audit_id": "AUDIT-c0bdf591",
+      "review_id": "REV-DISC-55-00182",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00183": [
+    {
+      "audit_id": "AUDIT-bcc7faac",
+      "review_id": "REV-DISC-55-00183",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00184": [
+    {
+      "audit_id": "AUDIT-db490c5f",
+      "review_id": "REV-DISC-55-00184",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00185": [
+    {
+      "audit_id": "AUDIT-dc48aedb",
+      "review_id": "REV-DISC-55-00185",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00186": [
+    {
+      "audit_id": "AUDIT-e4d4d39c",
+      "review_id": "REV-DISC-55-00186",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00187": [
+    {
+      "audit_id": "AUDIT-c59767b0",
+      "review_id": "REV-DISC-55-00187",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00188": [
+    {
+      "audit_id": "AUDIT-9ad78b9d",
+      "review_id": "REV-DISC-55-00188",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00189": [
+    {
+      "audit_id": "AUDIT-d693bf3b",
+      "review_id": "REV-DISC-55-00189",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00190": [
+    {
+      "audit_id": "AUDIT-6f8697e1",
+      "review_id": "REV-DISC-55-00190",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.479789+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00191": [
+    {
+      "audit_id": "AUDIT-2521601d",
+      "review_id": "REV-DISC-55-00191",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00192": [
+    {
+      "audit_id": "AUDIT-19d039e9",
+      "review_id": "REV-DISC-55-00192",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00193": [
+    {
+      "audit_id": "AUDIT-49849814",
+      "review_id": "REV-DISC-55-00193",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00194": [
+    {
+      "audit_id": "AUDIT-445eecb1",
+      "review_id": "REV-DISC-55-00194",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00195": [
+    {
+      "audit_id": "AUDIT-f645fb90",
+      "review_id": "REV-DISC-55-00195",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00196": [
+    {
+      "audit_id": "AUDIT-d28440f0",
+      "review_id": "REV-DISC-55-00196",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00197": [
+    {
+      "audit_id": "AUDIT-7c889890",
+      "review_id": "REV-DISC-55-00197",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00198": [
+    {
+      "audit_id": "AUDIT-8a392245",
+      "review_id": "REV-DISC-55-00198",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00199": [
+    {
+      "audit_id": "AUDIT-3ee7f6be",
+      "review_id": "REV-DISC-55-00199",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00200": [
+    {
+      "audit_id": "AUDIT-cfbe9ef1",
+      "review_id": "REV-DISC-55-00200",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00201": [
+    {
+      "audit_id": "AUDIT-340a9a1c",
+      "review_id": "REV-DISC-55-00201",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00202": [
+    {
+      "audit_id": "AUDIT-ca0206ee",
+      "review_id": "REV-DISC-55-00202",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00203": [
+    {
+      "audit_id": "AUDIT-12fca1dd",
+      "review_id": "REV-DISC-55-00203",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00204": [
+    {
+      "audit_id": "AUDIT-296b559e",
+      "review_id": "REV-DISC-55-00204",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00205": [
+    {
+      "audit_id": "AUDIT-adf5b410",
+      "review_id": "REV-DISC-55-00205",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00206": [
+    {
+      "audit_id": "AUDIT-db59a62d",
+      "review_id": "REV-DISC-55-00206",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00207": [
+    {
+      "audit_id": "AUDIT-f3033603",
+      "review_id": "REV-DISC-55-00207",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00208": [
+    {
+      "audit_id": "AUDIT-6d84d23c",
+      "review_id": "REV-DISC-55-00208",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00209": [
+    {
+      "audit_id": "AUDIT-4b13dd40",
+      "review_id": "REV-DISC-55-00209",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00210": [
+    {
+      "audit_id": "AUDIT-ac33f2f5",
+      "review_id": "REV-DISC-55-00210",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00211": [
+    {
+      "audit_id": "AUDIT-4616483e",
+      "review_id": "REV-DISC-55-00211",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00212": [
+    {
+      "audit_id": "AUDIT-d16b07ac",
+      "review_id": "REV-DISC-55-00212",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00213": [
+    {
+      "audit_id": "AUDIT-e31d1bc3",
+      "review_id": "REV-DISC-55-00213",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00214": [
+    {
+      "audit_id": "AUDIT-31dc9be1",
+      "review_id": "REV-DISC-55-00214",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00215": [
+    {
+      "audit_id": "AUDIT-340caa44",
+      "review_id": "REV-DISC-55-00215",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00216": [
+    {
+      "audit_id": "AUDIT-6ee33fe3",
+      "review_id": "REV-DISC-55-00216",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00217": [
+    {
+      "audit_id": "AUDIT-b6749cc8",
+      "review_id": "REV-DISC-55-00217",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00218": [
+    {
+      "audit_id": "AUDIT-43343c47",
+      "review_id": "REV-DISC-55-00218",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00219": [
+    {
+      "audit_id": "AUDIT-fec5f692",
+      "review_id": "REV-DISC-55-00219",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00220": [
+    {
+      "audit_id": "AUDIT-53a288ba",
+      "review_id": "REV-DISC-55-00220",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00221": [
+    {
+      "audit_id": "AUDIT-6c9f1663",
+      "review_id": "REV-DISC-55-00221",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00222": [
+    {
+      "audit_id": "AUDIT-b257eaec",
+      "review_id": "REV-DISC-55-00222",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00223": [
+    {
+      "audit_id": "AUDIT-d8b29b91",
+      "review_id": "REV-DISC-55-00223",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00224": [
+    {
+      "audit_id": "AUDIT-6f239cda",
+      "review_id": "REV-DISC-55-00224",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00225": [
+    {
+      "audit_id": "AUDIT-2f476a75",
+      "review_id": "REV-DISC-55-00225",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00226": [
+    {
+      "audit_id": "AUDIT-d58e3b76",
+      "review_id": "REV-DISC-55-00226",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00227": [
+    {
+      "audit_id": "AUDIT-2d65ba99",
+      "review_id": "REV-DISC-55-00227",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00228": [
+    {
+      "audit_id": "AUDIT-1745bc39",
+      "review_id": "REV-DISC-55-00228",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00229": [
+    {
+      "audit_id": "AUDIT-5890194b",
+      "review_id": "REV-DISC-55-00229",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00230": [
+    {
+      "audit_id": "AUDIT-334f5e18",
+      "review_id": "REV-DISC-55-00230",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00231": [
+    {
+      "audit_id": "AUDIT-b00a197e",
+      "review_id": "REV-DISC-55-00231",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00232": [
+    {
+      "audit_id": "AUDIT-01b1cf93",
+      "review_id": "REV-DISC-55-00232",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00233": [
+    {
+      "audit_id": "AUDIT-edf7cd11",
+      "review_id": "REV-DISC-55-00233",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00234": [
+    {
+      "audit_id": "AUDIT-550d7914",
+      "review_id": "REV-DISC-55-00234",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00235": [
+    {
+      "audit_id": "AUDIT-f6486dd2",
+      "review_id": "REV-DISC-55-00235",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00236": [
+    {
+      "audit_id": "AUDIT-357c4fd5",
+      "review_id": "REV-DISC-55-00236",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00237": [
+    {
+      "audit_id": "AUDIT-7c7d2cf7",
+      "review_id": "REV-DISC-55-00237",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00238": [
+    {
+      "audit_id": "AUDIT-fa4e7c92",
+      "review_id": "REV-DISC-55-00238",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00239": [
+    {
+      "audit_id": "AUDIT-63afa8ce",
+      "review_id": "REV-DISC-55-00239",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00240": [
+    {
+      "audit_id": "AUDIT-e23ebbf2",
+      "review_id": "REV-DISC-55-00240",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00241": [
+    {
+      "audit_id": "AUDIT-a6e9f0b3",
+      "review_id": "REV-DISC-55-00241",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-DISC-55-00242": [
+    {
+      "audit_id": "AUDIT-f45bd355",
+      "review_id": "REV-DISC-55-00242",
+      "action": "INITIAL_CREATION",
+      "previous_status": "OPEN",
+      "new_status": "OPEN",
+      "reviewer": "System",
+      "timestamp": "2026-09-16T09:07:57.480788+00:00",
+      "notes": "Review item automatically generated from discrepancy observation.",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ],
+  "REV-TEST-ANON-999": [
+    {
+      "audit_id": "AUDIT-24aa24ee",
+      "review_id": "REV-TEST-ANON-999",
+      "action": "CREATE_REVIEW",
+      "previous_status": "FIELD_VERIFICATION_REQUIRED",
+      "new_status": "FIELD_VERIFICATION_REQUIRED",
+      "reviewer": "Pytest Default User",
+      "timestamp": "2026-09-17T11:38:26.899717+00:00",
+      "notes": "Created review item REV-TEST-ANON-999",
+      "geometry_changed": false,
+      "evidence_reference": null
+    }
+  ]
+}

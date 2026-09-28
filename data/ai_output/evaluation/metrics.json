@@ -1,0 +1,280 @@
+{
+  "_meta": {
+    "phase": "Phase 3 — Test Evaluation",
+    "checkpoint": "data\\ai_models\\uavpal\\best_model.pth",
+    "test_tiles": [
+      "00_01",
+      "00_02",
+      "00_04",
+      "00_07",
+      "00_10",
+      "00_13",
+      "00_14",
+      "00_19",
+      "01_00",
+      "01_03",
+      "01_04",
+      "01_05"
+    ],
+    "n_test_tiles": 12,
+    "note": "These are FINAL TEST RESULTS — test tiles were never used during training or validation."
+  },
+  "global_metrics": {
+    "pixel_accuracy": 0.585247,
+    "mean_iou": 0.312275,
+    "iou_per_class": {
+      "Background": 0.317016,
+      "Water": 0.0,
+      "Road": 0.298355,
+      "Car": 0.094833,
+      "Building": 0.524007,
+      "Tree": 0.639441
+    },
+    "building_iou": 0.524007,
+    "building_precision": 0.851754,
+    "building_recall": 0.576594,
+    "building_f1": 0.68767
+  },
+  "per_tile_results": [
+    {
+      "tile_id": "00_01",
+      "metrics": {
+        "pixel_accuracy": 0.487707,
+        "mean_iou": 0.279933,
+        "iou_per_class": {
+          "Background": 0.347101,
+          "Water": 0.0,
+          "Road": 0.278666,
+          "Car": 0.127581,
+          "Building": 0.205213,
+          "Tree": 0.721039
+        },
+        "building_iou": 0.205213,
+        "building_precision": 0.486514,
+        "building_recall": 0.261948,
+        "building_f1": 0.340542
+      },
+      "inference_time_s": 11.52
+    },
+    {
+      "tile_id": "00_02",
+      "metrics": {
+        "pixel_accuracy": 0.57922,
+        "mean_iou": 0.260866,
+        "iou_per_class": {
+          "Background": 0.332104,
+          "Water": 0.0,
+          "Road": 0.231615,
+          "Car": 0.0,
+          "Building": 0.558422,
+          "Tree": 0.443056
+        },
+        "building_iou": 0.558422,
+        "building_precision": 0.774519,
+        "building_recall": 0.666829,
+        "building_f1": 0.716651
+      },
+      "inference_time_s": 11.25
+    },
+    {
+      "tile_id": "00_04",
+      "metrics": {
+        "pixel_accuracy": 0.568207,
+        "mean_iou": 0.308746,
+        "iou_per_class": {
+          "Background": 0.211405,
+          "Water": 0.0,
+          "Road": 0.448418,
+          "Car": 0.0,
+          "Building": 0.47793,
+          "Tree": 0.714721
+        },
+        "building_iou": 0.47793,
+        "building_precision": 0.861002,
+        "building_recall": 0.517888,
+        "building_f1": 0.646756
+      },
+      "inference_time_s": 11.08
+    },
+    {
+      "tile_id": "00_07",
+      "metrics": {
+        "pixel_accuracy": 0.635021,
+        "mean_iou": 0.28891,
+        "iou_per_class": {
+          "Background": 0.396017,
+          "Water": 0.0,
+          "Road": 0.02589,
+          "Car": 0.0,
+          "Building": 0.493166,
+          "Tree": 0.818387
+        },
+        "building_iou": 0.493166,
+        "building_precision": 0.77539,
+        "building_recall": 0.57536,
+        "building_f1": 0.660564
+      },
+      "inference_time_s": 11.46
+    },
+    {
+      "tile_id": "00_10",
+      "metrics": {
+        "pixel_accuracy": 0.650828,
+        "mean_iou": 0.274775,
+        "iou_per_class": {
+          "Background": 0.413405,
+          "Water": 0.0,
+          "Road": 0.384741,
+          "Car": 0.155538,
+          "Building": 0.694964,
+          "Tree": 0.0
+        },
+        "building_iou": 0.694964,
+        "building_precision": 0.933621,
+        "building_recall": 0.731088,
+        "building_f1": 0.820034
+      },
+      "inference_time_s": 11.08
+    },
+    {
+      "tile_id": "00_13",
+      "metrics": {
+        "pixel_accuracy": 0.625675,
+        "mean_iou": 0.295809,
+        "iou_per_class": {
+          "Background": 0.427453,
+          "Water": 0.0,
+          "Road": 0.56186,
+          "Car": 0.0,
+          "Building": 0.467639,
+          "Tree": 0.317899
+        },
+        "building_iou": 0.467639,
+        "building_precision": 0.644329,
+        "building_recall": 0.630359,
+        "building_f1": 0.637267
+      },
+      "inference_time_s": 10.93
+    },
+    {
+      "tile_id": "00_14",
+      "metrics": {
+        "pixel_accuracy": 0.528387,
+        "mean_iou": 0.267449,
+        "iou_per_class": {
+          "Background": 0.547411,
+          "Water": 0.0,
+          "Road": 0.0,
+          "Car": 0.100901,
+          "Building": 0.469367,
+          "Tree": 0.487018
+        },
+        "building_iou": 0.469367,
+        "building_precision": 0.95404,
+        "building_recall": 0.480226,
+        "building_f1": 0.63887
+      },
+      "inference_time_s": 11.13
+    },
+    {
+      "tile_id": "00_19",
+      "metrics": {
+        "pixel_accuracy": 0.610165,
+        "mean_iou": 0.296615,
+        "iou_per_class": {
+          "Background": 0.168202,
+          "Water": 0.0,
+          "Road": 0.382402,
+          "Car": 0.00301,
+          "Building": 0.584819,
+          "Tree": 0.64126
+        },
+        "building_iou": 0.584819,
+        "building_precision": 0.951267,
+        "building_recall": 0.602881,
+        "building_f1": 0.738026
+      },
+      "inference_time_s": 11.58
+    },
+    {
+      "tile_id": "01_00",
+      "metrics": {
+        "pixel_accuracy": 0.509879,
+        "mean_iou": 0.17097,
+        "iou_per_class": {
+          "Background": 0.188497,
+          "Water": 0.0,
+          "Road": 0.328387,
+          "Car": 0.047344,
+          "Building": 0.461593,
+          "Tree": 0.0
+        },
+        "building_iou": 0.461593,
+        "building_precision": 0.864055,
+        "building_recall": 0.497741,
+        "building_f1": 0.63163
+      },
+      "inference_time_s": 11.37
+    },
+    {
+      "tile_id": "01_03",
+      "metrics": {
+        "pixel_accuracy": 0.574581,
+        "mean_iou": 0.294258,
+        "iou_per_class": {
+          "Background": 0.278209,
+          "Water": 0.0,
+          "Road": 0.151893,
+          "Car": 0.051663,
+          "Building": 0.548049,
+          "Tree": 0.735733
+        },
+        "building_iou": 0.548049,
+        "building_precision": 0.943601,
+        "building_recall": 0.56661,
+        "building_f1": 0.708052
+      },
+      "inference_time_s": 11.23
+    },
+    {
+      "tile_id": "01_04",
+      "metrics": {
+        "pixel_accuracy": 0.658016,
+        "mean_iou": 0.193849,
+        "iou_per_class": {
+          "Background": 0.226255,
+          "Water": 0.0,
+          "Road": 0.272342,
+          "Car": 0.0,
+          "Building": 0.664496,
+          "Tree": 0.0
+        },
+        "building_iou": 0.664496,
+        "building_precision": 0.893991,
+        "building_recall": 0.721334,
+        "building_f1": 0.798435
+      },
+      "inference_time_s": 11.38
+    },
+    {
+      "tile_id": "01_05",
+      "metrics": {
+        "pixel_accuracy": 0.595281,
+        "mean_iou": 0.294614,
+        "iou_per_class": {
+          "Background": 0.206323,
+          "Water": 0.0,
+          "Road": 0.388078,
+          "Car": 0.0,
+          "Building": 0.542791,
+          "Tree": 0.63049
+        },
+        "building_iou": 0.542791,
+        "building_precision": 0.839937,
+        "building_recall": 0.605414,
+        "building_f1": 0.703648
+      },
+      "inference_time_s": 11.06
+    }
+  ]
+}

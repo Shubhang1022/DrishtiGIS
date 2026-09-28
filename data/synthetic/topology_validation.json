@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "phase": "Phase 5.5",
+    "generated": "2026-09-12T20:40:58.589723"
+  },
+  "total_parcels": 35,
+  "valid_count": 35,
+  "review_count": 0,
+  "results": [
+    {
+      "parcel_id": "parcel-demo-001",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-002",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-003",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-004",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-005",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-006",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-007",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-008",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-009",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-010",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-011",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-012",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-013",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-014",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-015",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-016",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-017",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-018",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-019",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-020",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-021",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-022",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-023",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-024",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-025",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-026",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-027",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-028",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-029",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-030",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-031",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-032",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-033",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-034",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    },
+    {
+      "parcel_id": "parcel-demo-035",
+      "geometry_valid": true,
+      "self_intersection": false,
+      "zero_area": false,
+      "overlap_detected": false,
+      "duplicate_detected": false,
+      "status": "VALID"
+    }
+  ]
+}

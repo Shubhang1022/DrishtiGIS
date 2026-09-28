@@ -1,0 +1,4657 @@
+{
+  "_meta": {
+    "phase": "Phase 5.5",
+    "generated": "2026-09-12T20:40:58.581018",
+    "_disclaimer": "These discrepancies are geometric observations between AI-detected building footprints and SYNTHETIC prototype parcel records. NOT legal determinations. NOT official survey findings."
+  },
+  "total": 243,
+  "discrepancies": [
+    {
+      "id": "DISC-55-00000",
+      "parcel_id": "parcel-demo-001",
+      "building_id": "AI-BPL-FINAL-00005",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7241,
+        "building_area_m2": 10.88,
+        "intersection_area_m2": 7.88
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00001",
+      "parcel_id": "parcel-demo-001",
+      "building_id": "AI-BPL-FINAL-00019",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4878,
+        "building_area_m2": 18.24,
+        "intersection_area_m2": 8.89
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00002",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00032",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7236,
+        "building_area_m2": 7.63,
+        "intersection_area_m2": 5.52
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00003",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00036",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7616,
+        "building_area_m2": 34.41,
+        "intersection_area_m2": 26.21
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00004",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00037",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7601,
+        "building_area_m2": 57.59,
+        "intersection_area_m2": 43.77
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00005",
+      "parcel_id": "parcel-demo-002",
+      "building_id": "AI-BPL-FINAL-00043",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9035,
+        "building_area_m2": 17.92,
+        "intersection_area_m2": 16.19
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00006",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00045",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3717,
+        "building_area_m2": 35.92,
+        "intersection_area_m2": 13.35
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00007",
+      "parcel_id": "parcel-demo-002",
+      "building_id": "AI-BPL-FINAL-00049",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9409,
+        "building_area_m2": 8.36,
+        "intersection_area_m2": 7.87
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00008",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00050",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1843,
+        "building_area_m2": 53.49,
+        "intersection_area_m2": 9.86
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00009",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00053",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5119,
+        "building_area_m2": 18.37,
+        "intersection_area_m2": 9.4
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00010",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00056",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5009,
+        "building_area_m2": 20.65,
+        "intersection_area_m2": 10.35
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00011",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00064",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7859,
+        "building_area_m2": 54.47,
+        "intersection_area_m2": 42.81
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00012",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00065",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3877,
+        "building_area_m2": 28.89,
+        "intersection_area_m2": 11.2
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00013",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00066",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.545,
+        "building_area_m2": 27.53,
+        "intersection_area_m2": 15.0
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00014",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00071",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8589,
+        "building_area_m2": 40.84,
+        "intersection_area_m2": 35.08
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00015",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00075",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6749,
+        "building_area_m2": 26.27,
+        "intersection_area_m2": 17.73
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00016",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00085",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6669,
+        "building_area_m2": 12.07,
+        "intersection_area_m2": 8.05
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00017",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00095",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6727,
+        "building_area_m2": 11.67,
+        "intersection_area_m2": 7.85
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00018",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00096",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.456,
+        "building_area_m2": 5.67,
+        "intersection_area_m2": 2.58
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00019",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00097",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2038,
+        "building_area_m2": 7.12,
+        "intersection_area_m2": 1.45
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00020",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00098",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5101,
+        "building_area_m2": 17.37,
+        "intersection_area_m2": 8.86
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00021",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00099",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.659,
+        "building_area_m2": 5.93,
+        "intersection_area_m2": 3.91
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00022",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00100",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6713,
+        "building_area_m2": 11.79,
+        "intersection_area_m2": 7.91
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00023",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00101",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1988,
+        "building_area_m2": 6.54,
+        "intersection_area_m2": 1.3
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00024",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00103",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1496,
+        "building_area_m2": 10.11,
+        "intersection_area_m2": 1.51
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00025",
+      "parcel_id": "parcel-demo-004",
+      "building_id": "AI-BPL-FINAL-00106",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7991,
+        "building_area_m2": 16.39,
+        "intersection_area_m2": 13.1
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00026",
+      "parcel_id": "parcel-demo-004",
+      "building_id": "AI-BPL-FINAL-00115",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3302,
+        "building_area_m2": 41.25,
+        "intersection_area_m2": 13.62
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00027",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00116",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9216,
+        "building_area_m2": 11.74,
+        "intersection_area_m2": 10.82
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00028",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00117",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4689,
+        "building_area_m2": 6.64,
+        "intersection_area_m2": 3.11
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00029",
+      "parcel_id": "parcel-demo-004",
+      "building_id": "AI-BPL-FINAL-00127",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7777,
+        "building_area_m2": 5.79,
+        "intersection_area_m2": 4.5
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00030",
+      "parcel_id": "parcel-demo-004",
+      "building_id": "AI-BPL-FINAL-00129",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.911,
+        "building_area_m2": 12.04,
+        "intersection_area_m2": 10.97
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00031",
+      "parcel_id": "parcel-demo-004",
+      "building_id": "AI-BPL-FINAL-00132",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6909,
+        "building_area_m2": 9.54,
+        "intersection_area_m2": 6.59
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00032",
+      "parcel_id": "parcel-demo-022",
+      "building_id": "AI-BPL-FINAL-00135",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5131,
+        "building_area_m2": 31.31,
+        "intersection_area_m2": 16.07
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00033",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00136",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9201,
+        "building_area_m2": 11.13,
+        "intersection_area_m2": 10.24
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00034",
+      "parcel_id": "parcel-demo-005",
+      "building_id": "AI-BPL-FINAL-00141",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7563,
+        "building_area_m2": 66.55,
+        "intersection_area_m2": 50.33
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00035",
+      "parcel_id": "parcel-demo-022",
+      "building_id": "AI-BPL-FINAL-00142",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6434,
+        "building_area_m2": 72.13,
+        "intersection_area_m2": 46.4
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00036",
+      "parcel_id": "parcel-demo-004",
+      "building_id": "AI-BPL-FINAL-00154",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9391,
+        "building_area_m2": 10.08,
+        "intersection_area_m2": 9.47
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00037",
+      "parcel_id": "parcel-demo-022",
+      "building_id": "AI-BPL-FINAL-00155",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7959,
+        "building_area_m2": 20.93,
+        "intersection_area_m2": 16.66
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00038",
+      "parcel_id": "parcel-demo-004",
+      "building_id": "AI-BPL-FINAL-00158",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8919,
+        "building_area_m2": 9.02,
+        "intersection_area_m2": 8.05
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00039",
+      "parcel_id": "parcel-demo-005",
+      "building_id": "AI-BPL-FINAL-00160",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.588,
+        "building_area_m2": 7.75,
+        "intersection_area_m2": 4.56
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00040",
+      "parcel_id": "parcel-demo-005",
+      "building_id": "AI-BPL-FINAL-00161",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5678,
+        "building_area_m2": 10.62,
+        "intersection_area_m2": 6.03
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00041",
+      "parcel_id": "parcel-demo-005",
+      "building_id": "AI-BPL-FINAL-00165",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7306,
+        "building_area_m2": 104.42,
+        "intersection_area_m2": 76.29
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00042",
+      "parcel_id": "parcel-demo-005",
+      "building_id": "AI-BPL-FINAL-00167",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5154,
+        "building_area_m2": 36.51,
+        "intersection_area_m2": 18.82
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00043",
+      "parcel_id": "parcel-demo-005",
+      "building_id": "AI-BPL-FINAL-00169",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7471,
+        "building_area_m2": 28.88,
+        "intersection_area_m2": 21.57
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00044",
+      "parcel_id": "parcel-demo-006",
+      "building_id": "AI-BPL-FINAL-00170",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8969,
+        "building_area_m2": 76.94,
+        "intersection_area_m2": 69.01
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00045",
+      "parcel_id": "parcel-demo-006",
+      "building_id": "AI-BPL-FINAL-00171",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7771,
+        "building_area_m2": 47.89,
+        "intersection_area_m2": 37.21
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00046",
+      "parcel_id": "parcel-demo-006",
+      "building_id": "AI-BPL-FINAL-00175",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2071,
+        "building_area_m2": 60.8,
+        "intersection_area_m2": 12.59
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00047",
+      "parcel_id": "parcel-demo-005",
+      "building_id": "AI-BPL-FINAL-00176",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.432,
+        "building_area_m2": 43.19,
+        "intersection_area_m2": 18.66
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00048",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00177",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.554,
+        "building_area_m2": 50.17,
+        "intersection_area_m2": 27.79
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00049",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00186",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9463,
+        "building_area_m2": 18.97,
+        "intersection_area_m2": 17.95
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00050",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00191",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8187,
+        "building_area_m2": 22.49,
+        "intersection_area_m2": 18.41
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00051",
+      "parcel_id": "parcel-demo-006",
+      "building_id": "AI-BPL-FINAL-00193",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9424,
+        "building_area_m2": 18.46,
+        "intersection_area_m2": 17.4
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00052",
+      "parcel_id": "parcel-demo-005",
+      "building_id": "AI-BPL-FINAL-00204",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6031,
+        "building_area_m2": 30.72,
+        "intersection_area_m2": 18.53
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00053",
+      "parcel_id": "parcel-demo-006",
+      "building_id": "AI-BPL-FINAL-00208",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9019,
+        "building_area_m2": 49.44,
+        "intersection_area_m2": 44.59
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00054",
+      "parcel_id": "parcel-demo-006",
+      "building_id": "AI-BPL-FINAL-00209",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3649,
+        "building_area_m2": 28.32,
+        "intersection_area_m2": 10.33
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00055",
+      "parcel_id": "parcel-demo-006",
+      "building_id": "AI-BPL-FINAL-00216",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4739,
+        "building_area_m2": 42.36,
+        "intersection_area_m2": 20.08
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00056",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00231",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8525,
+        "building_area_m2": 32.78,
+        "intersection_area_m2": 27.94
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00057",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00237",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3834,
+        "building_area_m2": 60.16,
+        "intersection_area_m2": 23.06
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00058",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00245",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2306,
+        "building_area_m2": 13.37,
+        "intersection_area_m2": 3.08
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00059",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00247",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3013,
+        "building_area_m2": 5.32,
+        "intersection_area_m2": 1.6
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00060",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00253",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8117,
+        "building_area_m2": 10.31,
+        "intersection_area_m2": 8.37
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00061",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00257",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1333,
+        "building_area_m2": 13.49,
+        "intersection_area_m2": 1.8
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00062",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00258",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7768,
+        "building_area_m2": 11.31,
+        "intersection_area_m2": 8.79
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00063",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00259",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1857,
+        "building_area_m2": 30.03,
+        "intersection_area_m2": 5.58
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00064",
+      "parcel_id": "parcel-demo-024",
+      "building_id": "AI-BPL-FINAL-00264",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1069,
+        "building_area_m2": 10.36,
+        "intersection_area_m2": 1.11
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00065",
+      "parcel_id": "parcel-demo-008",
+      "building_id": "AI-BPL-FINAL-00269",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7024,
+        "building_area_m2": 84.45,
+        "intersection_area_m2": 59.32
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00066",
+      "parcel_id": "parcel-demo-008",
+      "building_id": "AI-BPL-FINAL-00271",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4975,
+        "building_area_m2": 5.83,
+        "intersection_area_m2": 2.9
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00067",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00273",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4505,
+        "building_area_m2": 7.23,
+        "intersection_area_m2": 3.26
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00068",
+      "parcel_id": "parcel-demo-025",
+      "building_id": "AI-BPL-FINAL-00274",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6443,
+        "building_area_m2": 95.14,
+        "intersection_area_m2": 61.29
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00069",
+      "parcel_id": "parcel-demo-008",
+      "building_id": "AI-BPL-FINAL-00283",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.431,
+        "building_area_m2": 6.45,
+        "intersection_area_m2": 2.78
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00070",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00287",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2365,
+        "building_area_m2": 6.36,
+        "intersection_area_m2": 1.5
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00071",
+      "parcel_id": "parcel-demo-025",
+      "building_id": "AI-BPL-FINAL-00288",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8651,
+        "building_area_m2": 45.44,
+        "intersection_area_m2": 39.32
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00072",
+      "parcel_id": "parcel-demo-008",
+      "building_id": "AI-BPL-FINAL-00289",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3804,
+        "building_area_m2": 10.71,
+        "intersection_area_m2": 4.07
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00073",
+      "parcel_id": "parcel-demo-008",
+      "building_id": "AI-BPL-FINAL-00290",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2472,
+        "building_area_m2": 20.14,
+        "intersection_area_m2": 4.98
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00074",
+      "parcel_id": "parcel-demo-025",
+      "building_id": "AI-BPL-FINAL-00291",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6888,
+        "building_area_m2": 15.96,
+        "intersection_area_m2": 11.0
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00075",
+      "parcel_id": "parcel-demo-026",
+      "building_id": "AI-BPL-FINAL-00300",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6886,
+        "building_area_m2": 108.92,
+        "intersection_area_m2": 75.0
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00076",
+      "parcel_id": "parcel-demo-026",
+      "building_id": "AI-BPL-FINAL-00301",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6995,
+        "building_area_m2": 33.8,
+        "intersection_area_m2": 23.65
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00077",
+      "parcel_id": "parcel-demo-008",
+      "building_id": "AI-BPL-FINAL-00307",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3231,
+        "building_area_m2": 16.44,
+        "intersection_area_m2": 5.31
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00078",
+      "parcel_id": "parcel-demo-026",
+      "building_id": "AI-BPL-FINAL-00308",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2011,
+        "building_area_m2": 33.45,
+        "intersection_area_m2": 6.73
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00079",
+      "parcel_id": "parcel-demo-009",
+      "building_id": "AI-BPL-FINAL-00309",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8071,
+        "building_area_m2": 101.36,
+        "intersection_area_m2": 81.81
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00080",
+      "parcel_id": "parcel-demo-026",
+      "building_id": "AI-BPL-FINAL-00310",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.372,
+        "building_area_m2": 106.97,
+        "intersection_area_m2": 39.79
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00081",
+      "parcel_id": "parcel-demo-011",
+      "building_id": "AI-BPL-FINAL-00319",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9214,
+        "building_area_m2": 71.81,
+        "intersection_area_m2": 66.17
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00082",
+      "parcel_id": "parcel-demo-010",
+      "building_id": "AI-BPL-FINAL-00325",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9499,
+        "building_area_m2": 5.65,
+        "intersection_area_m2": 5.37
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00083",
+      "parcel_id": "parcel-demo-011",
+      "building_id": "AI-BPL-FINAL-00333",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8251,
+        "building_area_m2": 66.94,
+        "intersection_area_m2": 55.24
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00084",
+      "parcel_id": "parcel-demo-011",
+      "building_id": "AI-BPL-FINAL-00344",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7098,
+        "building_area_m2": 25.87,
+        "intersection_area_m2": 18.36
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00085",
+      "parcel_id": "parcel-demo-012",
+      "building_id": "AI-BPL-FINAL-00348",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4239,
+        "building_area_m2": 43.82,
+        "intersection_area_m2": 18.57
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00086",
+      "parcel_id": "parcel-demo-012",
+      "building_id": "AI-BPL-FINAL-00351",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3326,
+        "building_area_m2": 86.29,
+        "intersection_area_m2": 28.7
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00087",
+      "parcel_id": "parcel-demo-012",
+      "building_id": "AI-BPL-FINAL-00353",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7084,
+        "building_area_m2": 65.21,
+        "intersection_area_m2": 46.19
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00088",
+      "parcel_id": "parcel-demo-029",
+      "building_id": "AI-BPL-FINAL-00354",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7255,
+        "building_area_m2": 36.15,
+        "intersection_area_m2": 26.22
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00089",
+      "parcel_id": "parcel-demo-012",
+      "building_id": "AI-BPL-FINAL-00355",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8707,
+        "building_area_m2": 5.39,
+        "intersection_area_m2": 4.69
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00090",
+      "parcel_id": "parcel-demo-029",
+      "building_id": "AI-BPL-FINAL-00359",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.949,
+        "building_area_m2": 5.42,
+        "intersection_area_m2": 5.14
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00091",
+      "parcel_id": "parcel-demo-029",
+      "building_id": "AI-BPL-FINAL-00360",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8732,
+        "building_area_m2": 21.3,
+        "intersection_area_m2": 18.6
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00092",
+      "parcel_id": "parcel-demo-012",
+      "building_id": "AI-BPL-FINAL-00363",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4519,
+        "building_area_m2": 18.34,
+        "intersection_area_m2": 8.29
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00093",
+      "parcel_id": "parcel-demo-012",
+      "building_id": "AI-BPL-FINAL-00364",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3187,
+        "building_area_m2": 13.54,
+        "intersection_area_m2": 4.31
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00094",
+      "parcel_id": "parcel-demo-012",
+      "building_id": "AI-BPL-FINAL-00365",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.565,
+        "building_area_m2": 14.77,
+        "intersection_area_m2": 8.35
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00095",
+      "parcel_id": "parcel-demo-029",
+      "building_id": "AI-BPL-FINAL-00367",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9117,
+        "building_area_m2": 7.53,
+        "intersection_area_m2": 6.87
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00096",
+      "parcel_id": "parcel-demo-012",
+      "building_id": "AI-BPL-FINAL-00369",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7403,
+        "building_area_m2": 7.58,
+        "intersection_area_m2": 5.61
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00097",
+      "parcel_id": "parcel-demo-029",
+      "building_id": "AI-BPL-FINAL-00376",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6492,
+        "building_area_m2": 7.33,
+        "intersection_area_m2": 4.76
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00098",
+      "parcel_id": "parcel-demo-031",
+      "building_id": "AI-BPL-FINAL-00385",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5027,
+        "building_area_m2": 101.72,
+        "intersection_area_m2": 51.13
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00099",
+      "parcel_id": "parcel-demo-013",
+      "building_id": "AI-BPL-FINAL-00387",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2004,
+        "building_area_m2": 31.7,
+        "intersection_area_m2": 6.35
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00100",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00398",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3514,
+        "building_area_m2": 140.8,
+        "intersection_area_m2": 49.47
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00101",
+      "parcel_id": "parcel-demo-014",
+      "building_id": "AI-BPL-FINAL-00400",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8353,
+        "building_area_m2": 110.07,
+        "intersection_area_m2": 91.94
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00102",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00403",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5651,
+        "building_area_m2": 79.8,
+        "intersection_area_m2": 45.09
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00103",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00404",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5964,
+        "building_area_m2": 11.07,
+        "intersection_area_m2": 6.6
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00104",
+      "parcel_id": "parcel-demo-014",
+      "building_id": "AI-BPL-FINAL-00406",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7409,
+        "building_area_m2": 65.51,
+        "intersection_area_m2": 48.54
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00105",
+      "parcel_id": "parcel-demo-014",
+      "building_id": "AI-BPL-FINAL-00407",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3787,
+        "building_area_m2": 68.6,
+        "intersection_area_m2": 25.98
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00106",
+      "parcel_id": "parcel-demo-031",
+      "building_id": "AI-BPL-FINAL-00413",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6626,
+        "building_area_m2": 14.5,
+        "intersection_area_m2": 9.61
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00107",
+      "parcel_id": "parcel-demo-031",
+      "building_id": "AI-BPL-FINAL-00416",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.942,
+        "building_area_m2": 12.09,
+        "intersection_area_m2": 11.39
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00108",
+      "parcel_id": "parcel-demo-031",
+      "building_id": "AI-BPL-FINAL-00418",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6171,
+        "building_area_m2": 11.36,
+        "intersection_area_m2": 7.01
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00109",
+      "parcel_id": "parcel-demo-031",
+      "building_id": "AI-BPL-FINAL-00419",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.366,
+        "building_area_m2": 5.48,
+        "intersection_area_m2": 2.0
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00110",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00420",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8622,
+        "building_area_m2": 170.78,
+        "intersection_area_m2": 147.25
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00111",
+      "parcel_id": "parcel-demo-032",
+      "building_id": "AI-BPL-FINAL-00422",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2944,
+        "building_area_m2": 8.74,
+        "intersection_area_m2": 2.57
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00112",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00425",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8281,
+        "building_area_m2": 35.36,
+        "intersection_area_m2": 29.28
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00113",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00426",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4562,
+        "building_area_m2": 63.2,
+        "intersection_area_m2": 28.83
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00114",
+      "parcel_id": "parcel-demo-032",
+      "building_id": "AI-BPL-FINAL-00429",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7843,
+        "building_area_m2": 55.05,
+        "intersection_area_m2": 43.18
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00115",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00432",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7672,
+        "building_area_m2": 6.5,
+        "intersection_area_m2": 4.99
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00116",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00433",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8568,
+        "building_area_m2": 17.86,
+        "intersection_area_m2": 15.3
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00117",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00436",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5092,
+        "building_area_m2": 16.0,
+        "intersection_area_m2": 8.15
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00118",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00438",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8712,
+        "building_area_m2": 25.31,
+        "intersection_area_m2": 22.05
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00119",
+      "parcel_id": "parcel-demo-016",
+      "building_id": "AI-BPL-FINAL-00444",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5174,
+        "building_area_m2": 13.5,
+        "intersection_area_m2": 6.98
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00120",
+      "parcel_id": "parcel-demo-016",
+      "building_id": "AI-BPL-FINAL-00452",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3529,
+        "building_area_m2": 15.56,
+        "intersection_area_m2": 5.49
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00121",
+      "parcel_id": "parcel-demo-016",
+      "building_id": "AI-BPL-FINAL-00461",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1494,
+        "building_area_m2": 31.54,
+        "intersection_area_m2": 4.71
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00122",
+      "parcel_id": "parcel-demo-016",
+      "building_id": "AI-BPL-FINAL-00464",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9263,
+        "building_area_m2": 16.01,
+        "intersection_area_m2": 14.83
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00123",
+      "parcel_id": "parcel-demo-033",
+      "building_id": "AI-BPL-FINAL-00465",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.81,
+        "building_area_m2": 44.85,
+        "intersection_area_m2": 36.33
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00124",
+      "parcel_id": "parcel-demo-033",
+      "building_id": "AI-BPL-FINAL-00467",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8573,
+        "building_area_m2": 18.78,
+        "intersection_area_m2": 16.1
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00125",
+      "parcel_id": "parcel-demo-033",
+      "building_id": "AI-BPL-FINAL-00468",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7432,
+        "building_area_m2": 11.97,
+        "intersection_area_m2": 8.9
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00126",
+      "parcel_id": "parcel-demo-033",
+      "building_id": "AI-BPL-FINAL-00474",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8359,
+        "building_area_m2": 53.24,
+        "intersection_area_m2": 44.5
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00127",
+      "parcel_id": "parcel-demo-016",
+      "building_id": "AI-BPL-FINAL-00478",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3403,
+        "building_area_m2": 8.66,
+        "intersection_area_m2": 2.95
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00128",
+      "parcel_id": "parcel-demo-033",
+      "building_id": "AI-BPL-FINAL-00479",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3296,
+        "building_area_m2": 92.43,
+        "intersection_area_m2": 30.46
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00129",
+      "parcel_id": "parcel-demo-033",
+      "building_id": "AI-BPL-FINAL-00480",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7774,
+        "building_area_m2": 58.17,
+        "intersection_area_m2": 45.22
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00130",
+      "parcel_id": "parcel-demo-017",
+      "building_id": "AI-BPL-FINAL-00482",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.499,
+        "building_area_m2": 41.82,
+        "intersection_area_m2": 20.87
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00131",
+      "parcel_id": "parcel-demo-016",
+      "building_id": "AI-BPL-FINAL-00486",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9168,
+        "building_area_m2": 28.49,
+        "intersection_area_m2": 26.12
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00132",
+      "parcel_id": "parcel-demo-016",
+      "building_id": "AI-BPL-FINAL-00487",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4643,
+        "building_area_m2": 20.87,
+        "intersection_area_m2": 9.69
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00133",
+      "parcel_id": "parcel-demo-016",
+      "building_id": "AI-BPL-FINAL-00490",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3205,
+        "building_area_m2": 17.12,
+        "intersection_area_m2": 5.49
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00134",
+      "parcel_id": "parcel-demo-017",
+      "building_id": "AI-BPL-FINAL-00491",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6984,
+        "building_area_m2": 14.46,
+        "intersection_area_m2": 10.1
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00135",
+      "parcel_id": "parcel-demo-017",
+      "building_id": "AI-BPL-FINAL-00492",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7457,
+        "building_area_m2": 15.23,
+        "intersection_area_m2": 11.36
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00136",
+      "parcel_id": "parcel-demo-017",
+      "building_id": "AI-BPL-FINAL-00499",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8506,
+        "building_area_m2": 5.96,
+        "intersection_area_m2": 5.07
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00137",
+      "parcel_id": "parcel-demo-017",
+      "building_id": "AI-BPL-FINAL-00500",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8837,
+        "building_area_m2": 5.66,
+        "intersection_area_m2": 5.0
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00138",
+      "parcel_id": "parcel-demo-017",
+      "building_id": "AI-BPL-FINAL-00507",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8143,
+        "building_area_m2": 101.08,
+        "intersection_area_m2": 82.31
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00139",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00508",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.898,
+        "building_area_m2": 40.28,
+        "intersection_area_m2": 36.17
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00140",
+      "parcel_id": "parcel-demo-016",
+      "building_id": "AI-BPL-FINAL-00513",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1937,
+        "building_area_m2": 18.88,
+        "intersection_area_m2": 3.66
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00141",
+      "parcel_id": "parcel-demo-033",
+      "building_id": "AI-BPL-FINAL-00514",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8253,
+        "building_area_m2": 11.41,
+        "intersection_area_m2": 9.42
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00142",
+      "parcel_id": "parcel-demo-033",
+      "building_id": "AI-BPL-FINAL-00515",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8507,
+        "building_area_m2": 11.14,
+        "intersection_area_m2": 9.48
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00143",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00517",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8716,
+        "building_area_m2": 7.06,
+        "intersection_area_m2": 6.16
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00144",
+      "parcel_id": "parcel-demo-018",
+      "building_id": "AI-BPL-FINAL-00519",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8521,
+        "building_area_m2": 53.13,
+        "intersection_area_m2": 45.27
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00145",
+      "parcel_id": "parcel-demo-018",
+      "building_id": "AI-BPL-FINAL-00521",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8773,
+        "building_area_m2": 10.02,
+        "intersection_area_m2": 8.79
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00146",
+      "parcel_id": "parcel-demo-017",
+      "building_id": "AI-BPL-FINAL-00531",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7703,
+        "building_area_m2": 37.3,
+        "intersection_area_m2": 28.73
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00147",
+      "parcel_id": "parcel-demo-017",
+      "building_id": "AI-BPL-FINAL-00538",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5745,
+        "building_area_m2": 56.98,
+        "intersection_area_m2": 32.74
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00148",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00542",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7164,
+        "building_area_m2": 25.02,
+        "intersection_area_m2": 17.93
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00149",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00544",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7622,
+        "building_area_m2": 22.01,
+        "intersection_area_m2": 16.78
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00150",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00547",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.235,
+        "building_area_m2": 20.54,
+        "intersection_area_m2": 4.83
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00151",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00548",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5421,
+        "building_area_m2": 7.26,
+        "intersection_area_m2": 3.93
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00152",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00551",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4266,
+        "building_area_m2": 15.99,
+        "intersection_area_m2": 6.82
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00153",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00552",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8488,
+        "building_area_m2": 38.62,
+        "intersection_area_m2": 32.78
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00154",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00556",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8563,
+        "building_area_m2": 11.67,
+        "intersection_area_m2": 9.99
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00155",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00558",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8749,
+        "building_area_m2": 8.45,
+        "intersection_area_m2": 7.39
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00156",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00559",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9406,
+        "building_area_m2": 15.81,
+        "intersection_area_m2": 14.87
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00157",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00562",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8054,
+        "building_area_m2": 5.26,
+        "intersection_area_m2": 4.23
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00158",
+      "parcel_id": "parcel-demo-035",
+      "building_id": "AI-BPL-FINAL-00566",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6876,
+        "building_area_m2": 77.88,
+        "intersection_area_m2": 53.55
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00159",
+      "parcel_id": "parcel-demo-018",
+      "building_id": "AI-BPL-FINAL-00575",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6327,
+        "building_area_m2": 72.99,
+        "intersection_area_m2": 46.18
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00160",
+      "parcel_id": "parcel-demo-018",
+      "building_id": "AI-BPL-FINAL-00576",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5012,
+        "building_area_m2": 43.56,
+        "intersection_area_m2": 21.83
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00161",
+      "parcel_id": "parcel-demo-018",
+      "building_id": "AI-BPL-FINAL-00578",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5252,
+        "building_area_m2": 19.41,
+        "intersection_area_m2": 10.2
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00162",
+      "parcel_id": "parcel-demo-018",
+      "building_id": "AI-BPL-FINAL-00579",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5472,
+        "building_area_m2": 38.92,
+        "intersection_area_m2": 21.3
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00163",
+      "parcel_id": "parcel-demo-018",
+      "building_id": "AI-BPL-FINAL-00581",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5726,
+        "building_area_m2": 41.06,
+        "intersection_area_m2": 23.51
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00164",
+      "parcel_id": "parcel-demo-035",
+      "building_id": "AI-BPL-FINAL-00582",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.124,
+        "building_area_m2": 37.22,
+        "intersection_area_m2": 4.62
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00165",
+      "parcel_id": "parcel-demo-035",
+      "building_id": "AI-BPL-FINAL-00598",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6041,
+        "building_area_m2": 22.59,
+        "intersection_area_m2": 13.64
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00166",
+      "parcel_id": "parcel-demo-035",
+      "building_id": "AI-BPL-FINAL-00599",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4951,
+        "building_area_m2": 23.46,
+        "intersection_area_m2": 11.61
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00167",
+      "parcel_id": "parcel-demo-018",
+      "building_id": "AI-BPL-FINAL-00600",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2037,
+        "building_area_m2": 20.67,
+        "intersection_area_m2": 4.21
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00168",
+      "parcel_id": "parcel-demo-035",
+      "building_id": "AI-BPL-FINAL-00605",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4976,
+        "building_area_m2": 23.34,
+        "intersection_area_m2": 11.61
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00169",
+      "parcel_id": "parcel-demo-018",
+      "building_id": "AI-BPL-FINAL-00609",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8882,
+        "building_area_m2": 14.16,
+        "intersection_area_m2": 12.57
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00170",
+      "parcel_id": "parcel-demo-019",
+      "building_id": "AI-BPL-FINAL-00621",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7728,
+        "building_area_m2": 12.04,
+        "intersection_area_m2": 9.3
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00171",
+      "parcel_id": "parcel-demo-019",
+      "building_id": "AI-BPL-FINAL-00639",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4078,
+        "building_area_m2": 28.11,
+        "intersection_area_m2": 11.46
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00172",
+      "parcel_id": "parcel-demo-019",
+      "building_id": "AI-BPL-FINAL-00643",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1197,
+        "building_area_m2": 11.31,
+        "intersection_area_m2": 1.35
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00173",
+      "parcel_id": "parcel-demo-019",
+      "building_id": "AI-BPL-FINAL-00645",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8468,
+        "building_area_m2": 134.84,
+        "intersection_area_m2": 114.18
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00174",
+      "parcel_id": "parcel-demo-019",
+      "building_id": "AI-BPL-FINAL-00647",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3294,
+        "building_area_m2": 50.54,
+        "intersection_area_m2": 16.65
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00175",
+      "parcel_id": "parcel-demo-019",
+      "building_id": "AI-BPL-FINAL-00652",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5521,
+        "building_area_m2": 44.43,
+        "intersection_area_m2": 24.53
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00176",
+      "parcel_id": "parcel-demo-019",
+      "building_id": "AI-BPL-FINAL-00664",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2505,
+        "building_area_m2": 6.73,
+        "intersection_area_m2": 1.69
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00177",
+      "parcel_id": "parcel-demo-019",
+      "building_id": "AI-BPL-FINAL-00665",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3001,
+        "building_area_m2": 11.21,
+        "intersection_area_m2": 3.36
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00178",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00669",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8771,
+        "building_area_m2": 40.09,
+        "intersection_area_m2": 35.17
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00179",
+      "parcel_id": "parcel-demo-019",
+      "building_id": "AI-BPL-FINAL-00670",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1227,
+        "building_area_m2": 67.16,
+        "intersection_area_m2": 8.24
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00180",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00671",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7145,
+        "building_area_m2": 72.52,
+        "intersection_area_m2": 51.82
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00181",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00673",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7739,
+        "building_area_m2": 40.13,
+        "intersection_area_m2": 31.06
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00182",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00674",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6884,
+        "building_area_m2": 5.59,
+        "intersection_area_m2": 3.85
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00183",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00693",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8607,
+        "building_area_m2": 7.12,
+        "intersection_area_m2": 6.13
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00184",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00698",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.717,
+        "building_area_m2": 6.21,
+        "intersection_area_m2": 4.45
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00185",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00701",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3984,
+        "building_area_m2": 12.93,
+        "intersection_area_m2": 5.15
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00186",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00705",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4509,
+        "building_area_m2": 84.92,
+        "intersection_area_m2": 38.29
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00187",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00713",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5626,
+        "building_area_m2": 19.05,
+        "intersection_area_m2": 10.72
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00188",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00717",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7373,
+        "building_area_m2": 42.14,
+        "intersection_area_m2": 31.07
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00189",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00735",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.6726,
+        "building_area_m2": 12.44,
+        "intersection_area_m2": 8.37
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00190",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00737",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8227,
+        "building_area_m2": 23.8,
+        "intersection_area_m2": 19.58
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00191",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00738",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4023,
+        "building_area_m2": 8.4,
+        "intersection_area_m2": 3.38
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00192",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00742",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5606,
+        "building_area_m2": 111.02,
+        "intersection_area_m2": 62.23
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00193",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00767",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4187,
+        "building_area_m2": 16.49,
+        "intersection_area_m2": 6.9
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00194",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00771",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1005,
+        "building_area_m2": 69.97,
+        "intersection_area_m2": 7.03
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00195",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00772",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7095,
+        "building_area_m2": 74.29,
+        "intersection_area_m2": 52.71
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00196",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00774",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.681,
+        "building_area_m2": 18.22,
+        "intersection_area_m2": 12.41
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00197",
+      "parcel_id": "parcel-demo-022",
+      "building_id": "AI-BPL-FINAL-00777",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.114,
+        "building_area_m2": 47.78,
+        "intersection_area_m2": 5.44
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00198",
+      "parcel_id": "parcel-demo-022",
+      "building_id": "AI-BPL-FINAL-00780",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.1092,
+        "building_area_m2": 100.3,
+        "intersection_area_m2": 10.95
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00199",
+      "parcel_id": "parcel-demo-022",
+      "building_id": "AI-BPL-FINAL-00783",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2148,
+        "building_area_m2": 63.27,
+        "intersection_area_m2": 13.59
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00200",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00803",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.7943,
+        "building_area_m2": 93.85,
+        "intersection_area_m2": 74.55
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00201",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00806",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5132,
+        "building_area_m2": 20.04,
+        "intersection_area_m2": 10.29
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00202",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00809",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2803,
+        "building_area_m2": 24.03,
+        "intersection_area_m2": 6.73
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00203",
+      "parcel_id": "parcel-demo-022",
+      "building_id": "AI-BPL-FINAL-00825",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.8298,
+        "building_area_m2": 19.35,
+        "intersection_area_m2": 16.06
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00204",
+      "parcel_id": "parcel-demo-022",
+      "building_id": "AI-BPL-FINAL-00826",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.3395,
+        "building_area_m2": 11.14,
+        "intersection_area_m2": 3.78
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00205",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00828",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.4301,
+        "building_area_m2": 29.68,
+        "intersection_area_m2": 12.77
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00206",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00831",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.5204,
+        "building_area_m2": 6.62,
+        "intersection_area_m2": 3.45
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00207",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00832",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.9409,
+        "building_area_m2": 8.61,
+        "intersection_area_m2": 8.1
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00208",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00833",
+      "type": "BUILDING_CROSSES_PARCEL_BOUNDARY",
+      "severity": "REVIEW",
+      "description": "AI-detected building intersects the demonstration parcel boundary. Review required. This is a geometric observation — not a legal determination.",
+      "spatial_basis": {
+        "primary_overlap_ratio": 0.2215,
+        "building_area_m2": 21.98,
+        "intersection_area_m2": 4.87
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00209",
+      "parcel_id": "parcel-demo-001",
+      "building_id": "AI-BPL-FINAL-00000",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (21) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 21,
+        "building_ids": [
+          "AI-BPL-FINAL-00000",
+          "AI-BPL-FINAL-00002",
+          "AI-BPL-FINAL-00004",
+          "AI-BPL-FINAL-00005",
+          "AI-BPL-FINAL-00006",
+          "AI-BPL-FINAL-00007",
+          "AI-BPL-FINAL-00008",
+          "AI-BPL-FINAL-00009",
+          "AI-BPL-FINAL-00010",
+          "AI-BPL-FINAL-00011",
+          "AI-BPL-FINAL-00012",
+          "AI-BPL-FINAL-00013",
+          "AI-BPL-FINAL-00014",
+          "AI-BPL-FINAL-00015",
+          "AI-BPL-FINAL-00016",
+          "AI-BPL-FINAL-00019",
+          "AI-BPL-FINAL-00020",
+          "AI-BPL-FINAL-00023",
+          "AI-BPL-FINAL-00024",
+          "AI-BPL-FINAL-00026",
+          "AI-BPL-FINAL-00027"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00210",
+      "parcel_id": "parcel-demo-002",
+      "building_id": "AI-BPL-FINAL-00021",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (19) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 19,
+        "building_ids": [
+          "AI-BPL-FINAL-00021",
+          "AI-BPL-FINAL-00022",
+          "AI-BPL-FINAL-00025",
+          "AI-BPL-FINAL-00029",
+          "AI-BPL-FINAL-00031",
+          "AI-BPL-FINAL-00034",
+          "AI-BPL-FINAL-00035",
+          "AI-BPL-FINAL-00042",
+          "AI-BPL-FINAL-00043",
+          "AI-BPL-FINAL-00044",
+          "AI-BPL-FINAL-00046",
+          "AI-BPL-FINAL-00047",
+          "AI-BPL-FINAL-00049",
+          "AI-BPL-FINAL-00051",
+          "AI-BPL-FINAL-00052",
+          "AI-BPL-FINAL-00054",
+          "AI-BPL-FINAL-00055",
+          "AI-BPL-FINAL-00057",
+          "AI-BPL-FINAL-00058"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00211",
+      "parcel_id": "parcel-demo-003",
+      "building_id": "AI-BPL-FINAL-00028",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (48) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 48,
+        "building_ids": [
+          "AI-BPL-FINAL-00028",
+          "AI-BPL-FINAL-00030",
+          "AI-BPL-FINAL-00036",
+          "AI-BPL-FINAL-00037",
+          "AI-BPL-FINAL-00038",
+          "AI-BPL-FINAL-00039",
+          "AI-BPL-FINAL-00040",
+          "AI-BPL-FINAL-00041",
+          "AI-BPL-FINAL-00045",
+          "AI-BPL-FINAL-00048",
+          "AI-BPL-FINAL-00059",
+          "AI-BPL-FINAL-00060",
+          "AI-BPL-FINAL-00061",
+          "AI-BPL-FINAL-00062",
+          "AI-BPL-FINAL-00063",
+          "AI-BPL-FINAL-00064",
+          "AI-BPL-FINAL-00067",
+          "AI-BPL-FINAL-00068",
+          "AI-BPL-FINAL-00069",
+          "AI-BPL-FINAL-00070",
+          "AI-BPL-FINAL-00071",
+          "AI-BPL-FINAL-00072",
+          "AI-BPL-FINAL-00073",
+          "AI-BPL-FINAL-00074",
+          "AI-BPL-FINAL-00075",
+          "AI-BPL-FINAL-00076",
+          "AI-BPL-FINAL-00077",
+          "AI-BPL-FINAL-00078",
+          "AI-BPL-FINAL-00079",
+          "AI-BPL-FINAL-00080",
+          "AI-BPL-FINAL-00081",
+          "AI-BPL-FINAL-00082",
+          "AI-BPL-FINAL-00083",
+          "AI-BPL-FINAL-00084",
+          "AI-BPL-FINAL-00085",
+          "AI-BPL-FINAL-00086",
+          "AI-BPL-FINAL-00087",
+          "AI-BPL-FINAL-00088",
+          "AI-BPL-FINAL-00089",
+          "AI-BPL-FINAL-00090",
+          "AI-BPL-FINAL-00091",
+          "AI-BPL-FINAL-00092",
+          "AI-BPL-FINAL-00093",
+          "AI-BPL-FINAL-00094",
+          "AI-BPL-FINAL-00095",
+          "AI-BPL-FINAL-00096",
+          "AI-BPL-FINAL-00101",
+          "AI-BPL-FINAL-00103"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00212",
+      "parcel_id": "parcel-demo-020",
+      "building_id": "AI-BPL-FINAL-00032",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (54) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 54,
+        "building_ids": [
+          "AI-BPL-FINAL-00032",
+          "AI-BPL-FINAL-00033",
+          "AI-BPL-FINAL-00050",
+          "AI-BPL-FINAL-00053",
+          "AI-BPL-FINAL-00056",
+          "AI-BPL-FINAL-00097",
+          "AI-BPL-FINAL-00667",
+          "AI-BPL-FINAL-00668",
+          "AI-BPL-FINAL-00669",
+          "AI-BPL-FINAL-00671",
+          "AI-BPL-FINAL-00672",
+          "AI-BPL-FINAL-00673",
+          "AI-BPL-FINAL-00674",
+          "AI-BPL-FINAL-00675",
+          "AI-BPL-FINAL-00676",
+          "AI-BPL-FINAL-00677",
+          "AI-BPL-FINAL-00678",
+          "AI-BPL-FINAL-00679",
+          "AI-BPL-FINAL-00680",
+          "AI-BPL-FINAL-00681",
+          "AI-BPL-FINAL-00682",
+          "AI-BPL-FINAL-00683",
+          "AI-BPL-FINAL-00684",
+          "AI-BPL-FINAL-00685",
+          "AI-BPL-FINAL-00686",
+          "AI-BPL-FINAL-00687",
+          "AI-BPL-FINAL-00688",
+          "AI-BPL-FINAL-00689",
+          "AI-BPL-FINAL-00690",
+          "AI-BPL-FINAL-00691",
+          "AI-BPL-FINAL-00693",
+          "AI-BPL-FINAL-00694",
+          "AI-BPL-FINAL-00695",
+          "AI-BPL-FINAL-00698",
+          "AI-BPL-FINAL-00699",
+          "AI-BPL-FINAL-00700",
+          "AI-BPL-FINAL-00701",
+          "AI-BPL-FINAL-00704",
+          "AI-BPL-FINAL-00705",
+          "AI-BPL-FINAL-00707",
+          "AI-BPL-FINAL-00708",
+          "AI-BPL-FINAL-00710",
+          "AI-BPL-FINAL-00712",
+          "AI-BPL-FINAL-00719",
+          "AI-BPL-FINAL-00720",
+          "AI-BPL-FINAL-00721",
+          "AI-BPL-FINAL-00730",
+          "AI-BPL-FINAL-00731",
+          "AI-BPL-FINAL-00732",
+          "AI-BPL-FINAL-00733",
+          "AI-BPL-FINAL-00734",
+          "AI-BPL-FINAL-00735",
+          "AI-BPL-FINAL-00736",
+          "AI-BPL-FINAL-00738"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00213",
+      "parcel_id": "parcel-demo-021",
+      "building_id": "AI-BPL-FINAL-00065",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (47) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 47,
+        "building_ids": [
+          "AI-BPL-FINAL-00065",
+          "AI-BPL-FINAL-00066",
+          "AI-BPL-FINAL-00098",
+          "AI-BPL-FINAL-00099",
+          "AI-BPL-FINAL-00100",
+          "AI-BPL-FINAL-00104",
+          "AI-BPL-FINAL-00116",
+          "AI-BPL-FINAL-00117",
+          "AI-BPL-FINAL-00136",
+          "AI-BPL-FINAL-00706",
+          "AI-BPL-FINAL-00709",
+          "AI-BPL-FINAL-00711",
+          "AI-BPL-FINAL-00713",
+          "AI-BPL-FINAL-00717",
+          "AI-BPL-FINAL-00718",
+          "AI-BPL-FINAL-00722",
+          "AI-BPL-FINAL-00723",
+          "AI-BPL-FINAL-00724",
+          "AI-BPL-FINAL-00725",
+          "AI-BPL-FINAL-00726",
+          "AI-BPL-FINAL-00727",
+          "AI-BPL-FINAL-00728",
+          "AI-BPL-FINAL-00729",
+          "AI-BPL-FINAL-00737",
+          "AI-BPL-FINAL-00739",
+          "AI-BPL-FINAL-00741",
+          "AI-BPL-FINAL-00742",
+          "AI-BPL-FINAL-00743",
+          "AI-BPL-FINAL-00744",
+          "AI-BPL-FINAL-00745",
+          "AI-BPL-FINAL-00746",
+          "AI-BPL-FINAL-00747",
+          "AI-BPL-FINAL-00748",
+          "AI-BPL-FINAL-00749",
+          "AI-BPL-FINAL-00750",
+          "AI-BPL-FINAL-00751",
+          "AI-BPL-FINAL-00752",
+          "AI-BPL-FINAL-00753",
+          "AI-BPL-FINAL-00754",
+          "AI-BPL-FINAL-00755",
+          "AI-BPL-FINAL-00756",
+          "AI-BPL-FINAL-00757",
+          "AI-BPL-FINAL-00767",
+          "AI-BPL-FINAL-00771",
+          "AI-BPL-FINAL-00772",
+          "AI-BPL-FINAL-00773",
+          "AI-BPL-FINAL-00774"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00214",
+      "parcel_id": "parcel-demo-004",
+      "building_id": "AI-BPL-FINAL-00105",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (30) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 30,
+        "building_ids": [
+          "AI-BPL-FINAL-00105",
+          "AI-BPL-FINAL-00106",
+          "AI-BPL-FINAL-00108",
+          "AI-BPL-FINAL-00110",
+          "AI-BPL-FINAL-00111",
+          "AI-BPL-FINAL-00112",
+          "AI-BPL-FINAL-00113",
+          "AI-BPL-FINAL-00114",
+          "AI-BPL-FINAL-00115",
+          "AI-BPL-FINAL-00118",
+          "AI-BPL-FINAL-00119",
+          "AI-BPL-FINAL-00120",
+          "AI-BPL-FINAL-00121",
+          "AI-BPL-FINAL-00123",
+          "AI-BPL-FINAL-00124",
+          "AI-BPL-FINAL-00125",
+          "AI-BPL-FINAL-00126",
+          "AI-BPL-FINAL-00127",
+          "AI-BPL-FINAL-00128",
+          "AI-BPL-FINAL-00129",
+          "AI-BPL-FINAL-00130",
+          "AI-BPL-FINAL-00131",
+          "AI-BPL-FINAL-00132",
+          "AI-BPL-FINAL-00133",
+          "AI-BPL-FINAL-00134",
+          "AI-BPL-FINAL-00153",
+          "AI-BPL-FINAL-00154",
+          "AI-BPL-FINAL-00156",
+          "AI-BPL-FINAL-00158",
+          "AI-BPL-FINAL-00159"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00215",
+      "parcel_id": "parcel-demo-022",
+      "building_id": "AI-BPL-FINAL-00135",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (41) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 41,
+        "building_ids": [
+          "AI-BPL-FINAL-00135",
+          "AI-BPL-FINAL-00142",
+          "AI-BPL-FINAL-00155",
+          "AI-BPL-FINAL-00740",
+          "AI-BPL-FINAL-00759",
+          "AI-BPL-FINAL-00760",
+          "AI-BPL-FINAL-00761",
+          "AI-BPL-FINAL-00762",
+          "AI-BPL-FINAL-00763",
+          "AI-BPL-FINAL-00764",
+          "AI-BPL-FINAL-00765",
+          "AI-BPL-FINAL-00766",
+          "AI-BPL-FINAL-00768",
+          "AI-BPL-FINAL-00769",
+          "AI-BPL-FINAL-00770",
+          "AI-BPL-FINAL-00775",
+          "AI-BPL-FINAL-00776",
+          "AI-BPL-FINAL-00777",
+          "AI-BPL-FINAL-00778",
+          "AI-BPL-FINAL-00779",
+          "AI-BPL-FINAL-00780",
+          "AI-BPL-FINAL-00781",
+          "AI-BPL-FINAL-00782",
+          "AI-BPL-FINAL-00783",
+          "AI-BPL-FINAL-00785",
+          "AI-BPL-FINAL-00786",
+          "AI-BPL-FINAL-00787",
+          "AI-BPL-FINAL-00788",
+          "AI-BPL-FINAL-00789",
+          "AI-BPL-FINAL-00790",
+          "AI-BPL-FINAL-00791",
+          "AI-BPL-FINAL-00792",
+          "AI-BPL-FINAL-00793",
+          "AI-BPL-FINAL-00794",
+          "AI-BPL-FINAL-00796",
+          "AI-BPL-FINAL-00797",
+          "AI-BPL-FINAL-00799",
+          "AI-BPL-FINAL-00800",
+          "AI-BPL-FINAL-00801",
+          "AI-BPL-FINAL-00825",
+          "AI-BPL-FINAL-00826"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00216",
+      "parcel_id": "parcel-demo-005",
+      "building_id": "AI-BPL-FINAL-00138",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (34) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 34,
+        "building_ids": [
+          "AI-BPL-FINAL-00138",
+          "AI-BPL-FINAL-00139",
+          "AI-BPL-FINAL-00141",
+          "AI-BPL-FINAL-00143",
+          "AI-BPL-FINAL-00144",
+          "AI-BPL-FINAL-00145",
+          "AI-BPL-FINAL-00146",
+          "AI-BPL-FINAL-00147",
+          "AI-BPL-FINAL-00148",
+          "AI-BPL-FINAL-00149",
+          "AI-BPL-FINAL-00157",
+          "AI-BPL-FINAL-00160",
+          "AI-BPL-FINAL-00161",
+          "AI-BPL-FINAL-00162",
+          "AI-BPL-FINAL-00163",
+          "AI-BPL-FINAL-00164",
+          "AI-BPL-FINAL-00165",
+          "AI-BPL-FINAL-00166",
+          "AI-BPL-FINAL-00167",
+          "AI-BPL-FINAL-00168",
+          "AI-BPL-FINAL-00169",
+          "AI-BPL-FINAL-00172",
+          "AI-BPL-FINAL-00176",
+          "AI-BPL-FINAL-00185",
+          "AI-BPL-FINAL-00188",
+          "AI-BPL-FINAL-00190",
+          "AI-BPL-FINAL-00195",
+          "AI-BPL-FINAL-00196",
+          "AI-BPL-FINAL-00199",
+          "AI-BPL-FINAL-00201",
+          "AI-BPL-FINAL-00202",
+          "AI-BPL-FINAL-00203",
+          "AI-BPL-FINAL-00204",
+          "AI-BPL-FINAL-00205"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00217",
+      "parcel_id": "parcel-demo-006",
+      "building_id": "AI-BPL-FINAL-00170",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (38) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 38,
+        "building_ids": [
+          "AI-BPL-FINAL-00170",
+          "AI-BPL-FINAL-00171",
+          "AI-BPL-FINAL-00173",
+          "AI-BPL-FINAL-00174",
+          "AI-BPL-FINAL-00175",
+          "AI-BPL-FINAL-00178",
+          "AI-BPL-FINAL-00179",
+          "AI-BPL-FINAL-00180",
+          "AI-BPL-FINAL-00181",
+          "AI-BPL-FINAL-00182",
+          "AI-BPL-FINAL-00183",
+          "AI-BPL-FINAL-00184",
+          "AI-BPL-FINAL-00187",
+          "AI-BPL-FINAL-00192",
+          "AI-BPL-FINAL-00193",
+          "AI-BPL-FINAL-00194",
+          "AI-BPL-FINAL-00197",
+          "AI-BPL-FINAL-00198",
+          "AI-BPL-FINAL-00206",
+          "AI-BPL-FINAL-00207",
+          "AI-BPL-FINAL-00208",
+          "AI-BPL-FINAL-00209",
+          "AI-BPL-FINAL-00211",
+          "AI-BPL-FINAL-00212",
+          "AI-BPL-FINAL-00213",
+          "AI-BPL-FINAL-00214",
+          "AI-BPL-FINAL-00215",
+          "AI-BPL-FINAL-00216",
+          "AI-BPL-FINAL-00217",
+          "AI-BPL-FINAL-00218",
+          "AI-BPL-FINAL-00219",
+          "AI-BPL-FINAL-00220",
+          "AI-BPL-FINAL-00221",
+          "AI-BPL-FINAL-00222",
+          "AI-BPL-FINAL-00223",
+          "AI-BPL-FINAL-00224",
+          "AI-BPL-FINAL-00225",
+          "AI-BPL-FINAL-00227"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00218",
+      "parcel_id": "parcel-demo-023",
+      "building_id": "AI-BPL-FINAL-00177",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (30) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 30,
+        "building_ids": [
+          "AI-BPL-FINAL-00177",
+          "AI-BPL-FINAL-00186",
+          "AI-BPL-FINAL-00189",
+          "AI-BPL-FINAL-00191",
+          "AI-BPL-FINAL-00200",
+          "AI-BPL-FINAL-00802",
+          "AI-BPL-FINAL-00803",
+          "AI-BPL-FINAL-00804",
+          "AI-BPL-FINAL-00805",
+          "AI-BPL-FINAL-00806",
+          "AI-BPL-FINAL-00807",
+          "AI-BPL-FINAL-00808",
+          "AI-BPL-FINAL-00809",
+          "AI-BPL-FINAL-00813",
+          "AI-BPL-FINAL-00814",
+          "AI-BPL-FINAL-00815",
+          "AI-BPL-FINAL-00817",
+          "AI-BPL-FINAL-00818",
+          "AI-BPL-FINAL-00819",
+          "AI-BPL-FINAL-00820",
+          "AI-BPL-FINAL-00821",
+          "AI-BPL-FINAL-00822",
+          "AI-BPL-FINAL-00823",
+          "AI-BPL-FINAL-00824",
+          "AI-BPL-FINAL-00827",
+          "AI-BPL-FINAL-00828",
+          "AI-BPL-FINAL-00830",
+          "AI-BPL-FINAL-00831",
+          "AI-BPL-FINAL-00832",
+          "AI-BPL-FINAL-00833"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00219",
+      "parcel_id": "parcel-demo-024",
+      "building_id": "AI-BPL-FINAL-00210",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (6) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 6,
+        "building_ids": [
+          "AI-BPL-FINAL-00210",
+          "AI-BPL-FINAL-00261",
+          "AI-BPL-FINAL-00262",
+          "AI-BPL-FINAL-00263",
+          "AI-BPL-FINAL-00264",
+          "AI-BPL-FINAL-00265"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00220",
+      "parcel_id": "parcel-demo-007",
+      "building_id": "AI-BPL-FINAL-00230",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (32) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 32,
+        "building_ids": [
+          "AI-BPL-FINAL-00230",
+          "AI-BPL-FINAL-00231",
+          "AI-BPL-FINAL-00232",
+          "AI-BPL-FINAL-00233",
+          "AI-BPL-FINAL-00234",
+          "AI-BPL-FINAL-00235",
+          "AI-BPL-FINAL-00236",
+          "AI-BPL-FINAL-00237",
+          "AI-BPL-FINAL-00238",
+          "AI-BPL-FINAL-00239",
+          "AI-BPL-FINAL-00240",
+          "AI-BPL-FINAL-00241",
+          "AI-BPL-FINAL-00242",
+          "AI-BPL-FINAL-00243",
+          "AI-BPL-FINAL-00244",
+          "AI-BPL-FINAL-00245",
+          "AI-BPL-FINAL-00246",
+          "AI-BPL-FINAL-00247",
+          "AI-BPL-FINAL-00248",
+          "AI-BPL-FINAL-00249",
+          "AI-BPL-FINAL-00250",
+          "AI-BPL-FINAL-00251",
+          "AI-BPL-FINAL-00252",
+          "AI-BPL-FINAL-00253",
+          "AI-BPL-FINAL-00257",
+          "AI-BPL-FINAL-00258",
+          "AI-BPL-FINAL-00259",
+          "AI-BPL-FINAL-00260",
+          "AI-BPL-FINAL-00266",
+          "AI-BPL-FINAL-00267",
+          "AI-BPL-FINAL-00273",
+          "AI-BPL-FINAL-00287"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00221",
+      "parcel_id": "parcel-demo-025",
+      "building_id": "AI-BPL-FINAL-00256",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (6) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 6,
+        "building_ids": [
+          "AI-BPL-FINAL-00256",
+          "AI-BPL-FINAL-00274",
+          "AI-BPL-FINAL-00288",
+          "AI-BPL-FINAL-00291",
+          "AI-BPL-FINAL-00295",
+          "AI-BPL-FINAL-00296"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00222",
+      "parcel_id": "parcel-demo-008",
+      "building_id": "AI-BPL-FINAL-00268",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (28) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 28,
+        "building_ids": [
+          "AI-BPL-FINAL-00268",
+          "AI-BPL-FINAL-00269",
+          "AI-BPL-FINAL-00270",
+          "AI-BPL-FINAL-00271",
+          "AI-BPL-FINAL-00272",
+          "AI-BPL-FINAL-00275",
+          "AI-BPL-FINAL-00276",
+          "AI-BPL-FINAL-00277",
+          "AI-BPL-FINAL-00278",
+          "AI-BPL-FINAL-00279",
+          "AI-BPL-FINAL-00280",
+          "AI-BPL-FINAL-00281",
+          "AI-BPL-FINAL-00282",
+          "AI-BPL-FINAL-00283",
+          "AI-BPL-FINAL-00284",
+          "AI-BPL-FINAL-00285",
+          "AI-BPL-FINAL-00286",
+          "AI-BPL-FINAL-00289",
+          "AI-BPL-FINAL-00290",
+          "AI-BPL-FINAL-00292",
+          "AI-BPL-FINAL-00293",
+          "AI-BPL-FINAL-00298",
+          "AI-BPL-FINAL-00302",
+          "AI-BPL-FINAL-00303",
+          "AI-BPL-FINAL-00304",
+          "AI-BPL-FINAL-00305",
+          "AI-BPL-FINAL-00306",
+          "AI-BPL-FINAL-00307"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00223",
+      "parcel_id": "parcel-demo-009",
+      "building_id": "AI-BPL-FINAL-00297",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (3) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 3,
+        "building_ids": [
+          "AI-BPL-FINAL-00297",
+          "AI-BPL-FINAL-00299",
+          "AI-BPL-FINAL-00309"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00224",
+      "parcel_id": "parcel-demo-026",
+      "building_id": "AI-BPL-FINAL-00300",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (9) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 9,
+        "building_ids": [
+          "AI-BPL-FINAL-00300",
+          "AI-BPL-FINAL-00301",
+          "AI-BPL-FINAL-00308",
+          "AI-BPL-FINAL-00310",
+          "AI-BPL-FINAL-00311",
+          "AI-BPL-FINAL-00312",
+          "AI-BPL-FINAL-00314",
+          "AI-BPL-FINAL-00316",
+          "AI-BPL-FINAL-00317"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00225",
+      "parcel_id": "parcel-demo-010",
+      "building_id": "AI-BPL-FINAL-00313",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (10) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 10,
+        "building_ids": [
+          "AI-BPL-FINAL-00313",
+          "AI-BPL-FINAL-00315",
+          "AI-BPL-FINAL-00318",
+          "AI-BPL-FINAL-00320",
+          "AI-BPL-FINAL-00321",
+          "AI-BPL-FINAL-00322",
+          "AI-BPL-FINAL-00323",
+          "AI-BPL-FINAL-00324",
+          "AI-BPL-FINAL-00325",
+          "AI-BPL-FINAL-00326"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00226",
+      "parcel_id": "parcel-demo-011",
+      "building_id": "AI-BPL-FINAL-00319",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (17) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 17,
+        "building_ids": [
+          "AI-BPL-FINAL-00319",
+          "AI-BPL-FINAL-00329",
+          "AI-BPL-FINAL-00330",
+          "AI-BPL-FINAL-00331",
+          "AI-BPL-FINAL-00332",
+          "AI-BPL-FINAL-00333",
+          "AI-BPL-FINAL-00334",
+          "AI-BPL-FINAL-00336",
+          "AI-BPL-FINAL-00337",
+          "AI-BPL-FINAL-00338",
+          "AI-BPL-FINAL-00339",
+          "AI-BPL-FINAL-00340",
+          "AI-BPL-FINAL-00341",
+          "AI-BPL-FINAL-00342",
+          "AI-BPL-FINAL-00343",
+          "AI-BPL-FINAL-00344",
+          "AI-BPL-FINAL-00345"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00227",
+      "parcel_id": "parcel-demo-028",
+      "building_id": "AI-BPL-FINAL-00335",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (2) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 2,
+        "building_ids": [
+          "AI-BPL-FINAL-00335",
+          "AI-BPL-FINAL-00346"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00228",
+      "parcel_id": "parcel-demo-012",
+      "building_id": "AI-BPL-FINAL-00347",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (17) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 17,
+        "building_ids": [
+          "AI-BPL-FINAL-00347",
+          "AI-BPL-FINAL-00348",
+          "AI-BPL-FINAL-00349",
+          "AI-BPL-FINAL-00350",
+          "AI-BPL-FINAL-00351",
+          "AI-BPL-FINAL-00352",
+          "AI-BPL-FINAL-00353",
+          "AI-BPL-FINAL-00355",
+          "AI-BPL-FINAL-00358",
+          "AI-BPL-FINAL-00363",
+          "AI-BPL-FINAL-00364",
+          "AI-BPL-FINAL-00365",
+          "AI-BPL-FINAL-00368",
+          "AI-BPL-FINAL-00369",
+          "AI-BPL-FINAL-00370",
+          "AI-BPL-FINAL-00371",
+          "AI-BPL-FINAL-00372"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00229",
+      "parcel_id": "parcel-demo-029",
+      "building_id": "AI-BPL-FINAL-00354",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (9) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 9,
+        "building_ids": [
+          "AI-BPL-FINAL-00354",
+          "AI-BPL-FINAL-00356",
+          "AI-BPL-FINAL-00357",
+          "AI-BPL-FINAL-00359",
+          "AI-BPL-FINAL-00360",
+          "AI-BPL-FINAL-00361",
+          "AI-BPL-FINAL-00362",
+          "AI-BPL-FINAL-00367",
+          "AI-BPL-FINAL-00376"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00230",
+      "parcel_id": "parcel-demo-013",
+      "building_id": "AI-BPL-FINAL-00373",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (13) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 13,
+        "building_ids": [
+          "AI-BPL-FINAL-00373",
+          "AI-BPL-FINAL-00374",
+          "AI-BPL-FINAL-00377",
+          "AI-BPL-FINAL-00378",
+          "AI-BPL-FINAL-00384",
+          "AI-BPL-FINAL-00387",
+          "AI-BPL-FINAL-00388",
+          "AI-BPL-FINAL-00389",
+          "AI-BPL-FINAL-00390",
+          "AI-BPL-FINAL-00391",
+          "AI-BPL-FINAL-00392",
+          "AI-BPL-FINAL-00393",
+          "AI-BPL-FINAL-00394"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00231",
+      "parcel_id": "parcel-demo-030",
+      "building_id": "AI-BPL-FINAL-00375",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (6) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 6,
+        "building_ids": [
+          "AI-BPL-FINAL-00375",
+          "AI-BPL-FINAL-00379",
+          "AI-BPL-FINAL-00380",
+          "AI-BPL-FINAL-00381",
+          "AI-BPL-FINAL-00382",
+          "AI-BPL-FINAL-00383"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00232",
+      "parcel_id": "parcel-demo-031",
+      "building_id": "AI-BPL-FINAL-00385",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (13) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 13,
+        "building_ids": [
+          "AI-BPL-FINAL-00385",
+          "AI-BPL-FINAL-00395",
+          "AI-BPL-FINAL-00396",
+          "AI-BPL-FINAL-00405",
+          "AI-BPL-FINAL-00411",
+          "AI-BPL-FINAL-00412",
+          "AI-BPL-FINAL-00413",
+          "AI-BPL-FINAL-00414",
+          "AI-BPL-FINAL-00415",
+          "AI-BPL-FINAL-00416",
+          "AI-BPL-FINAL-00417",
+          "AI-BPL-FINAL-00418",
+          "AI-BPL-FINAL-00419"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00233",
+      "parcel_id": "parcel-demo-014",
+      "building_id": "AI-BPL-FINAL-00397",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (9) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 9,
+        "building_ids": [
+          "AI-BPL-FINAL-00397",
+          "AI-BPL-FINAL-00400",
+          "AI-BPL-FINAL-00401",
+          "AI-BPL-FINAL-00402",
+          "AI-BPL-FINAL-00406",
+          "AI-BPL-FINAL-00407",
+          "AI-BPL-FINAL-00408",
+          "AI-BPL-FINAL-00409",
+          "AI-BPL-FINAL-00410"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00234",
+      "parcel_id": "parcel-demo-015",
+      "building_id": "AI-BPL-FINAL-00398",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (18) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 18,
+        "building_ids": [
+          "AI-BPL-FINAL-00398",
+          "AI-BPL-FINAL-00403",
+          "AI-BPL-FINAL-00404",
+          "AI-BPL-FINAL-00420",
+          "AI-BPL-FINAL-00421",
+          "AI-BPL-FINAL-00423",
+          "AI-BPL-FINAL-00425",
+          "AI-BPL-FINAL-00426",
+          "AI-BPL-FINAL-00427",
+          "AI-BPL-FINAL-00430",
+          "AI-BPL-FINAL-00431",
+          "AI-BPL-FINAL-00432",
+          "AI-BPL-FINAL-00433",
+          "AI-BPL-FINAL-00434",
+          "AI-BPL-FINAL-00435",
+          "AI-BPL-FINAL-00436",
+          "AI-BPL-FINAL-00437",
+          "AI-BPL-FINAL-00438"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00235",
+      "parcel_id": "parcel-demo-032",
+      "building_id": "AI-BPL-FINAL-00422",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (5) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 5,
+        "building_ids": [
+          "AI-BPL-FINAL-00422",
+          "AI-BPL-FINAL-00424",
+          "AI-BPL-FINAL-00428",
+          "AI-BPL-FINAL-00429",
+          "AI-BPL-FINAL-00443"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00236",
+      "parcel_id": "parcel-demo-016",
+      "building_id": "AI-BPL-FINAL-00439",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (29) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 29,
+        "building_ids": [
+          "AI-BPL-FINAL-00439",
+          "AI-BPL-FINAL-00440",
+          "AI-BPL-FINAL-00444",
+          "AI-BPL-FINAL-00445",
+          "AI-BPL-FINAL-00446",
+          "AI-BPL-FINAL-00447",
+          "AI-BPL-FINAL-00448",
+          "AI-BPL-FINAL-00449",
+          "AI-BPL-FINAL-00450",
+          "AI-BPL-FINAL-00451",
+          "AI-BPL-FINAL-00452",
+          "AI-BPL-FINAL-00454",
+          "AI-BPL-FINAL-00455",
+          "AI-BPL-FINAL-00456",
+          "AI-BPL-FINAL-00457",
+          "AI-BPL-FINAL-00461",
+          "AI-BPL-FINAL-00462",
+          "AI-BPL-FINAL-00463",
+          "AI-BPL-FINAL-00464",
+          "AI-BPL-FINAL-00470",
+          "AI-BPL-FINAL-00476",
+          "AI-BPL-FINAL-00478",
+          "AI-BPL-FINAL-00486",
+          "AI-BPL-FINAL-00487",
+          "AI-BPL-FINAL-00488",
+          "AI-BPL-FINAL-00490",
+          "AI-BPL-FINAL-00493",
+          "AI-BPL-FINAL-00510",
+          "AI-BPL-FINAL-00513"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00237",
+      "parcel_id": "parcel-demo-033",
+      "building_id": "AI-BPL-FINAL-00441",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (24) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 24,
+        "building_ids": [
+          "AI-BPL-FINAL-00441",
+          "AI-BPL-FINAL-00442",
+          "AI-BPL-FINAL-00458",
+          "AI-BPL-FINAL-00459",
+          "AI-BPL-FINAL-00460",
+          "AI-BPL-FINAL-00465",
+          "AI-BPL-FINAL-00466",
+          "AI-BPL-FINAL-00467",
+          "AI-BPL-FINAL-00468",
+          "AI-BPL-FINAL-00474",
+          "AI-BPL-FINAL-00477",
+          "AI-BPL-FINAL-00479",
+          "AI-BPL-FINAL-00480",
+          "AI-BPL-FINAL-00481",
+          "AI-BPL-FINAL-00483",
+          "AI-BPL-FINAL-00484",
+          "AI-BPL-FINAL-00485",
+          "AI-BPL-FINAL-00501",
+          "AI-BPL-FINAL-00504",
+          "AI-BPL-FINAL-00511",
+          "AI-BPL-FINAL-00512",
+          "AI-BPL-FINAL-00514",
+          "AI-BPL-FINAL-00515",
+          "AI-BPL-FINAL-00516"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00238",
+      "parcel_id": "parcel-demo-017",
+      "building_id": "AI-BPL-FINAL-00471",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (30) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 30,
+        "building_ids": [
+          "AI-BPL-FINAL-00471",
+          "AI-BPL-FINAL-00472",
+          "AI-BPL-FINAL-00482",
+          "AI-BPL-FINAL-00489",
+          "AI-BPL-FINAL-00491",
+          "AI-BPL-FINAL-00492",
+          "AI-BPL-FINAL-00494",
+          "AI-BPL-FINAL-00495",
+          "AI-BPL-FINAL-00496",
+          "AI-BPL-FINAL-00497",
+          "AI-BPL-FINAL-00498",
+          "AI-BPL-FINAL-00499",
+          "AI-BPL-FINAL-00500",
+          "AI-BPL-FINAL-00502",
+          "AI-BPL-FINAL-00505",
+          "AI-BPL-FINAL-00507",
+          "AI-BPL-FINAL-00509",
+          "AI-BPL-FINAL-00518",
+          "AI-BPL-FINAL-00526",
+          "AI-BPL-FINAL-00527",
+          "AI-BPL-FINAL-00528",
+          "AI-BPL-FINAL-00529",
+          "AI-BPL-FINAL-00530",
+          "AI-BPL-FINAL-00531",
+          "AI-BPL-FINAL-00536",
+          "AI-BPL-FINAL-00538",
+          "AI-BPL-FINAL-00539",
+          "AI-BPL-FINAL-00541",
+          "AI-BPL-FINAL-00549",
+          "AI-BPL-FINAL-00550"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00239",
+      "parcel_id": "parcel-demo-034",
+      "building_id": "AI-BPL-FINAL-00475",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (27) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 27,
+        "building_ids": [
+          "AI-BPL-FINAL-00475",
+          "AI-BPL-FINAL-00506",
+          "AI-BPL-FINAL-00508",
+          "AI-BPL-FINAL-00517",
+          "AI-BPL-FINAL-00520",
+          "AI-BPL-FINAL-00523",
+          "AI-BPL-FINAL-00524",
+          "AI-BPL-FINAL-00525",
+          "AI-BPL-FINAL-00540",
+          "AI-BPL-FINAL-00542",
+          "AI-BPL-FINAL-00543",
+          "AI-BPL-FINAL-00544",
+          "AI-BPL-FINAL-00545",
+          "AI-BPL-FINAL-00546",
+          "AI-BPL-FINAL-00547",
+          "AI-BPL-FINAL-00548",
+          "AI-BPL-FINAL-00551",
+          "AI-BPL-FINAL-00552",
+          "AI-BPL-FINAL-00553",
+          "AI-BPL-FINAL-00554",
+          "AI-BPL-FINAL-00555",
+          "AI-BPL-FINAL-00556",
+          "AI-BPL-FINAL-00557",
+          "AI-BPL-FINAL-00558",
+          "AI-BPL-FINAL-00559",
+          "AI-BPL-FINAL-00561",
+          "AI-BPL-FINAL-00562"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00240",
+      "parcel_id": "parcel-demo-018",
+      "building_id": "AI-BPL-FINAL-00519",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (36) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 36,
+        "building_ids": [
+          "AI-BPL-FINAL-00519",
+          "AI-BPL-FINAL-00521",
+          "AI-BPL-FINAL-00522",
+          "AI-BPL-FINAL-00532",
+          "AI-BPL-FINAL-00533",
+          "AI-BPL-FINAL-00534",
+          "AI-BPL-FINAL-00535",
+          "AI-BPL-FINAL-00537",
+          "AI-BPL-FINAL-00563",
+          "AI-BPL-FINAL-00565",
+          "AI-BPL-FINAL-00567",
+          "AI-BPL-FINAL-00568",
+          "AI-BPL-FINAL-00569",
+          "AI-BPL-FINAL-00570",
+          "AI-BPL-FINAL-00571",
+          "AI-BPL-FINAL-00572",
+          "AI-BPL-FINAL-00573",
+          "AI-BPL-FINAL-00574",
+          "AI-BPL-FINAL-00575",
+          "AI-BPL-FINAL-00576",
+          "AI-BPL-FINAL-00578",
+          "AI-BPL-FINAL-00579",
+          "AI-BPL-FINAL-00580",
+          "AI-BPL-FINAL-00581",
+          "AI-BPL-FINAL-00583",
+          "AI-BPL-FINAL-00588",
+          "AI-BPL-FINAL-00591",
+          "AI-BPL-FINAL-00592",
+          "AI-BPL-FINAL-00593",
+          "AI-BPL-FINAL-00596",
+          "AI-BPL-FINAL-00600",
+          "AI-BPL-FINAL-00601",
+          "AI-BPL-FINAL-00602",
+          "AI-BPL-FINAL-00607",
+          "AI-BPL-FINAL-00609",
+          "AI-BPL-FINAL-00610"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00241",
+      "parcel_id": "parcel-demo-035",
+      "building_id": "AI-BPL-FINAL-00564",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (17) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 17,
+        "building_ids": [
+          "AI-BPL-FINAL-00564",
+          "AI-BPL-FINAL-00566",
+          "AI-BPL-FINAL-00577",
+          "AI-BPL-FINAL-00582",
+          "AI-BPL-FINAL-00586",
+          "AI-BPL-FINAL-00587",
+          "AI-BPL-FINAL-00590",
+          "AI-BPL-FINAL-00594",
+          "AI-BPL-FINAL-00595",
+          "AI-BPL-FINAL-00597",
+          "AI-BPL-FINAL-00598",
+          "AI-BPL-FINAL-00599",
+          "AI-BPL-FINAL-00603",
+          "AI-BPL-FINAL-00604",
+          "AI-BPL-FINAL-00605",
+          "AI-BPL-FINAL-00606",
+          "AI-BPL-FINAL-00608"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    },
+    {
+      "id": "DISC-55-00242",
+      "parcel_id": "parcel-demo-019",
+      "building_id": "AI-BPL-FINAL-00613",
+      "type": "MULTIPLE_BUILDINGS_IN_PARCEL",
+      "severity": "REVIEW",
+      "description": "Multiple AI-detected buildings (31) share this demonstration parcel. Spatial inconsistency detected. Review required.",
+      "spatial_basis": {
+        "building_count": 31,
+        "building_ids": [
+          "AI-BPL-FINAL-00613",
+          "AI-BPL-FINAL-00621",
+          "AI-BPL-FINAL-00623",
+          "AI-BPL-FINAL-00638",
+          "AI-BPL-FINAL-00639",
+          "AI-BPL-FINAL-00641",
+          "AI-BPL-FINAL-00642",
+          "AI-BPL-FINAL-00643",
+          "AI-BPL-FINAL-00644",
+          "AI-BPL-FINAL-00645",
+          "AI-BPL-FINAL-00646",
+          "AI-BPL-FINAL-00647",
+          "AI-BPL-FINAL-00648",
+          "AI-BPL-FINAL-00649",
+          "AI-BPL-FINAL-00650",
+          "AI-BPL-FINAL-00651",
+          "AI-BPL-FINAL-00652",
+          "AI-BPL-FINAL-00653",
+          "AI-BPL-FINAL-00654",
+          "AI-BPL-FINAL-00655",
+          "AI-BPL-FINAL-00656",
+          "AI-BPL-FINAL-00657",
+          "AI-BPL-FINAL-00658",
+          "AI-BPL-FINAL-00659",
+          "AI-BPL-FINAL-00660",
+          "AI-BPL-FINAL-00661",
+          "AI-BPL-FINAL-00662",
+          "AI-BPL-FINAL-00664",
+          "AI-BPL-FINAL-00665",
+          "AI-BPL-FINAL-00666",
+          "AI-BPL-FINAL-00670"
+        ]
+      },
+      "legal_status": null,
+      "source": "AI_DERIVED_UAVPAL",
+      "created_at": "2026-09-12T20:40:58.396474"
+    }
+  ]
+}

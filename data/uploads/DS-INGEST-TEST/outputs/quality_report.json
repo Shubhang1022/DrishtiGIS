@@ -1,0 +1,14 @@
+{
+  "dataset_id": "DS-INGEST-20260924-71ADB8",
+  "filename": "test.geojson",
+  "crs": "EPSG:4326 (WGS 84)",
+  "bounds": [
+    77.412951,
+    23.254292,
+    77.422689,
+    23.256671
+  ],
+  "feature_count": 0,
+  "status": "PASSED_QUALITY_CHECKS",
+  "audit_timestamp": "2026-09-24T13:47:39.472337+00:00"
+}

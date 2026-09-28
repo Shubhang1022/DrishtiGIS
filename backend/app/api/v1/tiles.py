@@ -22,7 +22,9 @@ from pathlib import Path
 
 from fastapi import APIRouter, HTTPException
 from fastapi import Path as FPath
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
+from backend.app.services.dataset_store import dataset_store
+from backend.app.api.v1.published_datasets import generate_tile_png_from_dataset, TRANSPARENT_1X1_PNG
 
 router = APIRouter()
 
@@ -40,7 +42,6 @@ _TILE_CACHE_HEADER = "public, max-age=3600"
 @router.get(
     "/bhopal/{z}/{x}/{y}.png",
     summary="Bhopal UAV raster tile",
-    response_class=FileResponse,
     responses={
         200: {"content": {"image/png": {}}, "description": "Tile PNG image"},
         404: {"description": "Tile not found or zoom out of range"},
@@ -52,41 +53,24 @@ async def get_bhopal_tile(
     z: int = FPath(ge=0, le=30, description="Zoom level (18–21 for Bhopal UAV)"),
     x: int = FPath(ge=0, description="Tile column (X)"),
     y: int = FPath(ge=0, description="Tile row (Y)"),
-) -> FileResponse:
+):
     """
-    Serve a single Bhopal UAV raster tile.
-
-    Tiles are pre-generated PNG files from the Phase 2 raster pipeline.
-    Only zoom levels 18–21 are available. Requests outside this range
-    or for non-existent tiles return 404.
-
-    The raw TIFF source files and COG are never exposed through this endpoint.
+    Serve a single Bhopal UAV raster tile with 4-band RGBA transparency.
+    Dynamically reprojects from authoritative dataset GeoTIFF source.
     """
-    # Zoom range check
     if not (ZOOM_MIN <= z <= ZOOM_MAX):
         raise HTTPException(
             status_code=404,
             detail=f"Tile zoom {z} not available. Bhopal tiles exist for z{ZOOM_MIN}–z{ZOOM_MAX}.",
         )
 
-    # Construct candidate path using only validated integers
-    candidate = TILES_BASE / str(z) / str(x) / f"{y}.png"
+    ds = dataset_store.get_dataset("DS-BHOPAL-RASTER-001")
+    if ds:
+        try:
+            png_bytes = generate_tile_png_from_dataset(ds, z, x, y)
+            if png_bytes != TRANSPARENT_1X1_PNG:
+                return Response(content=png_bytes, media_type="image/png", headers={"Cache-Control": _TILE_CACHE_HEADER})
+        except Exception:
+            pass
 
-    # Path traversal guard — resolve and confirm the path stays inside TILES_BASE
-    try:
-        resolved = candidate.resolve()
-    except (OSError, ValueError):
-        raise HTTPException(status_code=403, detail="Invalid tile path.")
-
-    if not str(resolved).startswith(str(TILES_BASE)):
-        raise HTTPException(status_code=403, detail="Path traversal detected.")
-
-    # Tile existence check
-    if not resolved.exists():
-        raise HTTPException(status_code=404, detail="Tile not found.")
-
-    return FileResponse(
-        path=str(resolved),
-        media_type="image/png",
-        headers={"Cache-Control": _TILE_CACHE_HEADER},
-    )
+    raise HTTPException(status_code=404, detail="Tile not found.")

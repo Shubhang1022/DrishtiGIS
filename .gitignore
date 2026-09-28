@@ -1,18 +1,13 @@
 # =============================================================================
 # DrishtiGIS — .gitignore
 # =============================================================================
-
+/DOC*
 # ---------------------------------------------------------------------------
 # Raw dataset binaries — READ ONLY assets, too large for Git
 # ---------------------------------------------------------------------------
-Dataset/Drone-Images/BHOPAL/*.tiff
-Dataset/Drone-Images/BHOPAL/*.tif
-Dataset/Drone-Images/DEM FILES/*.zip
-Dataset/Drone-Images/*.pbf
-Dataset/Drone-Images/*.zip
-
-# NOTE: Dataset/Drone-Images/WATER_REGION(GEOJSON)/*.geojson are intentionally
-# tracked — they are small (<1MB each) OSM-derived reference files.
+Dataset/**
+!Dataset/**/WATER_REGION(GEOJSON)/
+!Dataset/**/WATER_REGION(GEOJSON)/*.geojson
 
 # ---------------------------------------------------------------------------
 # Pipeline outputs — generated, not source-controlled
@@ -90,3 +85,11 @@ nextjs-scaffold/
 
 # Temporary scaffolding directories
 nextjs-scaffold/
+
+# AI model weights (large binaries � do not commit)
+data/ai_models/**/*.pth
+data/ai_models/**/*.pt
+data/ai_models/**/*.ckpt
+scripts/.ml-env/
+scripts/.gis-env/
+**/cache_tiles/

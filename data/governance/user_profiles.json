@@ -1,0 +1,36 @@
+{
+  "profiles": {
+    "usr-public-001": {
+      "user_id": "usr-public-001",
+      "full_name": "Shubhang Mishra",
+      "phone_number": "",
+      "house_number": "238",
+      "street_locality": "Manas Garden Colony",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "pincode": "226028",
+      "organization": "General Public",
+      "show_name_publicly": true,
+      "show_address_publicly": true,
+      "show_phone_publicly": false,
+      "created_at": "2026-09-20T13:31:10.263103+00:00",
+      "updated_at": "2026-09-20T13:32:17.622287+00:00"
+    },
+    "usr-admin-001": {
+      "user_id": "usr-admin-001",
+      "full_name": "DrishtiGIS System Administrator",
+      "phone_number": "",
+      "house_number": "",
+      "street_locality": "",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "pincode": "",
+      "organization": "Ministry of Rural Development / MoRD",
+      "show_name_publicly": false,
+      "show_address_publicly": false,
+      "show_phone_publicly": false,
+      "created_at": "2026-09-21T16:07:32.195784+00:00",
+      "updated_at": "2026-09-21T16:07:32.195784+00:00"
+    }
+  }
+}

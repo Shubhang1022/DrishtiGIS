@@ -1,0 +1,3104 @@
+{
+  "summary": {
+    "total_files": 121,
+    "by_classification": {
+      "EXACT_DUPLICATE_NAME": 30,
+      "NEWLY_DISCOVERED": 89,
+      "EXACT_DUPLICATE": 2
+    },
+    "georeferenced_count": 121,
+    "needs_georeferencing_count": 0,
+    "total_size_bytes": 875273888
+  },
+  "inventory": [
+    {
+      "relative_path": "00_00.tiff",
+      "filename": "00_00.tiff",
+      "file_size_bytes": 7358913,
+      "sha256": "25a8259ae5fabbbf273ba42ff1726a1da385b3d54797ae8afa1865430499e564",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746867.75669,
+        2573942.574403,
+        746912.224094,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_00.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_01.tiff",
+      "filename": "00_01.tiff",
+      "file_size_bytes": 7742362,
+      "sha256": "5558e212de10bbe1d3ea5b2619c401ca18f5994f649b3259c91c401e6e374ded",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746910.856201,
+        2573942.574403,
+        746955.323605,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_01.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_02.tiff",
+      "filename": "00_02.tiff",
+      "file_size_bytes": 7383820,
+      "sha256": "3e2c4a9b8b08c12364e8303857eb5162f7d16a69aa424ad98fd23676446f9ae8",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746953.955712,
+        2573942.574403,
+        746998.423116,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_02.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_03.tiff",
+      "filename": "00_03.tiff",
+      "file_size_bytes": 7418243,
+      "sha256": "97bc27481b2c98a34ea880bc629277815e09abb6a045c247189e664b30479caf",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746997.055223,
+        2573942.574403,
+        747041.522627,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_03.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_04.tiff",
+      "filename": "00_04.tiff",
+      "file_size_bytes": 7586198,
+      "sha256": "a2b5220c36c33c3188ae0de656fae61cf6ad8905fa2025cad544d750bf0464eb",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747040.154734,
+        2573942.574403,
+        747084.622138,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_04.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_05.tiff",
+      "filename": "00_05.tiff",
+      "file_size_bytes": 7066733,
+      "sha256": "2585b6ce760456c4f5c9ee267e10f52c0e4c42ccadf4dd4cb5cf95f11acc9018",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747083.254245,
+        2573942.574403,
+        747127.721649,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_05.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_06.tiff",
+      "filename": "00_06.tiff",
+      "file_size_bytes": 7309476,
+      "sha256": "672b447b41b0f7ba10c4581d6b2168361b876dc56b0632dcb3f8ad2789b8c714",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747126.353756,
+        2573942.574403,
+        747170.82116,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_06.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_07.tiff",
+      "filename": "00_07.tiff",
+      "file_size_bytes": 7881786,
+      "sha256": "e56b6d2868b1359ea985c87f0bea61197d0152d393cd12a884b8bf453e0157e1",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747169.453267,
+        2573942.574403,
+        747213.920671,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_07.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_08.tiff",
+      "filename": "00_08.tiff",
+      "file_size_bytes": 7125991,
+      "sha256": "ba595c50d2153ef5156c47858801366cf209757e5fe1801e79c404388f37fb4d",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747212.552778,
+        2573942.574403,
+        747257.020182,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_08.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_09.tiff",
+      "filename": "00_09.tiff",
+      "file_size_bytes": 7398443,
+      "sha256": "dff4d43456b30abfa428974feae37037711a43c8772ab12ce26a737b6f32b221",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747255.652289,
+        2573942.574403,
+        747300.119693,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_09.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_10.tiff",
+      "filename": "00_10.tiff",
+      "file_size_bytes": 6750944,
+      "sha256": "96d5dbbce8ecdf5aa9cbc8d1f03e59da1b96c6e593f54a19d3c27d6e15014e21",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747298.7518,
+        2573942.574403,
+        747343.219204,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_10.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_11.tiff",
+      "filename": "00_11.tiff",
+      "file_size_bytes": 7580669,
+      "sha256": "aed4c25e548c0e7fcd25358d575205ec539c0c1e45488804fff50a649408ff89",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747341.851311,
+        2573942.574403,
+        747386.318715,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_11.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_12.tiff",
+      "filename": "00_12.tiff",
+      "file_size_bytes": 8114026,
+      "sha256": "d2e7d66d542cb7cecc20aa7716a801de158d559aa457eed0b6dc8ea56218e59b",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747384.950822,
+        2573942.574403,
+        747429.418226,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_12.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_13.tiff",
+      "filename": "00_13.tiff",
+      "file_size_bytes": 6976425,
+      "sha256": "452da2f9e22a330362c7149dbcc32431c45fd7d7c297467b9dc3459ffb99a616",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747428.050333,
+        2573942.574403,
+        747472.517737,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_13.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_14.tiff",
+      "filename": "00_14.tiff",
+      "file_size_bytes": 6186583,
+      "sha256": "678b5229f4c81dae240254cf97916f251a50ad67c570a621237a5322fa8daff3",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747471.149844,
+        2573942.574403,
+        747515.617248,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_14.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_15.tiff",
+      "filename": "00_15.tiff",
+      "file_size_bytes": 7069302,
+      "sha256": "3fc24c65dfdb75278e4b943cbb044221af01c9b5978883b388051c29c007d844",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747514.249355,
+        2573942.574403,
+        747558.716759,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_15.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_16.tiff",
+      "filename": "00_16.tiff",
+      "file_size_bytes": 6205058,
+      "sha256": "42fd25e468b0fe905d9a3ed112be06f28ba227bd22ca46e2dc2e2f2feaf8862b",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747557.348866,
+        2573942.574403,
+        747601.81627,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_16.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_17.tiff",
+      "filename": "00_17.tiff",
+      "file_size_bytes": 6566879,
+      "sha256": "fdeea67761f48840182cc164a5190f25972a95af0a2326563c63aade61e74bef",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747600.426664,
+        2573942.574403,
+        747644.894069,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_17.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_18.tiff",
+      "filename": "00_18.tiff",
+      "file_size_bytes": 6670132,
+      "sha256": "f1a2bed9e4487ddb26a4b59f3dbad32d5c3142f4dd70f16078f660bdfabac494",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747643.526175,
+        2573942.574403,
+        747687.99358,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_18.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_19.tiff",
+      "filename": "00_19.tiff",
+      "file_size_bytes": 7244115,
+      "sha256": "4eec9d4aa420fda6a940865a37fb23f9d757390d64db8cf5e4d247ef6dd4e3bc",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747686.625686,
+        2573942.574403,
+        747731.093091,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_19.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_20.tiff",
+      "filename": "00_20.tiff",
+      "file_size_bytes": 7471021,
+      "sha256": "d2441b98506473526d2ac2098e01e94f20cf0b2ffc3dc01490923431ea015cf2",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747729.725197,
+        2573942.574403,
+        747774.192602,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_20.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_21.tiff",
+      "filename": "00_21.tiff",
+      "file_size_bytes": 6952546,
+      "sha256": "5d1485d6339dce863b1394874b0b082096bc780bb427e2bc75ebf45055e4d4bb",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747772.824708,
+        2573942.574403,
+        747817.292113,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_21.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "00_22.tiff",
+      "filename": "00_22.tiff",
+      "file_size_bytes": 6830703,
+      "sha256": "a6005b66715e7a3f2f3209159f12fe1a67986762138448173a7ce6220a5a77fd",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747815.924219,
+        2573942.574403,
+        747860.391624,
+        2573987.041808
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '00_22.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "01_00.tiff",
+      "filename": "01_00.tiff",
+      "file_size_bytes": 7383952,
+      "sha256": "073b5c67a696649ae113f342a119462c0126ec996f81e3984cbc96605c4631db",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746867.75669,
+        2573899.474892,
+        746912.224094,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '01_00.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "01_01.tiff",
+      "filename": "01_01.tiff",
+      "file_size_bytes": 7055253,
+      "sha256": "b759118caf7dd4f0d213ad2cbe22cd05868e467336869357e7656cfdd66acd29",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746910.856201,
+        2573899.474892,
+        746955.323605,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '01_01.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "01_02.tiff",
+      "filename": "01_02.tiff",
+      "file_size_bytes": 7466716,
+      "sha256": "ced4ef2d3f2ab19f8c01b0d86841d9fa0117336bebf2323079e38e731bfe7642",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746953.955712,
+        2573899.474892,
+        746998.423116,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '01_02.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "01_03.tiff",
+      "filename": "01_03.tiff",
+      "file_size_bytes": 7286365,
+      "sha256": "217187046a898a3ed7570cc0f3b144d7b9e7c7ad206d0c4e546bf6d282f611ef",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746997.055223,
+        2573899.474892,
+        747041.522627,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '01_03.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "01_04.tiff",
+      "filename": "01_04.tiff",
+      "file_size_bytes": 7341093,
+      "sha256": "0668993fac54f6cbaecfcfa6304ac28e05bf94696f79d50b0e6fa4d529cbaae0",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747040.154734,
+        2573899.474892,
+        747084.622138,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '01_04.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "01_05.tiff",
+      "filename": "01_05.tiff",
+      "file_size_bytes": 7269229,
+      "sha256": "805b4f7b5c6c0dcd730755b1dcfc88b2da9badd2dcedc82da07ab9da34ced73d",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747083.254245,
+        2573899.474892,
+        747127.721649,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '01_05.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "01_06.tiff",
+      "filename": "01_06.tiff",
+      "file_size_bytes": 7259880,
+      "sha256": "c07110135f0874de2b91364dcaa0fc1f9281b07829be432aaaa514a641f60037",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747126.353756,
+        2573899.474892,
+        747170.82116,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE_NAME",
+      "notes": [
+        "Filename '01_06.tiff' exists in system store."
+      ]
+    },
+    {
+      "relative_path": "01_07.tiff",
+      "filename": "01_07.tiff",
+      "file_size_bytes": 7508795,
+      "sha256": "01d51e1f64e712bff2f83cc389f451f66477f69ff3dc64f7e1bf05cc450637ae",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747169.453267,
+        2573899.474892,
+        747213.920671,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_08.tiff",
+      "filename": "01_08.tiff",
+      "file_size_bytes": 7231607,
+      "sha256": "324b819bfdb5f035eae6c9ddcee29fa1e4bcea33b6d829ea805d450ad695fec2",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747212.552778,
+        2573899.474892,
+        747257.020182,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_09.tiff",
+      "filename": "01_09.tiff",
+      "file_size_bytes": 7241108,
+      "sha256": "97d99f4ed9bf30decae2de98c173511588a52536d7445138ec18695adfe9e5b1",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747255.652289,
+        2573899.474892,
+        747300.119693,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_10.tiff",
+      "filename": "01_10.tiff",
+      "file_size_bytes": 7257044,
+      "sha256": "907cf75565cb29112579258800530c60878bdd6aaa5333005ef7a62703164e34",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747298.7518,
+        2573899.474892,
+        747343.219204,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_11.tiff",
+      "filename": "01_11.tiff",
+      "file_size_bytes": 6928782,
+      "sha256": "0f40257f18e672dff618aa08401f587bc84660946618f7edc1b50f4df2e42b62",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747341.851311,
+        2573899.474892,
+        747386.318715,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_12.tiff",
+      "filename": "01_12.tiff",
+      "file_size_bytes": 7141947,
+      "sha256": "84815314026bc85957ffd4cbb41fb8036e4f87083d99ec3691ef5f9e16a9e64f",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747384.950822,
+        2573899.474892,
+        747429.418226,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_13.tiff",
+      "filename": "01_13.tiff",
+      "file_size_bytes": 8721063,
+      "sha256": "a9b0b4bfc8adddda04b67b734d551e82f74797546387c7acd78ffedc71d52cdb",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747428.050333,
+        2573899.474892,
+        747472.517737,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_14.tiff",
+      "filename": "01_14.tiff",
+      "file_size_bytes": 7661268,
+      "sha256": "b7bc34a269b4699cdcbae98b65fe77a588104609c2f50201a89d69f66507169a",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747471.149844,
+        2573899.474892,
+        747515.617248,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_15.tiff",
+      "filename": "01_15.tiff",
+      "file_size_bytes": 7113111,
+      "sha256": "5670a7335406b3a04acbf73676e4b0db82422b4b06f69e203fb13f43f77caf4c",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747514.249355,
+        2573899.474892,
+        747558.716759,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_16.tiff",
+      "filename": "01_16.tiff",
+      "file_size_bytes": 7284804,
+      "sha256": "5ad7b80be53561c51bf5c5e01ab99543690fb1f49dc50b36a34c0104f1325222",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747557.348866,
+        2573899.474892,
+        747601.81627,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_17.tiff",
+      "filename": "01_17.tiff",
+      "file_size_bytes": 5470871,
+      "sha256": "0f0301dc1516a67d6bd9db9bd78402f6773110669389afaa2ef91c4264cd9e34",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747600.426664,
+        2573899.474892,
+        747644.894069,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_18.tiff",
+      "filename": "01_18.tiff",
+      "file_size_bytes": 5046860,
+      "sha256": "a7aba92cf68662e0c939d6a695e8ecccb4ece402eed650f4976238cb3ac8eb3e",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747643.526175,
+        2573899.474892,
+        747687.99358,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_19.tiff",
+      "filename": "01_19.tiff",
+      "file_size_bytes": 6908284,
+      "sha256": "9051b4fe9e1f4e70ebb6779534bd51e39685d14a8eb9198448868dab96fc8b5c",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747686.625686,
+        2573899.474892,
+        747731.093091,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_20.tiff",
+      "filename": "01_20.tiff",
+      "file_size_bytes": 7297773,
+      "sha256": "898b71c77f80453f7b0f9b86c18ace07a2d78d4008751f37722bdda6d5f96e9e",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747729.725197,
+        2573899.474892,
+        747774.192602,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_21.tiff",
+      "filename": "01_21.tiff",
+      "file_size_bytes": 6931868,
+      "sha256": "4265333845b4c39ea1850b6085d3b004b345444ca5723c1cc6c1ae22c6b5a211",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747772.824708,
+        2573899.474892,
+        747817.292113,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "01_22.tiff",
+      "filename": "01_22.tiff",
+      "file_size_bytes": 7288314,
+      "sha256": "b4445ca89954b493c06e8b4865c2b7f577b849ccf9be9417a2e0288f44114cce",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747815.924219,
+        2573899.474892,
+        747860.391624,
+        2573943.942297
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_00.tiff",
+      "filename": "02_00.tiff",
+      "file_size_bytes": 7567429,
+      "sha256": "9f214639e1b3c02a9b6e6cf656124b5c3f8a40fdbb63000f52a4a7ef9fc88332",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746867.75669,
+        2573856.375381,
+        746912.224094,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_01.tiff",
+      "filename": "02_01.tiff",
+      "file_size_bytes": 7833251,
+      "sha256": "e7828d45b725e9ff272884d19b285493e0e0b6a9451af73b4a5a09d610c8df73",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746910.856201,
+        2573856.375381,
+        746955.323605,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_02.tiff",
+      "filename": "02_02.tiff",
+      "file_size_bytes": 7118636,
+      "sha256": "ac453a25db1ad45aa2274b00a19a662ed726f99e4fddd06dfd62d5c1702b13db",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746953.955712,
+        2573856.375381,
+        746998.423116,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_03.tiff",
+      "filename": "02_03.tiff",
+      "file_size_bytes": 7032728,
+      "sha256": "bc3fb47df204159a3379e635e3ea2bedd0e27574d8b905b53f116f19f729eb05",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746997.055223,
+        2573856.375381,
+        747041.522627,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_04.tiff",
+      "filename": "02_04.tiff",
+      "file_size_bytes": 6947502,
+      "sha256": "f83e01a19f7f797e806653c9edb19d651acac510e016db9368d161b3bef0064e",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747040.154734,
+        2573856.375381,
+        747084.622138,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_05.tiff",
+      "filename": "02_05.tiff",
+      "file_size_bytes": 6829767,
+      "sha256": "3992c060201e4feb1171a5aeef8ffc7d77ba145a321f9eb653be59430e49e78d",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747083.254245,
+        2573856.375381,
+        747127.721649,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_06.tiff",
+      "filename": "02_06.tiff",
+      "file_size_bytes": 7411045,
+      "sha256": "e852667e2904fb3219f383ec36abe7cd7addb04dbf8866f99be22eeaa109ed6e",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747126.353756,
+        2573856.375381,
+        747170.82116,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_07.tiff",
+      "filename": "02_07.tiff",
+      "file_size_bytes": 7190930,
+      "sha256": "bd81711a20180a58132b5f9d42a873bbfae06fc82cdfd24d1fcfeb170ba2fb12",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747169.453267,
+        2573856.375381,
+        747213.920671,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_08.tiff",
+      "filename": "02_08.tiff",
+      "file_size_bytes": 7297764,
+      "sha256": "7b0e4e0793ade327d1a4c5e1d47546a452b9444545c7106edb3dc2402e3f9635",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747212.552778,
+        2573856.375381,
+        747257.020182,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_09.tiff",
+      "filename": "02_09.tiff",
+      "file_size_bytes": 7188689,
+      "sha256": "bc66a18f25fa835d2f9464c898797a66947d54dfee60502be1fce776a5de72b3",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747255.652289,
+        2573856.375381,
+        747300.119693,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_10 (1).tiff",
+      "filename": "02_10 (1).tiff",
+      "file_size_bytes": 7377026,
+      "sha256": "d5b3dc40f08d678140220522403883e399cd019f666972f7ac52f721498ae750",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747298.7518,
+        2573856.375381,
+        747343.219204,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE",
+      "notes": [
+        "OS duplicate naming convention detected."
+      ]
+    },
+    {
+      "relative_path": "02_10.tiff",
+      "filename": "02_10.tiff",
+      "file_size_bytes": 7377026,
+      "sha256": "d5b3dc40f08d678140220522403883e399cd019f666972f7ac52f721498ae750",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747298.7518,
+        2573856.375381,
+        747343.219204,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "EXACT_DUPLICATE",
+      "notes": [
+        "Duplicate of 02_10 (1).tiff"
+      ]
+    },
+    {
+      "relative_path": "02_11.tiff",
+      "filename": "02_11.tiff",
+      "file_size_bytes": 7242080,
+      "sha256": "0471f18ffaba8f82b10f6a961bebed8540953e902431336041596b0c46263d36",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747341.851311,
+        2573856.375381,
+        747386.318715,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_12.tiff",
+      "filename": "02_12.tiff",
+      "file_size_bytes": 7260441,
+      "sha256": "4db53a2e24fda9e27fa01b75c9f4893ab5af49272a155775465ded71c9ceff57",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747384.950822,
+        2573856.375381,
+        747429.418226,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_13.tiff",
+      "filename": "02_13.tiff",
+      "file_size_bytes": 6643718,
+      "sha256": "fe81aa1cbde9c2c84ef397295967264142c33fd2d6170336ed973d529947e181",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747428.050333,
+        2573856.375381,
+        747472.517737,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_14.tiff",
+      "filename": "02_14.tiff",
+      "file_size_bytes": 8415918,
+      "sha256": "2f70309eaf484d73f34c738602af6db408a46c4951e78d61eb571c59ae6939f1",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747471.149844,
+        2573856.375381,
+        747515.617248,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_15.tiff",
+      "filename": "02_15.tiff",
+      "file_size_bytes": 7945312,
+      "sha256": "d20e46487657a296c0c703b8375b14091759fa06c9b1cdb0e8df79a0fac4a177",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747514.249355,
+        2573856.375381,
+        747558.716759,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_16.tiff",
+      "filename": "02_16.tiff",
+      "file_size_bytes": 6580193,
+      "sha256": "c54ec26309f7fb39f4b6025bd18c8f5840da525bb8b3e2b06706bd980ea74ab8",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747557.348866,
+        2573856.375381,
+        747601.81627,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_17.tiff",
+      "filename": "02_17.tiff",
+      "file_size_bytes": 5530965,
+      "sha256": "0818b2c46e86bbf343bed1dbca0edc5f8b417ed46573b73085ae82a554da75ab",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747600.426664,
+        2573856.375381,
+        747644.894069,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_18.tiff",
+      "filename": "02_18.tiff",
+      "file_size_bytes": 5486058,
+      "sha256": "7ee8e3f96a18957a385387c261ab0df3ace47ff8f2255bf5442b01ba7d47775f",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747643.526175,
+        2573856.375381,
+        747687.99358,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_19.tiff",
+      "filename": "02_19.tiff",
+      "file_size_bytes": 6852748,
+      "sha256": "351e7c7cfac3671691412fa293bcd327300290db0dcadf1be39e41d3d02f5610",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747686.625686,
+        2573856.375381,
+        747731.093091,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_20.tiff",
+      "filename": "02_20.tiff",
+      "file_size_bytes": 7439285,
+      "sha256": "ca4e878de4a09fc67a184a55feee31c54fa2d0216e03ef2cbde4f7e2c03c042c",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747729.725197,
+        2573856.375381,
+        747774.192602,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_21.tiff",
+      "filename": "02_21.tiff",
+      "file_size_bytes": 7113739,
+      "sha256": "d6373064a4d7059ec76008e23cd6b953f90a5376164352d17abe9d5fd6e419c7",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747772.824708,
+        2573856.375381,
+        747817.292113,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "02_22.tiff",
+      "filename": "02_22.tiff",
+      "file_size_bytes": 7085856,
+      "sha256": "b6ab9b58c03a53f176dd66b79d122816fd883fd61435e707f1894911a0d7c58e",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747815.924219,
+        2573856.375381,
+        747860.391624,
+        2573900.842786
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_00.tiff",
+      "filename": "03_00.tiff",
+      "file_size_bytes": 7675360,
+      "sha256": "c984415771bcd8e963560392e66d2fda9bbbd1f12b8d432a89e505eeb26f7a0f",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746867.75669,
+        2573813.27587,
+        746912.224094,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_01.tiff",
+      "filename": "03_01.tiff",
+      "file_size_bytes": 7442261,
+      "sha256": "53a2f1677c46246cf316c9d45633fe07e38fac46c1581f5606769a70564ee518",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746910.856201,
+        2573813.27587,
+        746955.323605,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_02.tiff",
+      "filename": "03_02.tiff",
+      "file_size_bytes": 6884115,
+      "sha256": "b9327856005e0f34c81eda0a35cfb05e273c414ae32949a42d22e2f42a7037fe",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746953.955712,
+        2573813.27587,
+        746998.423116,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_03.tiff",
+      "filename": "03_03.tiff",
+      "file_size_bytes": 7788630,
+      "sha256": "9300bb13f5ed98041aa199e3d28d596edb6b8591aa33ad508dbcbc4f5a9f759e",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746997.055223,
+        2573813.27587,
+        747041.522627,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_04.tiff",
+      "filename": "03_04.tiff",
+      "file_size_bytes": 7375578,
+      "sha256": "4263c6ad947c5b81d59a9317015420309b8c17ff4b91c4019a310edc16d11247",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747040.154734,
+        2573813.27587,
+        747084.622138,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_05.tiff",
+      "filename": "03_05.tiff",
+      "file_size_bytes": 7399594,
+      "sha256": "93009aa8dd7921e4f329c29a22fa8b93ba301fd4a7caadac461fc4969c9c2240",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747083.254245,
+        2573813.27587,
+        747127.721649,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_06.tiff",
+      "filename": "03_06.tiff",
+      "file_size_bytes": 7317255,
+      "sha256": "69b433e0833ccd8e8c62bcf9f511787aadbb9aac2de51bdb5c6cd5fa708a1147",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747126.353756,
+        2573813.27587,
+        747170.82116,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_07.tiff",
+      "filename": "03_07.tiff",
+      "file_size_bytes": 7220645,
+      "sha256": "3b847de67447a47712a7ee4362c20f33725a8ee842cbf0bd7f102789883a6ad7",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747169.453267,
+        2573813.27587,
+        747213.920671,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_08.tiff",
+      "filename": "03_08.tiff",
+      "file_size_bytes": 6970460,
+      "sha256": "02eaac6402554b332c8b1db74c62bdc8ee721bf82f0a7ab33ec0362551adc176",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747212.552778,
+        2573813.27587,
+        747257.020182,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_09.tiff",
+      "filename": "03_09.tiff",
+      "file_size_bytes": 7647135,
+      "sha256": "f1a45211873a410488c3cd92837f6214a8d714a78aa04830a3c8532d9daf2739",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747255.652289,
+        2573813.27587,
+        747300.119693,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_10.tiff",
+      "filename": "03_10.tiff",
+      "file_size_bytes": 7314017,
+      "sha256": "20a779ed24527331a80a98277f161caf5f2b4c404f7f305bfa2c8dab067289ec",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747298.7518,
+        2573813.27587,
+        747343.219204,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_11.tiff",
+      "filename": "03_11.tiff",
+      "file_size_bytes": 7670881,
+      "sha256": "6664f409ad04b2e0a325244fc40950528882b68f193be86039da0865988ffb9c",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747341.851311,
+        2573813.27587,
+        747386.318715,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_12.tiff",
+      "filename": "03_12.tiff",
+      "file_size_bytes": 7399248,
+      "sha256": "640954b84c3467e7211f6099df340cff079935915bb9a8e43a4693c7bb9a6d62",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747384.950822,
+        2573813.27587,
+        747429.418226,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_13.tiff",
+      "filename": "03_13.tiff",
+      "file_size_bytes": 7166704,
+      "sha256": "2462a0729eb55b3382fa8aec52543beb933726b6199839cfbd18ff87494b13a1",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747428.050333,
+        2573813.27587,
+        747472.517737,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_14.tiff",
+      "filename": "03_14.tiff",
+      "file_size_bytes": 7691438,
+      "sha256": "68cb75672eeb288b6b0c9f36e4fa9d5dc106ad22fab0dbbfedcf51fc73439b8e",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747471.149844,
+        2573813.27587,
+        747515.617248,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_15.tiff",
+      "filename": "03_15.tiff",
+      "file_size_bytes": 8068992,
+      "sha256": "3009534f1395cee42d20c85e6f638ff3fdb7fc7963e66159ab5098f3f64c373c",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747514.249355,
+        2573813.27587,
+        747558.716759,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_16.tiff",
+      "filename": "03_16.tiff",
+      "file_size_bytes": 9002335,
+      "sha256": "384db416985fe5052faa27589a0a302fa8ec2a590f7270db3ba3efae3ff6f7b7",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747557.348866,
+        2573813.27587,
+        747601.81627,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_17.tiff",
+      "filename": "03_17.tiff",
+      "file_size_bytes": 8325909,
+      "sha256": "ae36a304ed478bb9193f32885b1116c08c9504657aafd190b17d8690f790682c",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747600.426664,
+        2573813.27587,
+        747644.894069,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_18.tiff",
+      "filename": "03_18.tiff",
+      "file_size_bytes": 6902980,
+      "sha256": "d1cfbaf4873e17e15794810ef755d870cd8144dc22f80f870fd82931fb47c2e7",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747643.526175,
+        2573813.27587,
+        747687.99358,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_19.tiff",
+      "filename": "03_19.tiff",
+      "file_size_bytes": 6376442,
+      "sha256": "15840e54d26cde762c59f7cde9b801bb984ed3d75eb143b4de62798df4857e2a",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747686.625686,
+        2573813.27587,
+        747731.093091,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_20.tiff",
+      "filename": "03_20.tiff",
+      "file_size_bytes": 7021975,
+      "sha256": "e4eedde4d939f67a117990e2c21a98a368b1c1c8601d8e910fefbdf7110f3910",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747729.725197,
+        2573813.27587,
+        747774.192602,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_21.tiff",
+      "filename": "03_21.tiff",
+      "file_size_bytes": 6847616,
+      "sha256": "e21dc7e6fb9b0d8192b6f60153409484c43989107dfe81e3ce2454ed680ebfaa",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747772.824708,
+        2573813.27587,
+        747817.292113,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "03_22.tiff",
+      "filename": "03_22.tiff",
+      "file_size_bytes": 7023494,
+      "sha256": "9d24c630c34c21a710269c15f5bab2bd4df218b751b6d258ed81be316c157101",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747815.924219,
+        2573813.27587,
+        747860.391624,
+        2573857.743275
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_00.tiff",
+      "filename": "04_00.tiff",
+      "file_size_bytes": 6955562,
+      "sha256": "ed12b77856785187bfece589327c5e7ed5ebb458d535c3648a0032ac21a9d4ea",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746867.75669,
+        2573770.176359,
+        746912.224094,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_01.tiff",
+      "filename": "04_01.tiff",
+      "file_size_bytes": 7536357,
+      "sha256": "0e0471f98857d09594d7ef7cc20fd3bb5f03bbc60a87be19d564578a6df576ba",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746910.856201,
+        2573770.176359,
+        746955.323605,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_02.tiff",
+      "filename": "04_02.tiff",
+      "file_size_bytes": 7419178,
+      "sha256": "f69cba76afa6139fd40f8dec97f275146145a214ed0270a153ec0b82a579ce4a",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746953.955712,
+        2573770.176359,
+        746998.423116,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_03.tiff",
+      "filename": "04_03.tiff",
+      "file_size_bytes": 7834458,
+      "sha256": "86fa90f959d1ff00257a9fe9c89687ebd1d38c949fe7c23d8ad7fb163a1e6ab0",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746997.055223,
+        2573770.176359,
+        747041.522627,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_04.tiff",
+      "filename": "04_04.tiff",
+      "file_size_bytes": 7091644,
+      "sha256": "cdf759ff5e2f2ce85665bc603f1c95989939aad4a83a64764db7801f3cf87e41",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747040.154734,
+        2573770.176359,
+        747084.622138,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_05.tiff",
+      "filename": "04_05.tiff",
+      "file_size_bytes": 7014860,
+      "sha256": "70aee53d8f9aeb59d1a241cd6edbe2878eee9b336c7153134b6ecaa8bccb1f1b",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747083.254245,
+        2573770.176359,
+        747127.721649,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_06.tiff",
+      "filename": "04_06.tiff",
+      "file_size_bytes": 7411030,
+      "sha256": "696e6e3d3d1df1b2ec1baa2f6268e9f0ac0335abb5ecdedc17742d8689ae3237",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747126.353756,
+        2573770.176359,
+        747170.82116,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_07.tiff",
+      "filename": "04_07.tiff",
+      "file_size_bytes": 7081862,
+      "sha256": "97a3ee71cbd0a597aab15d1e08c14097d9a22843783e23bd5108db730c2e49ab",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747169.453267,
+        2573770.176359,
+        747213.920671,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_08.tiff",
+      "filename": "04_08.tiff",
+      "file_size_bytes": 7700221,
+      "sha256": "881a2961378d28381f1d4f95db1dd02f1bb8b663d5a904762682cec3fda6e84f",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747212.552778,
+        2573770.176359,
+        747257.020182,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_09.tiff",
+      "filename": "04_09.tiff",
+      "file_size_bytes": 7170176,
+      "sha256": "0700e9398c7047533054ae75dc4a3dc46cb835f6f5301ff49764ec21ac8a17c5",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747255.652289,
+        2573770.176359,
+        747300.119693,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_10.tiff",
+      "filename": "04_10.tiff",
+      "file_size_bytes": 7873904,
+      "sha256": "1bd6147dd2faf32424708f587bbe63f0b886908479778c9f832b4c7fa0eb96e0",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747298.7518,
+        2573770.176359,
+        747343.219204,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_11.tiff",
+      "filename": "04_11.tiff",
+      "file_size_bytes": 7849955,
+      "sha256": "dc78e1bc59d396c02901a9c7b929c2e0bdb3344c0fe22153836b6eb47b1f7ba2",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747341.851311,
+        2573770.176359,
+        747386.318715,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_12.tiff",
+      "filename": "04_12.tiff",
+      "file_size_bytes": 7479375,
+      "sha256": "63a7095b62cd177e84fd5a6b30c1a58f94ad2564610a4dae12dfc307b8a37352",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747384.950822,
+        2573770.176359,
+        747429.418226,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_13.tiff",
+      "filename": "04_13.tiff",
+      "file_size_bytes": 7200333,
+      "sha256": "d4ce8af3a3272a0e2460b0aea73a9356067f896254406cc44c120ae75ff6bdff",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747428.050333,
+        2573770.176359,
+        747472.517737,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_14.tiff",
+      "filename": "04_14.tiff",
+      "file_size_bytes": 7597037,
+      "sha256": "42843a4f91ea5dbdbbcbaeaf784bac303508f03c15d5176afd68a5aff92bd812",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747471.149844,
+        2573770.176359,
+        747515.617248,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_15.tiff",
+      "filename": "04_15.tiff",
+      "file_size_bytes": 6530263,
+      "sha256": "6c005c26428f1be36bac45eea3aec712d137a5230869e0276071811f983981a1",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747514.249355,
+        2573770.176359,
+        747558.716759,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_16.tiff",
+      "filename": "04_16.tiff",
+      "file_size_bytes": 7468954,
+      "sha256": "a8e92bfed68cbc9f6440b786a60849486415accf7df4cc412a33adc59df1320b",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747557.348866,
+        2573770.176359,
+        747601.81627,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_17.tiff",
+      "filename": "04_17.tiff",
+      "file_size_bytes": 9371407,
+      "sha256": "4129403d37eb679f9374e9ef869e3dc400c1d3307f310f19d08e9da47d4a68b6",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747600.426664,
+        2573770.176359,
+        747644.894069,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_18.tiff",
+      "filename": "04_18.tiff",
+      "file_size_bytes": 8120936,
+      "sha256": "b307937cf96d92a8078952883d28f5c45c9337c1c952bf2623e5bb32b58d49dd",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747643.526175,
+        2573770.176359,
+        747687.99358,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_19.tiff",
+      "filename": "04_19.tiff",
+      "file_size_bytes": 6956126,
+      "sha256": "842f7a5d369074f8178d65eb08b5063cba7b6b67c3f5b872bb9b461882e9786d",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747686.625686,
+        2573770.176359,
+        747731.093091,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_20.tiff",
+      "filename": "04_20.tiff",
+      "file_size_bytes": 6784685,
+      "sha256": "d4471ba156e9739d51694da1222ad16e0a39493ed44b3908bf668a293ea6b673",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747729.725197,
+        2573770.176359,
+        747774.192602,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_21.tiff",
+      "filename": "04_21.tiff",
+      "file_size_bytes": 7024848,
+      "sha256": "d456f38ff30743cf58e8149667c55063d602c4438000c1572117b643df71b10e",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747772.824708,
+        2573770.176359,
+        747817.292113,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "04_22.tiff",
+      "filename": "04_22.tiff",
+      "file_size_bytes": 7182824,
+      "sha256": "36809add39dc39c6f9cef95f57e65ef25799ecf2b611b6ff7e942c5d1f33690a",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747815.924219,
+        2573770.176359,
+        747860.391624,
+        2573814.643764
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "05_00.tiff",
+      "filename": "05_00.tiff",
+      "file_size_bytes": 6930046,
+      "sha256": "1de7510892d0c088a0bb047d8c481c2a26c539df91cbf8a3206c0eea90b34dd8",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746867.75669,
+        2573727.076848,
+        746912.224094,
+        2573771.544253
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "05_01.tiff",
+      "filename": "05_01.tiff",
+      "file_size_bytes": 6803522,
+      "sha256": "8b7a6cd72bad80e44f11279ae6cd8e2961a041b64c9a6db65bed42bea9dc936b",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746910.856201,
+        2573727.076848,
+        746955.323605,
+        2573771.544253
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "05_02.tiff",
+      "filename": "05_02.tiff",
+      "file_size_bytes": 7119178,
+      "sha256": "b0ffdcee07a0da3a9715388e22abdd3296ba110d443898b94d3ce5ce748dc578",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746953.955712,
+        2573727.076848,
+        746998.423116,
+        2573771.544253
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "05_03.tiff",
+      "filename": "05_03.tiff",
+      "file_size_bytes": 6798163,
+      "sha256": "1288042aa07130d9b4d203d501d8b1488622296042790ff043fc76bf2f91bf36",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        746997.055223,
+        2573727.076848,
+        747041.522627,
+        2573771.544253
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    },
+    {
+      "relative_path": "05_04.tiff",
+      "filename": "05_04.tiff",
+      "file_size_bytes": 6679459,
+      "sha256": "c34ffdd308d30b1f3bd40ddd214daa1bf9c73d32aa85d410b774606dad77af4c",
+      "format": "tiff",
+      "width": 2048,
+      "height": 2048,
+      "band_count": 3,
+      "dtype": "uint8",
+      "crs": "EPSG:32643",
+      "bounds": [
+        747040.154734,
+        2573727.076848,
+        747084.622138,
+        2573771.544253
+      ],
+      "resolution": [
+        0.021713,
+        0.021713
+      ],
+      "has_georeference": true,
+      "classification": "NEWLY_DISCOVERED",
+      "notes": []
+    }
+  ]
+}

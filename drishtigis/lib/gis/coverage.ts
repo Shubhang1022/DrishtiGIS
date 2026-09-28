@@ -3,11 +3,6 @@
  * ==========================================
  * Mirrors the backend CoverageAvailability dataclass exactly.
  * Used for city coverage lookups and display of data availability state.
- *
- * Architecture principle:
- *   - Bhopal: imagery + parcels + AI analysis (prototype)
- *   - All other cities: map and OSM context only
- *   - historical_data_available is always false — never fabricate
  */
 
 export type CoverageSource = "prototype" | "production" | "none";
@@ -46,24 +41,35 @@ export interface CoverageDataset {
   _attribution?:    string;
 }
 
+export type BasemapType = "standard" | "satellite";
+export type BuildingSourceType = "ai" | "osm";
+
 /** Layer visibility state for the MapLibre layer control */
 export interface LayerVisibility {
-  uavImagery:    boolean;
-  parcels:       boolean;
-  aiFeatures:    boolean;
-  osmBuildings:  boolean;
-  osmRoads:      boolean;
-  osmWaterways:  boolean;
-  osmLanduse:    boolean;
+  basemap:        BasemapType;
+  uavImagery:     boolean;
+  parcels:        boolean;
+  buildings:      boolean;              // Single consolidated building layer toggle
+  buildingSource: BuildingSourceType;   // Active building footprint data source ("ai" or "osm")
+  aiFeatures:     boolean;              // Legacy compatibility
+  osmBuildings:   boolean;              // Legacy compatibility
+  osmRoads:       boolean;
+  osmWaterways:   boolean;
+  osmLanduse:     boolean;
+  userProperties: boolean;              // User registered properties layer
 }
 
 /** Default layer visibility on first load */
 export const DEFAULT_LAYER_VISIBILITY: LayerVisibility = {
-  uavImagery:   true,
-  parcels:      true,
-  aiFeatures:   true,
-  osmBuildings: false,   // dense at initial zoom — off by default
-  osmRoads:     true,
-  osmWaterways: true,
-  osmLanduse:   false,   // polygon fills can overwhelm at low zoom
+  basemap:        "standard",
+  uavImagery:     true,
+  parcels:        true,
+  buildings:      true,
+  buildingSource: "ai",
+  aiFeatures:     true,
+  osmBuildings:   false,
+  osmRoads:       true,
+  osmWaterways:   true,
+  osmLanduse:     false,
+  userProperties: true,
 } as const;

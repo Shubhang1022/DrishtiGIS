@@ -58,7 +58,7 @@ BHOPAL_COVERAGE = CoverageAvailability(
     osm_available           = True,
     imagery_available       = True,   # Verified Phase 2 UAV XYZ tiles (379 tiles)
     parcel_data_available   = True,   # Phase 4 demo parcels (3 records, DEMO_DATA_PROTOTYPE_ONLY)
-    ai_analysis_available   = True,   # Phase 4 demo AI features (2 records, AI_DERIVED_DEMO)
+    ai_analysis_available   = True,   # Phase 5: real UAVPal AI buildings (834 features)
     historical_data_available = False,  # No second epoch — NEVER fabricate as True
     coverage_source         = CoverageSource.PROTOTYPE,
     disclaimer=(
@@ -141,9 +141,36 @@ BHOPAL_DATASETS: list[dict] = [
     {
         "id":               "dataset-bpl-parcels-001",
         "type":             "parcel_prototype",
-        "name":             "Bhopal Prototype Parcels",
+        "name":             "Bhopal Prototype Parcels (Legacy)",
         "record_count":     3,
         "source":           "DEMO_DATA_PROTOTYPE_ONLY",
-        "_disclaimer":      "Prototype demonstration data only. Not official government cadastral records.",
+        "_disclaimer":      "3 legacy prototype parcels. Superseded by synthetic dataset.",
+    },
+    {
+        "id":               "dataset-bpl-synthetic-parcels-001",
+        "type":             "synthetic_parcel",
+        "name":             "Bhopal Synthetic Demo Properties",
+        "record_count":     35,
+        "source":           "SYNTHETIC_DEMO",
+        "_disclaimer": (
+            "35 synthetic prototype parcel/property records within the Bhopal UAVPal coverage area. "
+            "NOT official government cadastral records. "
+            "Identifiers, owner names, and property data are synthetic."
+        ),
+    },
+    {
+        "id":               "dataset-bpl-ai-buildings-001",
+        "type":             "ai_buildings",
+        "name":             "Bhopal AI Building Footprints",
+        "record_count":     834,
+        "source":           "AI_DERIVED_UAVPAL",
+        "model":            "UNet-ResNet18-UAVPal",
+        "model_version":    "phase3-epoch25-bld_iou0.587",
+        "building_class_id": 4,
+        "_disclaimer": (
+            "AI-derived building footprints from UAVPal semantic segmentation. "
+            "NOT cadastral boundaries. NOT legal property boundaries. "
+            "For research and visualization purposes only."
+        ),
     },
 ]

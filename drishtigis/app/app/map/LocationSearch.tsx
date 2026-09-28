@@ -12,7 +12,7 @@ import { useState, useRef, useCallback } from "react";
 import { searchLocations, type LocationResult } from "@/lib/api/locations";
 
 interface LocationSearchProps {
-  onSelect: (lat: number, lon: number, zoom: number) => void;
+  onSelect: (lat: number, lon: number, zoom: number, bounds?: [[number, number], [number, number]], result?: LocationResult) => void;
 }
 
 export function LocationSearch({ onSelect }: LocationSearchProps) {
@@ -41,14 +41,14 @@ export function LocationSearch({ onSelect }: LocationSearchProps) {
       } finally {
         setLoading(false);
       }
-    }, 300);
+    }, 200);
   }, []);
 
   const handleSelect = useCallback((r: LocationResult) => {
-    setQuery(r.name);
+    setQuery(`${r.name}, ${r.state}`);
     setOpen(false);
     setResults([]);
-    onSelect(r.center.lat, r.center.lon, r.zoom_level);
+    onSelect(r.center.lat, r.center.lon, r.zoom_level, r.bounds, r);
   }, [onSelect]);
 
   const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
@@ -56,7 +56,7 @@ export function LocationSearch({ onSelect }: LocationSearchProps) {
   }, []);
 
   return (
-    <div style={{ position: "relative", flex: 1, maxWidth: "320px" }}>
+    <div style={{ position: "relative", flex: 1, maxWidth: "340px" }}>
       {/* combobox wrapper carries aria-expanded on the container, not the input */}
       <div
         style={{ position: "relative", display: "flex", alignItems: "center" }}
@@ -68,8 +68,8 @@ export function LocationSearch({ onSelect }: LocationSearchProps) {
       >
         <span
           style={{
-            position: "absolute", left: "0.5rem",
-            color: "var(--color-soft-gray)", fontSize: "0.875rem", pointerEvents: "none",
+            position: "absolute", left: "0.6rem", top: "50%", transform: "translateY(-50%)",
+            color: "#69635C", fontSize: "0.85rem", pointerEvents: "none",
           }}
           aria-hidden="true"
         >
@@ -80,29 +80,29 @@ export function LocationSearch({ onSelect }: LocationSearchProps) {
           value={query}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
-          placeholder="Search cities in India…"
+          placeholder="Search Indian cities (e.g. Bhopal, Lucknow)..."
           aria-label="Search Indian cities"
           aria-autocomplete="list"
           aria-controls={listboxId}
           style={{
             width:         "100%",
-            paddingLeft:   "1.75rem",
+            paddingLeft:   "2rem",
             paddingRight:  "0.5rem",
             paddingTop:    "0.35rem",
             paddingBottom: "0.35rem",
             fontSize:      "0.8rem",
-            border:        "1px solid var(--color-beige)",
-            borderRadius:  "var(--radius)",
-            background:    "var(--color-cream)",
-            color:         "var(--color-charcoal)",
+            border:        "1px solid #E4DBCF",
+            borderRadius:  "10px",
+            background:    "#F6F2EA",
+            color:         "#23211E",
             outline:       "none",
-            fontFamily:    "var(--font-ui)",
+            fontFamily:    "var(--font-sans, sans-serif)",
           }}
           onFocus={() => { if (results.length > 0) setOpen(true); }}
-          onBlur={() => { setTimeout(() => setOpen(false), 150); }}
+          onBlur={() => { setTimeout(() => setOpen(false), 200); }}
         />
         {loading && (
-          <span style={{ position: "absolute", right: "0.5rem", fontSize: "0.75rem", color: "var(--color-soft-gray)" }}>
+          <span style={{ position: "absolute", right: "0.6rem", top: "50%", transform: "translateY(-50%)", fontSize: "0.75rem", color: "#69635C" }}>
             …
           </span>
         )}
@@ -116,62 +116,87 @@ export function LocationSearch({ onSelect }: LocationSearchProps) {
           aria-label="City search results"
           style={{
             position:     "absolute",
-            top:          "calc(100% + 0.25rem)",
+            top:          "calc(100% + 0.35rem)",
             left:         0,
             right:        0,
-            background:   "var(--color-cream-light)",
-            border:       "1px solid var(--color-beige)",
-            borderRadius: "var(--radius)",
-            boxShadow:    "var(--shadow-panel)",
+            background:   "#F6F2EA",
+            border:       "1px solid #E4DBCF",
+            borderRadius: "14px",
+            boxShadow:    "0 10px 25px -5px rgba(0,0,0,0.1)",
             zIndex:       100,
             listStyle:    "none",
             margin:       0,
-            padding:      "0.25rem 0",
-            maxHeight:    "14rem",
+            padding:      "0.35rem 0",
+            maxHeight:    "16rem",
             overflowY:    "auto",
           }}
         >
-          {results.map((r) => (
-            <li
-              key={`${r.name}-${r.state}`}
-              role="option"
-              aria-selected={false}
-              onMouseDown={() => handleSelect(r)}
-              style={{
-                padding:  "0.4rem 0.75rem",
-                cursor:   "pointer",
-                fontSize: "0.8rem",
-                color:    "var(--color-charcoal)",
-              }}
-              onMouseEnter={(e) => {
-                (e.currentTarget as HTMLLIElement).style.background = "var(--color-beige)";
-              }}
-              onMouseLeave={(e) => {
-                (e.currentTarget as HTMLLIElement).style.background = "transparent";
-              }}
-            >
-              <span style={{ fontWeight: 500 }}>{r.name}</span>
-              <span style={{ color: "var(--color-soft-gray)", marginLeft: "0.375rem", fontSize: "0.72rem" }}>
-                {r.state}
-              </span>
-              {r.coverage.imagery_available && (
-                <span
-                  style={{
-                    marginLeft:    "0.375rem",
-                    fontSize:      "0.65rem",
-                    background:    "var(--color-forest)",
-                    color:         "var(--color-cream-light)",
-                    borderRadius:  "2px",
-                    padding:       "1px 4px",
-                    verticalAlign: "middle",
-                  }}
-                  title="Prototype intelligence data available"
-                >
-                  prototype
-                </span>
-              )}
-            </li>
-          ))}
+          {results.map((r) => {
+            const hasData = r.coverage.coverage_source !== "none" || r.coverage.imagery_available;
+            return (
+              <li
+                key={`${r.name}-${r.state}`}
+                role="option"
+                aria-selected={false}
+                onMouseDown={() => handleSelect(r)}
+                style={{
+                  padding:  "0.5rem 0.75rem",
+                  cursor:   "pointer",
+                  fontSize: "0.8rem",
+                  color:    "#23211E",
+                  borderBottom: "1px solid #E4DBCF/40",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between"
+                }}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLLIElement).style.background = "#EDE8DE";
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLLIElement).style.background = "transparent";
+                }}
+              >
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                  <div style={{ fontWeight: 600, display: "flex", alignItems: "center", gap: "0.35rem" }}>
+                    <span>{r.name}</span>
+                    <span style={{ color: "#69635C", fontWeight: 400, fontSize: "0.75rem" }}>({r.state})</span>
+                  </div>
+                  <span style={{ color: "#69635C", fontSize: "0.7rem", marginTop: "2px" }}>
+                    {hasData ? "● Prototype intelligence active" : "Map & Context Available"}
+                  </span>
+                </div>
+                {hasData ? (
+                  <span
+                    style={{
+                      fontSize:      "0.65rem",
+                      fontWeight:    600,
+                      background:    "#0E5A3A",
+                      color:         "#F6F2EA",
+                      borderRadius:  "4px",
+                      padding:       "2px 6px",
+                      whiteSpace:    "nowrap"
+                    }}
+                    title="Prototype dataset & AI intelligence available"
+                  >
+                    Prototype
+                  </span>
+                ) : (
+                  <span
+                    style={{
+                      fontSize:      "0.65rem",
+                      background:    "rgba(228,219,207,0.8)",
+                      color:         "#69635C",
+                      borderRadius:  "4px",
+                      padding:       "2px 6px",
+                      whiteSpace:    "nowrap"
+                    }}
+                  >
+                    OSM Context
+                  </span>
+                )}
+              </li>
+            );
+          })}
         </ul>
       )}
     </div>

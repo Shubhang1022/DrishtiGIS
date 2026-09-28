@@ -32,8 +32,12 @@ export enum DataSource {
   RAW_RASTER_UAV = "RAW_RASTER_UAV",
   /** Derived from RAW_RASTER_UAV via documented pipeline */
   PROCESSED_RASTER = "PROCESSED_RASTER",
-  /** Demo placeholder AI output — NOT from a real model run */
+    /** Demo placeholder AI output — NOT from a real model run */
   AI_DERIVED_DEMO = "AI_DERIVED_DEMO",
+  /** Real AI output from the UAVPal U-Net ResNet18 pipeline (Phase 3–5) */
+  AI_DERIVED_UAVPAL = "AI_DERIVED_UAVPAL",
+  /** Synthetic prototype parcel/property data — explicitly NOT official cadastral data */
+  SYNTHETIC_DEMO = "SYNTHETIC_DEMO",
 }
 
 // ---------------------------------------------------------------------------
@@ -197,6 +201,13 @@ export interface DemoProperty {
   state: "Madhya Pradesh";
   country: "India";
   land_type: LandType;
+  property_type?: string;
+  current_owner_name?: string;
+  previous_owner_name?: string;
+  resident_count?: number | null;
+  purchase_price_inr?: number | null;
+  estimated_selling_price_inr?: number | null;
+  valuation_year?: number | null;
   status: string;
   record_status: "Demo record";
   last_updated: string;
@@ -230,8 +241,143 @@ export interface DemoDataset {
 }
 
 // ---------------------------------------------------------------------------
-// Historical snapshot stub type
+// AI building types — Phase 5 real UAVPal pipeline output
 // ---------------------------------------------------------------------------
+
+export type ParcelRelationship =
+  | "FULLY_WITHIN"
+  | "PARTIALLY_OVERLAPS"
+  | "CROSSES_BOUNDARY"
+  | "TOUCHES_BOUNDARY"
+  | "NO_PARCEL_MATCH";
+
+/** Properties on each feature in bhopal-building-parcel-associations.geojson */
+export interface RealAIBuildingProperties {
+  id:                   string;           // AI-BPL-FINAL-XXXXX
+  source:               "AI_DERIVED_UAVPAL";
+  model:                string;           // UNet-ResNet18-UAVPal
+  model_version:        string;
+  source_tile:          string;           // e.g. "00_10"
+  source_class:         4;                // Building class ID — always 4
+  source_class_name:    "Building";
+  confidence:           number;           // mean softmax P(Building) over component
+  confidence_median:    number;
+  confidence_method:    string;
+  area_m2:              number;           // metric area in EPSG:32643
+  building_area_m2:     number;           // same value, for join compatibility
+  perimeter_m:          number;
+  centroid_lon:         number;
+  centroid_lat:         number;
+  crs_source:           "EPSG:32643";
+  crs_output:           "EPSG:4326";
+  pixel_area_px2:       number;
+  was_watershed_split:  boolean;
+  // Phase 5 parcel association fields
+  primary_parcel_id:    string | null;
+  primary_property_id:  string | null;    // e.g. "DRS-BPL-00101"
+  secondary_parcel_ids: string[];
+  intersection_area_m2: number;
+  overlap_ratio:        number;           // intersection_area_m2 / building_area_m2
+  parcel_relationship:  ParcelRelationship;
+}
+
+/** Summary of one building for the parcel ai_analysis section */
+export interface AIBuildingSummary {
+  id:                  string;
+  area_m2:             number;
+  confidence:          number | null;
+  confidence_median:   number | null;
+  relationship:        ParcelRelationship;
+  overlap_ratio:       number;
+  source_tile:         string;
+  model:               string;
+  model_version:       string;
+  was_watershed_split: boolean;
+}
+
+/** Discrepancy record (Phase 5 real data, not demo) */
+export interface AIDiscrepancy {
+  id:            string;
+  parcel_id:     string | null;
+  building_id:   string;
+  type:          string;
+  severity:      "REVIEW" | "LOW" | "MEDIUM" | "HIGH";
+  description:   string;
+  spatial_basis: Record<string, unknown>;
+  source:        "AI_DERIVED_UAVPAL";
+  created_at:    string;
+}
+
+/** ai_analysis sub-object in ParcelDetailResponse */
+export interface AIBuildingAnalysis {
+  ai_available:           boolean;
+  building_count:         number;
+  total_detected_area_m2: number;
+  average_confidence:     number | null;
+  discrepancy_count:      number;
+  buildings:              AIBuildingSummary[];
+  discrepancies:          AIDiscrepancy[];
+  parcel_area_m2:         number;
+  coverage_ratio:         number | null;  // detected_area / parcel_area
+  _source:                "AI_DERIVED_UAVPAL";
+  _disclaimer:            string;
+}
+
+/** Response from GET /api/v1/features */
+export interface AIFeaturesResponse {
+  type:          "FeatureCollection";
+  total:         number;
+  features:      GeoJSON.Feature<GeoJSON.Polygon, RealAIBuildingProperties>[];
+  _source:       "AI_DERIVED_UAVPAL";
+  ai_available:  boolean;
+  _disclaimer:   string;
+  _coverage_note?: string;
+}
+
+
+
+// ---------------------------------------------------------------------------
+// Synthetic parcel types — Phase 5.5
+// ---------------------------------------------------------------------------
+
+export type SyntheticParcelShape = "rect" | "L" | "irr";
+export type SyntheticRecordStatus = "SYNTHETIC_DEMO";
+export type SyntheticRow = "A" | "B";
+
+/** Properties on each feature in bhopal-synthetic-parcels.geojson */
+export interface SyntheticParcelProperties {
+  id:                string;
+  property_id:       string;
+  plot_number:       string;
+  survey_number:     string;
+  owner_name:        string;
+  land_use:          string;
+  property_type:     string;
+  area_m2:           number;
+  status:            SyntheticRecordStatus;
+  city:              "Bhopal";
+  state:             "Madhya Pradesh";
+  country:           "India";
+  centroid_lon:      number;
+  centroid_lat:      number;
+  shape_type:        SyntheticParcelShape;
+  row:               SyntheticRow;
+  _source:           DataSource.SYNTHETIC_DEMO;
+  _disclaimer:       string;
+  _datasetLabel:     "Synthetic Demo Dataset — Bhopal";
+}
+
+/** Topology validation result for one parcel */
+export interface TopologyValidationResult {
+  parcel_id:          string;
+  geometry_valid:     boolean;
+  self_intersection:  boolean;
+  zero_area:          boolean;
+  overlap_detected:   boolean;
+  duplicate_detected: boolean;
+  status:             "VALID" | "REVIEW_REQUIRED";
+}
+
 
 /**
  * Historical snapshot stub for the prototype.

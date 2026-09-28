@@ -18,17 +18,59 @@ export class ApiError extends Error {
   }
 }
 
+/**
+ * Retrieves the current user session token from localStorage or document.cookie.
+ * Client-safe (returns null during server rendering).
+ */
+export function getStoredAuthToken(): string | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const local = localStorage.getItem("drishtigis_token");
+    if (local) return local;
+  } catch {}
+  try {
+    const match = document.cookie.match(/(?:^|; )drishtigis_token=([^;]*)/);
+    if (match) return decodeURIComponent(match[1]);
+  } catch {}
+  return null;
+}
+
+export interface ApiFetchOptions extends RequestInit {
+  token?: string | null;
+}
+
 export async function apiFetch<T>(
   path: string,
-  options?: RequestInit
+  options?: ApiFetchOptions
 ): Promise<T> {
   const url = `${API_BASE}${path}`;
-  const res = await fetch(url, {
-    headers: { "Content-Type": "application/json", ...options?.headers },
-    ...options,
-  });
-  if (!res.ok) {
-    throw new ApiError(res.status, `API error ${res.status} for ${path}`);
+  const token = options?.token !== undefined ? options.token : getStoredAuthToken();
+
+  const headers: Record<string, string> = {
+    "Content-Type": "application/json",
+    ...(options?.headers as Record<string, string>),
+  };
+
+  if (token && !headers["Authorization"]) {
+    headers["Authorization"] = `Bearer ${token}`;
   }
+
+  const res = await fetch(url, {
+    credentials: options?.credentials ?? "include",
+    ...options,
+    headers,
+  });
+
+  if (!res.ok) {
+    let errMsg = `API error ${res.status} for ${path}`;
+    try {
+      const errJson = await res.json();
+      if (errJson?.detail) {
+        errMsg = typeof errJson.detail === "string" ? errJson.detail : JSON.stringify(errJson.detail);
+      }
+    } catch {}
+    throw new ApiError(res.status, errMsg);
+  }
+
   return res.json() as Promise<T>;
 }

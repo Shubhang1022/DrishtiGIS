@@ -1,0 +1,89 @@
+{
+  "_meta": {
+    "description": "DrishtiGIS UAVPal U-Net ResNet18 training configuration",
+    "phase": "Phase 2 — pipeline preparation (no full training yet)",
+    "generated_by": "scripts/data_prep/_make_config.py"
+  },
+  "random_seed": 42,
+  "rgb_dir": "Dataset/geospatial-data/BHOPAL",
+  "label_dir": "data/uavpal/annotations/Label/Tiles",
+  "manifest_path": "data/uavpal/annotations/annotation_manifest.json",
+  "num_classes": 6,
+  "class_names": {
+    "0": "Background",
+    "1": "Water",
+    "2": "Road",
+    "3": "Car",
+    "4": "Building",
+    "5": "Tree"
+  },
+  "building_class_id": 4,
+  "ignore_index": null,
+  "architecture": "UNet",
+  "encoder": "resnet18",
+  "encoder_weights": null,
+  "input_channels": 3,
+  "output_classes": 6,
+  "patch_size": 512,
+  "patch_stride": 512,
+  "patches_per_tile": 16,
+  "batch_size": 2,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "max_epochs": 50,
+  "early_stopping_patience": 10,
+  "loss": "CrossEntropyDice",
+  "ce_weight": 0.5,
+  "dice_weight": 0.5,
+  "rgb_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "rgb_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "internal_train_tiles": [
+    "00_05",
+    "00_06",
+    "00_08",
+    "00_09",
+    "00_11",
+    "00_12",
+    "00_15",
+    "00_16",
+    "00_17",
+    "00_18",
+    "00_20",
+    "01_01",
+    "01_02",
+    "01_06"
+  ],
+  "validation_tiles": [
+    "00_00",
+    "00_03",
+    "00_21",
+    "00_22"
+  ],
+  "official_test_tiles": [
+    "00_01",
+    "00_02",
+    "00_04",
+    "00_07",
+    "00_10",
+    "00_13",
+    "00_14",
+    "00_19",
+    "01_00",
+    "01_03",
+    "01_04",
+    "01_05"
+  ],
+  "n_internal_train_tiles": 14,
+  "n_validation_tiles": 4,
+  "n_official_test_tiles": 12,
+  "n_train_patches_approx": 224,
+  "n_val_patches_approx": 64
+}

@@ -1,0 +1,14 @@
+{
+  "dataset_id": "DS-INGEST-20260922-05E9FA",
+  "filename": "05_01.tiff",
+  "crs": "EPSG:4326 (WGS 84)",
+  "bounds": [
+    77.4012,
+    23.2488,
+    77.4325,
+    23.271
+  ],
+  "feature_count": 1,
+  "status": "PASSED_QUALITY_CHECKS",
+  "audit_timestamp": "2026-09-22T17:46:41.647060+00:00"
+}

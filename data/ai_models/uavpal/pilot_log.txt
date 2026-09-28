@@ -1,0 +1,39 @@
+
+PILOT RUN — 10 epochs
+======================================================================
+Device: cpu
+Epochs: 10  BS: 2  LR: 0.0001  Patch: 512
+Train tiles: 14  Val tiles: 4
+Class weights: [0.435, 0.0, 1.0, 10.0, 0.211, 2.414]
+Train patches: 224  Val patches: 64
+
+======================================================================
+ Ep    T-Loss    V-Loss   V-BldIoU    V-mIoU   RAM GB   Time s
+======================================================================
+  1    1.2786    1.2123     0.3459    0.1140     0.73    502.2
+    ** new best Building IoU=0.3459 — checkpoint saved
+  2    1.1914    1.2185     0.3838    0.1289     0.72    520.5
+    ** new best Building IoU=0.3838 — checkpoint saved
+  3    1.1681    1.1792     0.3783    0.1441     0.75    480.8
+  4    1.1422    1.1548     0.3426    0.1640     0.75    529.0
+  5    1.1273    1.1887     0.3075    0.1412     0.19    488.4
+  6    1.1149    1.1658     0.4529    0.1479     0.26    730.8
+    ** new best Building IoU=0.4529 — checkpoint saved
+  7    1.0964    1.1491     0.2889    0.1432     0.16    701.3
+  8    1.0811    1.1472     0.3665    0.1408     0.26   1154.0
+  9    1.0574    1.1545     0.2871    0.1589     0.26    999.9
+ 10    1.0607    1.1068     0.4089    0.1674     0.26    550.3
+======================================================================
+Training complete: 10 epochs in 6659s
+Best Building IoU: 0.4529 at epoch 6
+History saved: data\ai_models\uavpal\training_history.json
+
+=== PILOT SUMMARY ===
+{
+  "epochs_run": 10,
+  "total_time_s": 6658.8,
+  "best_epoch": 6,
+  "best_building_iou": 0.452907,
+  "config_path": "data/uavpal/training_config.json",
+  "checkpoint_dir": "data\\ai_models\\uavpal"
+}

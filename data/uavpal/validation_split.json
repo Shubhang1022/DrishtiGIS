@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "description": "Deterministic validation split for DrishtiGIS UAVPal training",
+    "seed": 42,
+    "split_strategy": "Spatially distributed holdout: 4 tiles from the 18 official training tiles. 2 from the western end of row 00 (cols 00, 03) and 2 from the eastern end of row 00 (cols 21, 22). This avoids spatial leakage while maintaining geographic spread.",
+    "total_official_train": 18,
+    "total_internal_train": 14,
+    "total_validation": 4,
+    "total_official_test": 12,
+    "note": "Official test tiles are NEVER used for training or validation."
+  },
+  "internal_train": [
+    "00_05",
+    "00_06",
+    "00_08",
+    "00_09",
+    "00_11",
+    "00_12",
+    "00_15",
+    "00_16",
+    "00_17",
+    "00_18",
+    "00_20",
+    "01_01",
+    "01_02",
+    "01_06"
+  ],
+  "validation": [
+    "00_00",
+    "00_03",
+    "00_21",
+    "00_22"
+  ],
+  "official_test": [
+    "00_01",
+    "00_02",
+    "00_04",
+    "00_07",
+    "00_10",
+    "00_13",
+    "00_14",
+    "00_19",
+    "01_00",
+    "01_03",
+    "01_04",
+    "01_05"
+  ]
+}

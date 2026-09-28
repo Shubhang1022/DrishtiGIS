@@ -1,0 +1,1861 @@
+{
+  "_meta": {
+    "phase": "Phase 1 — UAVPal Annotation Download",
+    "generated": "2026-09-11T11:17:37.709810+00:00",
+    "source": "doi:10.17026/DANS-Z55-6GT4",
+    "total_tiles": 30,
+    "total_bytes": 528642,
+    "label_directory": "data/uavpal/annotations/Label/Tiles/",
+    "classes": {
+      "0": "Background",
+      "1": "Water",
+      "2": "Road",
+      "3": "Car",
+      "4": "Building",
+      "5": "Tree"
+    },
+    "building_class_id": 4
+  },
+  "tiles": [
+    {
+      "tile": "00_00.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_00.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_00.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 1205758,
+      "building_pixel_percentage": 28.7475,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1792375,
+        "1": 330116,
+        "2": 668224,
+        "3": 88230,
+        "4": 1205758,
+        "5": 109601
+      },
+      "sha256": "82fe12e3e6761506ebf92b8263717375c9409a24fa411837b9c5a65109fea431",
+      "sha1_dans": "83ee0ebba1aa6bcef92cdaa220830fd91a408432",
+      "sha1_verified": true,
+      "size_bytes": 22490,
+      "dans_file_id": 120853,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 746867.7566896302,
+          "bottom": 2573942.5744028767,
+          "right": 746912.2240944302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_01.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_01.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_01.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 1353735,
+      "building_pixel_percentage": 32.2756,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1747059,
+        "1": 0,
+        "2": 675994,
+        "3": 70237,
+        "4": 1353735,
+        "5": 347279
+      },
+      "sha256": "2a46b068053b2a2ae37850551d9761002bece54e7a0517e6f4b29318b6459efb",
+      "sha1_dans": "7f86ec2d2c8ec7c9d116185621252db24abda600",
+      "sha1_verified": true,
+      "size_bytes": 26785,
+      "dans_file_id": 120929,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 746910.8562006302,
+          "bottom": 2573942.5744028767,
+          "right": 746955.3236054302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_02.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_02.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_02.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2023570,
+      "building_pixel_percentage": 48.2457,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1613526,
+        "1": 0,
+        "2": 523728,
+        "3": 0,
+        "4": 2023570,
+        "5": 33480
+      },
+      "sha256": "fe97f3fe9690d8c5ccb61cf6bbefaf61c39e36bbedd066b35ee7f6c3fc80165c",
+      "sha1_dans": "4b5ceeaada7343737b34f418f90f93c50cf7369e",
+      "sha1_verified": true,
+      "size_bytes": 22025,
+      "dans_file_id": 120720,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 746953.9557116302,
+          "bottom": 2573942.5744028767,
+          "right": 746998.4231164302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_03.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_03.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_03.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2770079,
+      "building_pixel_percentage": 66.0438,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1033855,
+        "1": 0,
+        "2": 319121,
+        "3": 0,
+        "4": 2770079,
+        "5": 71249
+      },
+      "sha256": "9e1be16464977966be20451b59b46cb4b09d46cad3df6a9524759766b34b0eca",
+      "sha1_dans": "44fb74575dc8c211caf3f3a449dfed87e2368527",
+      "sha1_verified": true,
+      "size_bytes": 22309,
+      "dans_file_id": 120721,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 746997.0552226303,
+          "bottom": 2573942.5744028767,
+          "right": 747041.5226274303,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_04.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_04.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_04.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2530883,
+      "building_pixel_percentage": 60.341,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 924630,
+        "1": 0,
+        "2": 476357,
+        "3": 0,
+        "4": 2530883,
+        "5": 262434
+      },
+      "sha256": "f1386de3c724e0c219ad85e4fb6d2ffeb41cd61bb1238c3e5fdf757dd33cb7e5",
+      "sha1_dans": "2143d55bb60ea8a157e88b71107fb65317127907",
+      "sha1_verified": true,
+      "size_bytes": 31681,
+      "dans_file_id": 120773,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747040.1547336302,
+          "bottom": 2573942.5744028767,
+          "right": 747084.6221384302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_05.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_05.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_05.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2810866,
+      "building_pixel_percentage": 67.0163,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 678323,
+        "1": 0,
+        "2": 651006,
+        "3": 19290,
+        "4": 2810866,
+        "5": 34819
+      },
+      "sha256": "d88630bddb61399a7350cd29b3190ab50d7d2c35a0863999782e1885b9bcab7d",
+      "sha1_dans": "baa53b79ae397fee2afb9ff3a994fb6a0ddf5ab3",
+      "sha1_verified": true,
+      "size_bytes": 26057,
+      "dans_file_id": 120242,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747083.2542446302,
+          "bottom": 2573942.5744028767,
+          "right": 747127.7216494302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_06.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_06.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_06.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2874118,
+      "building_pixel_percentage": 68.5243,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1034452,
+        "1": 0,
+        "2": 196992,
+        "3": 0,
+        "4": 2874118,
+        "5": 88742
+      },
+      "sha256": "fbf3cbb864ded99420bdb22be520e5c60d75c3378f11a466c15ae74fe06cb14b",
+      "sha1_dans": "ff01121ffe19c07f283f98d56e6c964df33b4470",
+      "sha1_verified": true,
+      "size_bytes": 17724,
+      "dans_file_id": 121199,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747126.3537556302,
+          "bottom": 2573942.5744028767,
+          "right": 747170.8211604302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_07.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_07.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_07.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 1726181,
+      "building_pixel_percentage": 41.1554,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1645768,
+        "1": 0,
+        "2": 22112,
+        "3": 0,
+        "4": 1726181,
+        "5": 800243
+      },
+      "sha256": "ac879e4dead2a839a2269e62c7fc2836f725ce432db2247315a8a72fb0c17fe5",
+      "sha1_dans": "eb3d74b5a0ed6e49b35a2ec3d0f88e9e481a5992",
+      "sha1_verified": true,
+      "size_bytes": 20674,
+      "dans_file_id": 120838,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747169.4532666302,
+          "bottom": 2573942.5744028767,
+          "right": 747213.9206714302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_08.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_08.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_08.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 3149796,
+      "building_pixel_percentage": 75.097,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 642013,
+        "1": 0,
+        "2": 299329,
+        "3": 0,
+        "4": 3149796,
+        "5": 103166
+      },
+      "sha256": "0504e271453704af675376717fd1b5fff315a2b62d1ac7e7e2a40e3661907cfe",
+      "sha1_dans": "162b1798ec2e8b7f81141cc2ffc71661a84837df",
+      "sha1_verified": true,
+      "size_bytes": 18346,
+      "dans_file_id": 120770,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747212.5527776303,
+          "bottom": 2573942.5744028767,
+          "right": 747257.0201824303,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_09.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_09.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_09.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2478399,
+      "building_pixel_percentage": 59.0896,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 888475,
+        "1": 0,
+        "2": 557874,
+        "3": 6437,
+        "4": 2478399,
+        "5": 263119
+      },
+      "sha256": "9665ac6413275936dd973acc9d91aabd957a6a4b39ff1fd275acc29d66a6be2c",
+      "sha1_dans": "e03fb34a908e9d6e06ef7181c7666dd9cc4e5e0a",
+      "sha1_verified": true,
+      "size_bytes": 23658,
+      "dans_file_id": 120892,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747255.6522886303,
+          "bottom": 2573942.5744028767,
+          "right": 747300.1196934303,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_10.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_10.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_10.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 1751040,
+      "building_pixel_percentage": 41.748,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1080945,
+        "1": 0,
+        "2": 1091220,
+        "3": 271099,
+        "4": 1751040,
+        "5": 0
+      },
+      "sha256": "6867b9637a25920d2cb418160f92214db43e245fa5c356746ad20751c5559780",
+      "sha1_dans": "65ea9aaec4c807e8d3754f745786223b186583e0",
+      "sha1_verified": true,
+      "size_bytes": 27030,
+      "dans_file_id": 120391,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "label_bounds": {
+          "left": 747298.7517996302,
+          "bottom": 2573942.5744028767,
+          "right": 747343.2192044302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_11.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_11.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_11.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 146677,
+      "building_pixel_percentage": 3.4971,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 3044360,
+        "1": 0,
+        "2": 809659,
+        "3": 193608,
+        "4": 146677,
+        "5": 0
+      },
+      "sha256": "d74448702372324482dba2724384f64085c1395108dbdad6f1ea1da2cd78b19c",
+      "sha1_dans": "afc26c65c1836dea45546f9cf4d977ae9b80e119",
+      "sha1_verified": true,
+      "size_bytes": 15509,
+      "dans_file_id": 120737,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "label_bounds": {
+          "left": 747341.8513106302,
+          "bottom": 2573942.5744028767,
+          "right": 747386.3187154302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_12.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_12.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_12.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 170428,
+      "building_pixel_percentage": 4.0633,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 2973543,
+        "1": 0,
+        "2": 690081,
+        "3": 61815,
+        "4": 170428,
+        "5": 298437
+      },
+      "sha256": "eb1a6e7642ca7b8c9148498647301f5737302f5b1886e72bb39286702439d9b7",
+      "sha1_dans": "ce4e18c427734d52907eb6135cb50afb236b4154",
+      "sha1_verified": true,
+      "size_bytes": 13419,
+      "dans_file_id": 120902,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747384.9508216302,
+          "bottom": 2573942.5744028767,
+          "right": 747429.4182264302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_13.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_13.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_13.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 985220,
+      "building_pixel_percentage": 23.4895,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1608427,
+        "1": 0,
+        "2": 1300821,
+        "3": 77067,
+        "4": 985220,
+        "5": 222769
+      },
+      "sha256": "50dffa284ae2dceb3c7e59a38a052e7b1dcabebbadcb7f9192ff5ca7445e1027",
+      "sha1_dans": "ed3c05c7ba72554a2d9e8e8df2e9ef1330cd053c",
+      "sha1_verified": true,
+      "size_bytes": 18620,
+      "dans_file_id": 120816,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747428.0503326303,
+          "bottom": 2573942.5744028767,
+          "right": 747472.5177374303,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_14.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_14.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_14.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2755207,
+      "building_pixel_percentage": 65.6893,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1314069,
+        "1": 0,
+        "2": 98,
+        "3": 5898,
+        "4": 2755207,
+        "5": 119032
+      },
+      "sha256": "a161a844f7f65ac3a7e2acf4a5e6cf2039cbf87617641859959936dc85dcad8e",
+      "sha1_dans": "506a3a2a92388d43fcb4fb785a23f34295c959df",
+      "sha1_verified": true,
+      "size_bytes": 5792,
+      "dans_file_id": 120676,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747471.1498436303,
+          "bottom": 2573942.5744028767,
+          "right": 747515.6172484303,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_15.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_15.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_15.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 957143,
+      "building_pixel_percentage": 22.8201,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 2422576,
+        "1": 0,
+        "2": 0,
+        "3": 124200,
+        "4": 957143,
+        "5": 690385
+      },
+      "sha256": "d61d9e3a5d138316e2e0c1e374df1176882e0bef15cd776c9ecbfc4b05105a16",
+      "sha1_dans": "3178b24c1b69aace0df1b115d0b4f688af36c6b6",
+      "sha1_verified": true,
+      "size_bytes": 11163,
+      "dans_file_id": 120884,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747514.2493546302,
+          "bottom": 2573942.5744028767,
+          "right": 747558.7167594302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_16.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_16.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_16.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 746826,
+      "building_pixel_percentage": 17.8057,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 709490,
+        "1": 0,
+        "2": 2453064,
+        "3": 24496,
+        "4": 746826,
+        "5": 260428
+      },
+      "sha256": "fa985d137de0b7d22ef44cdc18b4b3648946b668d606bdb9202dc1006cf68ee0",
+      "sha1_dans": "f75f15e5650acf583f83cf3ef954bb7ac67d9f2b",
+      "sha1_verified": true,
+      "size_bytes": 7796,
+      "dans_file_id": 120938,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747557.3488656302,
+          "bottom": 2573942.5744028767,
+          "right": 747601.8162704302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_17.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_17.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_17.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 3430571,
+      "building_pixel_percentage": 81.7912,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 274627,
+        "1": 0,
+        "2": 134449,
+        "3": 0,
+        "4": 3430571,
+        "5": 354657
+      },
+      "sha256": "d3514c770ade82cb74cf73f82445ec57278e47cdd1019710a55517945988ef1f",
+      "sha1_dans": "708f8deb4a20ad2d2632c499928b982837e64c40",
+      "sha1_verified": true,
+      "size_bytes": 6715,
+      "dans_file_id": 120412,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747600.4266640303,
+          "bottom": 2573942.5744028767,
+          "right": 747644.8940688303,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_18.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_18.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_18.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 3628706,
+      "building_pixel_percentage": 86.5151,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 80620,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 3628706,
+        "5": 484978
+      },
+      "sha256": "34c286eb4229800484a06c6b629c58c1663cc828f5444158a09a224f751c8c36",
+      "sha1_dans": "60908b4c787242897343c96296caf7bdf5293c07",
+      "sha1_verified": true,
+      "size_bytes": 8069,
+      "dans_file_id": 120413,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747643.5261750303,
+          "bottom": 2573942.5744028767,
+          "right": 747687.9935798303,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_19.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_19.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_19.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2680667,
+      "building_pixel_percentage": 63.9121,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 577491,
+        "1": 0,
+        "2": 660385,
+        "3": 67745,
+        "4": 2680667,
+        "5": 208016
+      },
+      "sha256": "c7ce4bd53866a2579c0a19dec42649c2865d48a0ff023176d320cf6a2831e1ad",
+      "sha1_dans": "35f88468ca447db41ddea53790efbc588c740bd7",
+      "sha1_verified": true,
+      "size_bytes": 9989,
+      "dans_file_id": 120752,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747686.6256860303,
+          "bottom": 2573942.5744028767,
+          "right": 747731.0930908303,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_20.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_20.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_20.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 3697259,
+      "building_pixel_percentage": 88.1495,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 194553,
+        "1": 0,
+        "2": 302492,
+        "3": 0,
+        "4": 3697259,
+        "5": 0
+      },
+      "sha256": "78212f29759e41b88c096da479a27c6f969e2b2022e8077ffb9de3bcfb6ca2df",
+      "sha1_dans": "a6f1c80d34351959967336603a9b4958eb0fa73d",
+      "sha1_verified": true,
+      "size_bytes": 4789,
+      "dans_file_id": 120263,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4
+        ],
+        "label_bounds": {
+          "left": 747729.7251970302,
+          "bottom": 2573942.5744028767,
+          "right": 747774.1926018302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_21.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_21.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_21.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 3706020,
+      "building_pixel_percentage": 88.3584,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 175482,
+        "1": 0,
+        "2": 279746,
+        "3": 0,
+        "4": 3706020,
+        "5": 33056
+      },
+      "sha256": "a63bd7737f8a3eed23e076a8dcdab3b1cf623329d8279724efbb1eaf764e632e",
+      "sha1_dans": "84d0b03be79d018b28ae80243c78fb4824f5a156",
+      "sha1_verified": true,
+      "size_bytes": 8433,
+      "dans_file_id": 121151,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747772.8247080302,
+          "bottom": 2573942.5744028767,
+          "right": 747817.2921128302,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "00_22.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/00_22.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/00_22.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 3849477,
+      "building_pixel_percentage": 91.7787,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 164674,
+        "1": 0,
+        "2": 99295,
+        "3": 0,
+        "4": 3849477,
+        "5": 80858
+      },
+      "sha256": "5e4e6d44db3e9b4228875c92a92071963c83a44fc83628e1b08753f3d075e657",
+      "sha1_dans": "a9633f95283ac9794c99763725f10f508176be2a",
+      "sha1_verified": true,
+      "size_bytes": 7511,
+      "dans_file_id": 120906,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747815.9242190303,
+          "bottom": 2573942.5744028767,
+          "right": 747860.3916238303,
+          "top": 2573987.0418076767
+        }
+      }
+    },
+    {
+      "tile": "01_00.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/01_00.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/01_00.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2875897,
+      "building_pixel_percentage": 68.5667,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 965480,
+        "1": 0,
+        "2": 308448,
+        "3": 44479,
+        "4": 2875897,
+        "5": 0
+      },
+      "sha256": "b50224a3816029b2fca8f16c179812241e510a4f5a9275c68b2ea790009290b2",
+      "sha1_dans": "e0a42ade1f67f6272185a1e6bf0fe0819c6fc4d0",
+      "sha1_verified": true,
+      "size_bytes": 21912,
+      "dans_file_id": 121091,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "label_bounds": {
+          "left": 746867.7566896302,
+          "bottom": 2573899.474891877,
+          "right": 746912.2240944302,
+          "top": 2573943.942296677
+        }
+      }
+    },
+    {
+      "tile": "01_01.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/01_01.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/01_01.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 3093495,
+      "building_pixel_percentage": 73.7547,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 721112,
+        "1": 0,
+        "2": 197940,
+        "3": 11207,
+        "4": 3093495,
+        "5": 170550
+      },
+      "sha256": "a3f06a5a30c2bc256b0145af09e416717842504f6bb62f8bb675a9fa52d35cbc",
+      "sha1_dans": "97e310c9b6778ca20e587678f431ff29e16983e8",
+      "sha1_verified": true,
+      "size_bytes": 19499,
+      "dans_file_id": 120900,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 746910.8562006302,
+          "bottom": 2573899.474891877,
+          "right": 746955.3236054302,
+          "top": 2573943.942296677
+        }
+      }
+    },
+    {
+      "tile": "01_02.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/01_02.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/01_02.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2848473,
+      "building_pixel_percentage": 67.9129,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1122215,
+        "1": 0,
+        "2": 175226,
+        "3": 0,
+        "4": 2848473,
+        "5": 48390
+      },
+      "sha256": "13797fa0a8410707ce52f3da2330b3a35a0b23db6b1f56f738231a8665ffabc5",
+      "sha1_dans": "d06a13cdd9ac857ba17a69b358cce057d73ea0f0",
+      "sha1_verified": true,
+      "size_bytes": 22401,
+      "dans_file_id": 120986,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 746953.9557116302,
+          "bottom": 2573899.474891877,
+          "right": 746998.4231164302,
+          "top": 2573943.942296677
+        }
+      }
+    },
+    {
+      "tile": "01_03.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/01_03.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/01_03.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2902900,
+      "building_pixel_percentage": 69.2105,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1029586,
+        "1": 0,
+        "2": 163555,
+        "3": 9840,
+        "4": 2902900,
+        "5": 88423
+      },
+      "sha256": "5675cb7a8a2cf625f1d8fb1f8dac20b9d0d5e626d9b35c4675fa4e04cbed41ce",
+      "sha1_dans": "f9978795429bbda553272a3c1b0c0afd4de521ed",
+      "sha1_verified": true,
+      "size_bytes": 22461,
+      "dans_file_id": 120339,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 746997.0552226303,
+          "bottom": 2573899.474891877,
+          "right": 747041.5226274303,
+          "top": 2573943.942296677
+        }
+      }
+    },
+    {
+      "tile": "01_04.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/01_04.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/01_04.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 3055834,
+      "building_pixel_percentage": 72.8568,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 850385,
+        "1": 0,
+        "2": 288085,
+        "3": 0,
+        "4": 3055834,
+        "5": 0
+      },
+      "sha256": "a41a81c3bfb9dbc496a2909c0c9cde6eb55b4d0f6ff25136d3d59e2f8d10f758",
+      "sha1_dans": "53767de5f0984dc338cb911fe7048aa4e471242c",
+      "sha1_verified": true,
+      "size_bytes": 26934,
+      "dans_file_id": 120680,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4
+        ],
+        "label_bounds": {
+          "left": 747040.1547336302,
+          "bottom": 2573899.474891877,
+          "right": 747084.6221384302,
+          "top": 2573943.942296677
+        }
+      }
+    },
+    {
+      "tile": "01_05.tiff",
+      "split": "test",
+      "image_file": "Dataset/geospatial-data/BHOPAL/01_05.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/01_05.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2743299,
+      "building_pixel_percentage": 65.4053,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 910058,
+        "1": 0,
+        "2": 389136,
+        "3": 7635,
+        "4": 2743299,
+        "5": 144176
+      },
+      "sha256": "46a62784f0c0602c0257ec28a4611884b454498ae2f2ff18f6efeb28457d0574",
+      "sha1_dans": "e5c4147f86d1859a3b811d87171480d439d38670",
+      "sha1_verified": true,
+      "size_bytes": 11872,
+      "dans_file_id": 120958,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747083.2542446302,
+          "bottom": 2573899.474891877,
+          "right": 747127.7216494302,
+          "top": 2573943.942296677
+        }
+      }
+    },
+    {
+      "tile": "01_06.tiff",
+      "split": "train",
+      "image_file": "Dataset/geospatial-data/BHOPAL/01_06.tiff",
+      "annotation_file": "data/uavpal/annotations/Label/Tiles/01_06.tiff",
+      "width": 2048,
+      "height": 2048,
+      "crs": "EPSG:32643",
+      "dtype": "uint8",
+      "class_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "building_class_id": 4,
+      "building_pixel_count": 2661798,
+      "building_pixel_percentage": 63.4622,
+      "has_building_pixels": true,
+      "class_pixel_counts": {
+        "0": 1052265,
+        "1": 0,
+        "2": 423608,
+        "3": 0,
+        "4": 2661798,
+        "5": 56633
+      },
+      "sha256": "e31980065d7a3cfc97bad1a054f41d34b9abf52dee6fbd0680209aed35da6628",
+      "sha1_dans": "2d69f90eab7c32faf80c92f51ec83a53c57e2b88",
+      "sha1_verified": true,
+      "size_bytes": 26979,
+      "dans_file_id": 120291,
+      "validation": {
+        "all_pass": true,
+        "checks": {
+          "file_exists": true,
+          "opens": true,
+          "dims_2048x2048": true,
+          "crs_epsg32643": true,
+          "dtype_uint8": true,
+          "class_values_valid": true,
+          "filename_matches_rgb": true,
+          "spatial_aligned_with_rgb": true
+        },
+        "errors": [],
+        "unique_class_values": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "label_bounds": {
+          "left": 747126.3537556302,
+          "bottom": 2573899.474891877,
+          "right": 747170.8211604302,
+          "top": 2573943.942296677
+        }
+      }
+    }
+  ]
+}

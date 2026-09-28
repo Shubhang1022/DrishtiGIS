@@ -1,0 +1,54 @@
+======================================================================
+FULL TRAINING -- resuming from epoch-10 checkpoint
+Budget: 20 additional epochs (max 30 total), patience=10 on Building IoU
+======================================================================
+Device: cpu
+Epochs: 20  BS: 2  LR: 0.0001  Patch: 512
+Train tiles: 14  Val tiles: 4
+Class weights: [0.435, 0.0, 1.0, 10.0, 0.211, 2.414]
+Train patches: 224  Val patches: 64
+Resumed from checkpoint: data/ai_models/uavpal/latest_model.pth
+
+======================================================================
+ Ep    T-Loss    V-Loss   V-BldIoU    V-mIoU   RAM GB   Time s
+======================================================================
+  1    1.0702    1.0735     0.4590    0.1740     0.14    923.6
+    ** new best Building IoU=0.4590 — checkpoint saved
+  2    1.0274    1.0979     0.4591    0.1694     0.26    923.3
+    ** new best Building IoU=0.4591 — checkpoint saved
+  3    1.0077    1.0243     0.5213    0.2048     0.26    729.8
+    ** new best Building IoU=0.5213 — checkpoint saved
+  4    1.0046    1.0497     0.4429    0.1901     0.26    679.1
+  5    0.9749    1.0203     0.5214    0.2069     0.26    688.5
+    ** new best Building IoU=0.5214 — checkpoint saved
+  6    0.9801    1.0057     0.5701    0.2209     0.26    715.4
+    ** new best Building IoU=0.5701 — checkpoint saved
+  7    0.9595    1.0941     0.2892    0.1467     0.26    701.1
+  8    0.9504    1.0584     0.4205    0.1728     0.26    949.1
+  9    0.9187    1.0654     0.3187    0.1955     0.26    719.8
+ 10    0.9215    0.9904     0.5154    0.2207     0.26    683.0
+ 11    0.9250    1.0795     0.3665    0.1839     0.26    711.7
+ 12    0.9435    0.9705     0.5519    0.1973     0.26    724.0
+ 13    0.8858    0.9790     0.4948    0.2416     0.26    716.9
+ 14    0.8798    0.9953     0.4886    0.2013     0.27    705.3
+ 15    0.8961    0.9312     0.5867    0.2504     0.26    689.3
+    ** new best Building IoU=0.5867 — checkpoint saved
+ 16    0.8524    1.0025     0.3867    0.1912     0.26    811.4
+ 17    0.8703    0.9708     0.4572    0.2346     0.26    822.8
+ 18    0.8722    0.9191     0.5649    0.2462     0.22    845.6
+ 19    0.8802    1.0265     0.3696    0.1775     0.26    731.3
+ 20    0.8641    0.9772     0.4677    0.1972     0.26    786.1
+======================================================================
+Training complete: 20 epochs in 15262s
+Best Building IoU: 0.5867 at epoch 15
+History saved: data\ai_models\uavpal\training_history.json
+
+=== FULL TRAINING SUMMARY ===
+{
+  "epochs_run": 20,
+  "total_time_s": 15262.0,
+  "best_epoch": 15,
+  "best_building_iou": 0.586666,
+  "config_path": "data/uavpal/training_config.json",
+  "checkpoint_dir": "data\\ai_models\\uavpal"
+}

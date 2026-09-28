@@ -1,0 +1,184 @@
+{
+  "label_file_ids": {
+    "00_00.tiff": {
+      "id": 120853,
+      "size": 22490,
+      "sha1": "83ee0ebba1aa6bcef92cdaa220830fd91a408432",
+      "directory": "Label/Tiles"
+    },
+    "00_01.tiff": {
+      "id": 120929,
+      "size": 26785,
+      "sha1": "7f86ec2d2c8ec7c9d116185621252db24abda600",
+      "directory": "Label/Tiles"
+    },
+    "00_02.tiff": {
+      "id": 120720,
+      "size": 22025,
+      "sha1": "4b5ceeaada7343737b34f418f90f93c50cf7369e",
+      "directory": "Label/Tiles"
+    },
+    "00_03.tiff": {
+      "id": 120721,
+      "size": 22309,
+      "sha1": "44fb74575dc8c211caf3f3a449dfed87e2368527",
+      "directory": "Label/Tiles"
+    },
+    "00_04.tiff": {
+      "id": 120773,
+      "size": 31681,
+      "sha1": "2143d55bb60ea8a157e88b71107fb65317127907",
+      "directory": "Label/Tiles"
+    },
+    "00_05.tiff": {
+      "id": 120242,
+      "size": 26057,
+      "sha1": "baa53b79ae397fee2afb9ff3a994fb6a0ddf5ab3",
+      "directory": "Label/Tiles"
+    },
+    "00_06.tiff": {
+      "id": 121199,
+      "size": 17724,
+      "sha1": "ff01121ffe19c07f283f98d56e6c964df33b4470",
+      "directory": "Label/Tiles"
+    },
+    "00_07.tiff": {
+      "id": 120838,
+      "size": 20674,
+      "sha1": "eb3d74b5a0ed6e49b35a2ec3d0f88e9e481a5992",
+      "directory": "Label/Tiles"
+    },
+    "00_08.tiff": {
+      "id": 120770,
+      "size": 18346,
+      "sha1": "162b1798ec2e8b7f81141cc2ffc71661a84837df",
+      "directory": "Label/Tiles"
+    },
+    "00_09.tiff": {
+      "id": 120892,
+      "size": 23658,
+      "sha1": "e03fb34a908e9d6e06ef7181c7666dd9cc4e5e0a",
+      "directory": "Label/Tiles"
+    },
+    "00_10.tiff": {
+      "id": 120391,
+      "size": 27030,
+      "sha1": "65ea9aaec4c807e8d3754f745786223b186583e0",
+      "directory": "Label/Tiles"
+    },
+    "00_11.tiff": {
+      "id": 120737,
+      "size": 15509,
+      "sha1": "afc26c65c1836dea45546f9cf4d977ae9b80e119",
+      "directory": "Label/Tiles"
+    },
+    "00_12.tiff": {
+      "id": 120902,
+      "size": 13419,
+      "sha1": "ce4e18c427734d52907eb6135cb50afb236b4154",
+      "directory": "Label/Tiles"
+    },
+    "00_13.tiff": {
+      "id": 120816,
+      "size": 18620,
+      "sha1": "ed3c05c7ba72554a2d9e8e8df2e9ef1330cd053c",
+      "directory": "Label/Tiles"
+    },
+    "00_14.tiff": {
+      "id": 120676,
+      "size": 5792,
+      "sha1": "506a3a2a92388d43fcb4fb785a23f34295c959df",
+      "directory": "Label/Tiles"
+    },
+    "00_15.tiff": {
+      "id": 120884,
+      "size": 11163,
+      "sha1": "3178b24c1b69aace0df1b115d0b4f688af36c6b6",
+      "directory": "Label/Tiles"
+    },
+    "00_16.tiff": {
+      "id": 120938,
+      "size": 7796,
+      "sha1": "f75f15e5650acf583f83cf3ef954bb7ac67d9f2b",
+      "directory": "Label/Tiles"
+    },
+    "00_17.tiff": {
+      "id": 120412,
+      "size": 6715,
+      "sha1": "708f8deb4a20ad2d2632c499928b982837e64c40",
+      "directory": "Label/Tiles"
+    },
+    "00_18.tiff": {
+      "id": 120413,
+      "size": 8069,
+      "sha1": "60908b4c787242897343c96296caf7bdf5293c07",
+      "directory": "Label/Tiles"
+    },
+    "00_19.tiff": {
+      "id": 120752,
+      "size": 9989,
+      "sha1": "35f88468ca447db41ddea53790efbc588c740bd7",
+      "directory": "Label/Tiles"
+    },
+    "00_20.tiff": {
+      "id": 120263,
+      "size": 4789,
+      "sha1": "a6f1c80d34351959967336603a9b4958eb0fa73d",
+      "directory": "Label/Tiles"
+    },
+    "00_21.tiff": {
+      "id": 121151,
+      "size": 8433,
+      "sha1": "84d0b03be79d018b28ae80243c78fb4824f5a156",
+      "directory": "Label/Tiles"
+    },
+    "00_22.tiff": {
+      "id": 120906,
+      "size": 7511,
+      "sha1": "a9633f95283ac9794c99763725f10f508176be2a",
+      "directory": "Label/Tiles"
+    },
+    "01_00.tiff": {
+      "id": 121091,
+      "size": 21912,
+      "sha1": "e0a42ade1f67f6272185a1e6bf0fe0819c6fc4d0",
+      "directory": "Label/Tiles"
+    },
+    "01_01.tiff": {
+      "id": 120900,
+      "size": 19499,
+      "sha1": "97e310c9b6778ca20e587678f431ff29e16983e8",
+      "directory": "Label/Tiles"
+    },
+    "01_02.tiff": {
+      "id": 120986,
+      "size": 22401,
+      "sha1": "d06a13cdd9ac857ba17a69b358cce057d73ea0f0",
+      "directory": "Label/Tiles"
+    },
+    "01_03.tiff": {
+      "id": 120339,
+      "size": 22461,
+      "sha1": "f9978795429bbda553272a3c1b0c0afd4de521ed",
+      "directory": "Label/Tiles"
+    },
+    "01_04.tiff": {
+      "id": 120680,
+      "size": 26934,
+      "sha1": "53767de5f0984dc338cb911fe7048aa4e471242c",
+      "directory": "Label/Tiles"
+    },
+    "01_05.tiff": {
+      "id": 120958,
+      "size": 11872,
+      "sha1": "e5c4147f86d1859a3b811d87171480d439d38670",
+      "directory": "Label/Tiles"
+    },
+    "01_06.tiff": {
+      "id": 120291,
+      "size": 26979,
+      "sha1": "2d69f90eab7c32faf80c92f51ec83a53c57e2b88",
+      "directory": "Label/Tiles"
+    }
+  }
+}

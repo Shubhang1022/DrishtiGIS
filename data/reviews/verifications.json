@@ -1,0 +1,705 @@
+{
+  "REV-DISC-55-00000": [
+    {
+      "verification_id": "VERIF-b12fb44a",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T09:07:57.857118+00:00",
+      "reviewer": "Field-Surveyor-02",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-0e6deb7a",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T09:08:38.391235+00:00",
+      "reviewer": "Field-Surveyor-02",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-9986e4d7",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T09:19:24.153350+00:00",
+      "reviewer": "Field-Surveyor-02",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-0234c764",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T13:49:38.320822+00:00",
+      "reviewer": "Field-Surveyor-02",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-4d4575c5",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T13:50:45.301759+00:00",
+      "reviewer": "Field-Surveyor-02",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-bd5003c9",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T13:58:11.021415+00:00",
+      "reviewer": "Field-Surveyor-02",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-08be10f9",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T14:00:50.052135+00:00",
+      "reviewer": "Field-Surveyor-02",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-2d6a44fe",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T14:04:13.642815+00:00",
+      "reviewer": "Field-Surveyor-02",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-1568e54f",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T14:41:43.913351+00:00",
+      "reviewer": "Anonymous Public User",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-a56c226b",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T14:51:46.587648+00:00",
+      "reviewer": "Anonymous Public User",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-9c4f0170",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T15:21:36.778915+00:00",
+      "reviewer": "Anonymous Public User",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-6789162e",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T15:36:57.579324+00:00",
+      "reviewer": "Anonymous Public User",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-ba6183a2",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T15:46:28.026576+00:00",
+      "reviewer": "Anonymous Public User",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-c4ccd2e6",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T15:51:53.016770+00:00",
+      "reviewer": "Anonymous Public User",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-6d1bec42",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T15:58:55.372095+00:00",
+      "reviewer": "Anonymous Public User",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-ae2d00c7",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T16:03:43.593104+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-6eb79f10",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-16T16:06:49.102577+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-b381573b",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-17T10:00:00.019761+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-b596dc0e",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-17T10:09:24.144474+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-5ce95d8e",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-17T11:36:03.179789+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-fb4508ba",
+      "review_id": "REV-DISC-55-00000",
+      "location": null,
+      "verification_method": "GNSS",
+      "observed_feature": "Boundary",
+      "observation": "Test observation",
+      "timestamp": "2026-09-17T11:38:27.047238+00:00",
+      "reviewer": "Pytest Default User",
+      "notes": null,
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-c15d6333",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-17T11:38:35.564677+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-1c11d9e8",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-17T11:39:53.036474+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-024b90d4",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-17T11:40:44.638928+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-7e1960e0",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-17T11:41:52.692985+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-46a5d07e",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-17T11:48:28.896741+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-6a537369",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-17T13:09:59.530008+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-5d671445",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-17T13:53:09.420932+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-0311bade",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-20T08:29:13.840659+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-867095a9",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-20T08:57:16.473279+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-ba225ac7",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-20T12:59:22.526039+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-e0f8f9e4",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-21T15:37:13.210290+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-6dbe6db7",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-21T16:09:44.847408+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-9a598c45",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-21T16:13:32.342623+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-9ff11a04",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-22T17:15:44.992537+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-8fbd80f1",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-22T17:18:50.860277+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-019e6909",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-22T17:34:35.417141+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-27012918",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-24T11:25:16.215621+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-119791a5",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-24T12:02:41.554895+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-5c3b7dcb",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-24T12:05:50.722371+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-5e927a02",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-24T12:43:23.734285+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-b5219d82",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-24T12:45:40.218611+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-82600e6d",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-24T13:21:07.340199+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    },
+    {
+      "verification_id": "VERIF-9a24dae8",
+      "review_id": "REV-DISC-55-00000",
+      "location": {
+        "latitude": 23.2501,
+        "longitude": 77.4002
+      },
+      "verification_method": "GNSS",
+      "observed_feature": "Observed boundary",
+      "observation": "Observed boundary differs from preliminary AI-derived boundary.",
+      "timestamp": "2026-09-24T13:37:52.898272+00:00",
+      "reviewer": "Vikram Singh (Surveyor)",
+      "notes": "Verified using RTK GNSS receiver.",
+      "evidence_reference": null,
+      "photo_filename": null
+    }
+  ]
+}

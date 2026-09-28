@@ -1,0 +1,22 @@
+{
+  "homes": {
+    "usr-public-001": {
+      "user_id": "usr-public-001",
+      "latitude": 26.882674,
+      "longitude": 81.061506,
+      "address_label": "HOME",
+      "accuracy_m": null,
+      "created_at": "2026-09-17T13:56:14.600229+00:00",
+      "updated_at": "2026-09-26T05:46:11.454373+00:00"
+    },
+    "usr-admin-001": {
+      "user_id": "usr-admin-001",
+      "latitude": 26.882635,
+      "longitude": 81.061507,
+      "address_label": "HOME",
+      "accuracy_m": null,
+      "created_at": "2026-09-21T16:07:22.045514+00:00",
+      "updated_at": "2026-09-21T16:07:22.045514+00:00"
+    }
+  }
+}

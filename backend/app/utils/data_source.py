@@ -31,3 +31,9 @@ class DataSource(str, Enum):
 
     AI_DERIVED_DEMO          = "AI_DERIVED_DEMO"
     """Demo placeholder AI output — NOT from a real model run."""
+
+    AI_DERIVED_UAVPAL        = "AI_DERIVED_UAVPAL"
+    """Real AI output from the UAVPal U-Net ResNet18 pipeline (Phase 3–5)."""
+
+    SYNTHETIC_DEMO           = "SYNTHETIC_DEMO"
+    """Synthetic prototype parcel/property data — explicitly NOT official cadastral data."""

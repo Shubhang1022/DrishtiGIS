@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "description": "DrishtiGIS UAVPal U-Net ResNet18 — first real trained model",
+    "phase": "Phase 3",
+    "training_timestamp": "2026-09-12"
+  },
+  "architecture": "UNet",
+  "encoder": "resnet18",
+  "encoder_weights": null,
+  "num_classes": 6,
+  "input_channels": 3,
+  "output_classes": 6,
+  "building_class_id": 4,
+  "class_names": {
+    "0": "Background",
+    "1": "Water",
+    "2": "Road",
+    "3": "Car",
+    "4": "Building",
+    "5": "Tree"
+  },
+  "random_seed": 42,
+  "patch_size": 512,
+  "batch_size": 2,
+  "gradient_accumulation_steps": 4,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "loss_function": "CrossEntropyDice",
+  "ce_weight": 0.5,
+  "dice_weight": 0.5,
+  "class_weights": {
+    "0": 0.4351,
+    "1": 0.0,
+    "2": 1.0,
+    "3": 10.0,
+    "4": 0.2108,
+    "5": 2.4145
+  },
+  "class_weights_source": "median-frequency from training tiles only (Water=0 absent)",
+  "pilot_epochs": 10,
+  "full_training_epochs": 20,
+  "total_epochs_run": 30,
+  "best_epoch_in_full_run": 15,
+  "best_epoch_overall": 25,
+  "best_val_building_iou": 0.586666,
+  "train_tile_ids": [
+    "00_05",
+    "00_06",
+    "00_08",
+    "00_09",
+    "00_11",
+    "00_12",
+    "00_15",
+    "00_16",
+    "00_17",
+    "00_18",
+    "00_20",
+    "01_01",
+    "01_02",
+    "01_06"
+  ],
+  "validation_tile_ids": [
+    "00_00",
+    "00_03",
+    "00_21",
+    "00_22"
+  ],
+  "test_tile_ids": [
+    "00_01",
+    "00_02",
+    "00_04",
+    "00_07",
+    "00_10",
+    "00_13",
+    "00_14",
+    "00_19",
+    "01_00",
+    "01_03",
+    "01_04",
+    "01_05"
+  ],
+  "n_train_tiles": 14,
+  "n_val_tiles": 4,
+  "n_test_tiles": 12,
+  "rgb_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "rgb_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "checkpoint_path": "data/ai_models/uavpal/best_model.pth",
+  "hardware": {
+    "cpu": "Intel Core i3-1125G4 @ 2.00GHz, 8 logical cores",
+    "ram_gb": 8.2,
+    "gpu": "None (CPU training only)",
+    "cuda": false
+  },
+  "training_time_total_s": 21920.8,
+  "note": "Model trained from random init (no pretrained encoder). Building precision consistently high (0.82-0.89); recall improves with epochs. Water class absent in training tiles — weight=0. Validation IoU oscillation due to small validation set (4 tiles, 64 patches)."
+}

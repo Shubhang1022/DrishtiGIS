@@ -1,0 +1,43 @@
+{
+  "config_loaded": true,
+  "dataset_created": true,
+  "dataset_length": 16,
+  "pair_load_time_s": 0.179,
+  "check_pair_loaded": true,
+  "check_img_shape": true,
+  "img_shape": [
+    3,
+    512,
+    512
+  ],
+  "check_lbl_shape": true,
+  "lbl_shape": [
+    512,
+    512
+  ],
+  "label_unique_values": [
+    0,
+    2,
+    4
+  ],
+  "check_label_values": true,
+  "model_parameter_count": 14339846,
+  "forward_time_s": 0.914,
+  "check_forward_pass": true,
+  "output_shape": [
+    1,
+    6,
+    512,
+    512
+  ],
+  "check_output_channels": true,
+  "check_spatial_dims": true,
+  "check_no_nan_inf_output": true,
+  "loss_value": 1.382328,
+  "check_loss_computed": true,
+  "check_no_nan_inf_loss": true,
+  "check_backward": true,
+  "grad_norm": 2.333822,
+  "check_optimizer_step": true,
+  "all_checks_pass": true
+}

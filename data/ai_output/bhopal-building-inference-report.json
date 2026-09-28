@@ -1,0 +1,377 @@
+{
+  "_meta": {
+    "phase": "Phase 4",
+    "generated": "2026-09-12T16:14:11.771845"
+  },
+  "model": "UNet-ResNet18-UAVPal",
+  "model_checkpoint": "data\\ai_models\\uavpal\\best_model.pth",
+  "source_tiles": [
+    "00_00",
+    "00_01",
+    "00_02",
+    "00_03",
+    "00_04",
+    "00_05",
+    "00_06",
+    "00_07",
+    "00_08",
+    "00_09",
+    "00_10",
+    "00_11",
+    "00_12",
+    "00_13",
+    "00_14",
+    "00_15",
+    "00_16",
+    "00_17",
+    "00_18",
+    "00_19",
+    "00_20",
+    "00_21",
+    "00_22",
+    "01_00",
+    "01_01",
+    "01_02",
+    "01_03",
+    "01_04",
+    "01_05",
+    "01_06"
+  ],
+  "source_tile_count": 30,
+  "min_area_threshold_m2": 5.0,
+  "min_area_rationale": "Pixel size 2.169 cm → 1px = 0.000470 m². 5 m² ≈ 10,627 px. Removes sub-4px noise while retaining small sheds and annexes.",
+  "min_area_sensitivity": {
+    "2.0m2": 12,
+    "5.0m2": 8,
+    "10.0m2": 5
+  },
+  "total_raw_components": 1508,
+  "total_filtered_components": 842,
+  "total_watershed_splits": 1469,
+  "total_raw_polygons": 842,
+  "duplicates_removed": 8,
+  "duplicates_merged": 0,
+  "final_building_count": 834,
+  "geometry_repair": {
+    "total": 842,
+    "invalid_before": 0,
+    "repaired": 0,
+    "failed": 0,
+    "method": "shapely make_valid (Polygonize + buffer(0) fallback)"
+  },
+  "confidence_methodology": "mean_softmax_p_building_over_component_pixels",
+  "average_confidence": 0.5467,
+  "median_confidence": 0.5571,
+  "average_area_m2": 25.09,
+  "deduplication": {
+    "method": "centroid_proximity_5m + polygon_iou_0.15",
+    "max_centroid_m": 5.0,
+    "min_iou": 0.15,
+    "adjacent_pairs": 35
+  },
+  "crs_source": "EPSG:32643",
+  "crs_output": "EPSG:4326",
+  "output_geojson": "data\\ai_output\\bhopal-buildings-ai.geojson",
+  "per_tile": [
+    {
+      "tile_id": "00_00",
+      "raw_components": 84,
+      "filtered_components": 20,
+      "watershed_splits": 32,
+      "geojson_features": 20,
+      "building_pixels": 1187980,
+      "inference_time_s": 8.02,
+      "total_time_s": 25.95
+    },
+    {
+      "tile_id": "00_01",
+      "raw_components": 40,
+      "filtered_components": 8,
+      "watershed_splits": 13,
+      "geojson_features": 8,
+      "building_pixels": 728875,
+      "inference_time_s": 7.09,
+      "total_time_s": 13.31
+    },
+    {
+      "tile_id": "00_02",
+      "raw_components": 23,
+      "filtered_components": 31,
+      "watershed_splits": 43,
+      "geojson_features": 31,
+      "building_pixels": 1742211,
+      "inference_time_s": 7.51,
+      "total_time_s": 14.82
+    },
+    {
+      "tile_id": "00_03",
+      "raw_components": 43,
+      "filtered_components": 47,
+      "watershed_splits": 69,
+      "geojson_features": 47,
+      "building_pixels": 2237403,
+      "inference_time_s": 6.75,
+      "total_time_s": 17.77
+    },
+    {
+      "tile_id": "00_04",
+      "raw_components": 59,
+      "filtered_components": 34,
+      "watershed_splits": 59,
+      "geojson_features": 34,
+      "building_pixels": 1522311,
+      "inference_time_s": 7.07,
+      "total_time_s": 22.62
+    },
+    {
+      "tile_id": "00_05",
+      "raw_components": 37,
+      "filtered_components": 29,
+      "watershed_splits": 52,
+      "geojson_features": 29,
+      "building_pixels": 1658417,
+      "inference_time_s": 6.85,
+      "total_time_s": 15.5
+    },
+    {
+      "tile_id": "00_06",
+      "raw_components": 25,
+      "filtered_components": 41,
+      "watershed_splits": 64,
+      "geojson_features": 41,
+      "building_pixels": 2450598,
+      "inference_time_s": 7.08,
+      "total_time_s": 14.23
+    },
+    {
+      "tile_id": "00_07",
+      "raw_components": 31,
+      "filtered_components": 25,
+      "watershed_splits": 37,
+      "geojson_features": 25,
+      "building_pixels": 1280871,
+      "inference_time_s": 7.56,
+      "total_time_s": 14.8
+    },
+    {
+      "tile_id": "00_08",
+      "raw_components": 39,
+      "filtered_components": 38,
+      "watershed_splits": 66,
+      "geojson_features": 38,
+      "building_pixels": 1776324,
+      "inference_time_s": 6.98,
+      "total_time_s": 16.48
+    },
+    {
+      "tile_id": "00_09",
+      "raw_components": 37,
+      "filtered_components": 29,
+      "watershed_splits": 44,
+      "geojson_features": 29,
+      "building_pixels": 1730659,
+      "inference_time_s": 6.9,
+      "total_time_s": 15.16
+    },
+    {
+      "tile_id": "00_10",
+      "raw_components": 43,
+      "filtered_components": 16,
+      "watershed_splits": 21,
+      "geojson_features": 16,
+      "building_pixels": 1371181,
+      "inference_time_s": 6.87,
+      "total_time_s": 12.41
+    },
+    {
+      "tile_id": "00_11",
+      "raw_components": 43,
+      "filtered_components": 5,
+      "watershed_splits": 15,
+      "geojson_features": 5,
+      "building_pixels": 250267,
+      "inference_time_s": 6.97,
+      "total_time_s": 9.83
+    },
+    {
+      "tile_id": "00_12",
+      "raw_components": 120,
+      "filtered_components": 11,
+      "watershed_splits": 28,
+      "geojson_features": 11,
+      "building_pixels": 448100,
+      "inference_time_s": 7.92,
+      "total_time_s": 11.95
+    },
+    {
+      "tile_id": "00_13",
+      "raw_components": 88,
+      "filtered_components": 18,
+      "watershed_splits": 36,
+      "geojson_features": 18,
+      "building_pixels": 963859,
+      "inference_time_s": 7.07,
+      "total_time_s": 16.8
+    },
+    {
+      "tile_id": "00_14",
+      "raw_components": 90,
+      "filtered_components": 25,
+      "watershed_splits": 77,
+      "geojson_features": 25,
+      "building_pixels": 1386862,
+      "inference_time_s": 7.31,
+      "total_time_s": 13.9
+    },
+    {
+      "tile_id": "00_15",
+      "raw_components": 75,
+      "filtered_components": 12,
+      "watershed_splits": 22,
+      "geojson_features": 12,
+      "building_pixels": 437540,
+      "inference_time_s": 6.62,
+      "total_time_s": 13.23
+    },
+    {
+      "tile_id": "00_16",
+      "raw_components": 39,
+      "filtered_components": 13,
+      "watershed_splits": 17,
+      "geojson_features": 13,
+      "building_pixels": 736186,
+      "inference_time_s": 7.32,
+      "total_time_s": 11.2
+    },
+    {
+      "tile_id": "00_17",
+      "raw_components": 24,
+      "filtered_components": 23,
+      "watershed_splits": 38,
+      "geojson_features": 23,
+      "building_pixels": 2067544,
+      "inference_time_s": 7.42,
+      "total_time_s": 11.65
+    },
+    {
+      "tile_id": "00_18",
+      "raw_components": 60,
+      "filtered_components": 18,
+      "watershed_splits": 52,
+      "geojson_features": 18,
+      "building_pixels": 1584465,
+      "inference_time_s": 7.45,
+      "total_time_s": 12.43
+    },
+    {
+      "tile_id": "00_19",
+      "raw_components": 72,
+      "filtered_components": 33,
+      "watershed_splits": 58,
+      "geojson_features": 33,
+      "building_pixels": 1698916,
+      "inference_time_s": 7.25,
+      "total_time_s": 15.33
+    },
+    {
+      "tile_id": "00_20",
+      "raw_components": 42,
+      "filtered_components": 46,
+      "watershed_splits": 85,
+      "geojson_features": 46,
+      "building_pixels": 2687438,
+      "inference_time_s": 7.1,
+      "total_time_s": 18.51
+    },
+    {
+      "tile_id": "00_21",
+      "raw_components": 52,
+      "filtered_components": 46,
+      "watershed_splits": 143,
+      "geojson_features": 46,
+      "building_pixels": 2411748,
+      "inference_time_s": 7.22,
+      "total_time_s": 19.3
+    },
+    {
+      "tile_id": "00_22",
+      "raw_components": 39,
+      "filtered_components": 48,
+      "watershed_splits": 74,
+      "geojson_features": 48,
+      "building_pixels": 2469069,
+      "inference_time_s": 7.17,
+      "total_time_s": 16.26
+    },
+    {
+      "tile_id": "01_00",
+      "raw_components": 47,
+      "filtered_components": 33,
+      "watershed_splits": 43,
+      "geojson_features": 33,
+      "building_pixels": 1656668,
+      "inference_time_s": 7.35,
+      "total_time_s": 18.38
+    },
+    {
+      "tile_id": "01_01",
+      "raw_components": 51,
+      "filtered_components": 23,
+      "watershed_splits": 36,
+      "geojson_features": 23,
+      "building_pixels": 1771565,
+      "inference_time_s": 9.58,
+      "total_time_s": 16.02
+    },
+    {
+      "tile_id": "01_02",
+      "raw_components": 38,
+      "filtered_components": 37,
+      "watershed_splits": 62,
+      "geojson_features": 37,
+      "building_pixels": 2347210,
+      "inference_time_s": 10.19,
+      "total_time_s": 22.02
+    },
+    {
+      "tile_id": "01_03",
+      "raw_components": 57,
+      "filtered_components": 37,
+      "watershed_splits": 47,
+      "geojson_features": 37,
+      "building_pixels": 1743123,
+      "inference_time_s": 10.21,
+      "total_time_s": 29.24
+    },
+    {
+      "tile_id": "01_04",
+      "raw_components": 36,
+      "filtered_components": 36,
+      "watershed_splits": 52,
+      "geojson_features": 36,
+      "building_pixels": 2465661,
+      "inference_time_s": 7.82,
+      "total_time_s": 14.5
+    },
+    {
+      "tile_id": "01_05",
+      "raw_components": 33,
+      "filtered_components": 27,
+      "watershed_splits": 46,
+      "geojson_features": 27,
+      "building_pixels": 1977328,
+      "inference_time_s": 6.65,
+      "total_time_s": 13.95
+    },
+    {
+      "tile_id": "01_06",
+      "raw_components": 41,
+      "filtered_components": 33,
+      "watershed_splits": 38,
+      "geojson_features": 33,
+      "building_pixels": 1863288,
+      "inference_time_s": 6.82,
+      "total_time_s": 17.88
+    }
+  ]
+}

@@ -15,9 +15,16 @@
       "status": "Verified",
       "record_status": "Demo record",
       "last_updated": "2026-09-08",
-      "source_label": "Prototype Dataset — Bhopal",
+      "source_label": "Prototype Dataset \u2014 Bhopal",
       "_source": "DEMO_DATA_PROTOTYPE_ONLY",
-      "_disclaimer": "This is prototype demonstration data. Not an official government property record."
+      "_disclaimer": "This is prototype demonstration data. Not an official government property record.",
+      "current_owner_name": "Rajesh Kumar",
+      "previous_owner_name": "Suresh Patel",
+      "property_type": "HOUSE",
+      "resident_count": 4,
+      "purchase_price_inr": 3200000.0,
+      "estimated_selling_price_inr": 4500000.0,
+      "valuation_year": 2026
     },
     {
       "id": "prop-bpl-002",
@@ -31,9 +38,16 @@
       "status": "Pending",
       "record_status": "Demo record",
       "last_updated": "2026-09-08",
-      "source_label": "Prototype Dataset — Bhopal",
+      "source_label": "Prototype Dataset \u2014 Bhopal",
       "_source": "DEMO_DATA_PROTOTYPE_ONLY",
-      "_disclaimer": "This is prototype demonstration data. Not an official government property record."
+      "_disclaimer": "This is prototype demonstration data. Not an official government property record.",
+      "current_owner_name": "Amit Sharma",
+      "previous_owner_name": "Ramesh Verma",
+      "property_type": "VACANT_PLOT",
+      "resident_count": null,
+      "purchase_price_inr": 1800000.0,
+      "estimated_selling_price_inr": 2500000.0,
+      "valuation_year": 2026
     },
     {
       "id": "prop-bpl-003",
@@ -47,9 +61,16 @@
       "status": "Verified",
       "record_status": "Demo record",
       "last_updated": "2026-09-08",
-      "source_label": "Prototype Dataset — Bhopal",
+      "source_label": "Prototype Dataset \u2014 Bhopal",
       "_source": "DEMO_DATA_PROTOTYPE_ONLY",
-      "_disclaimer": "This is prototype demonstration data. Not an official government property record."
+      "_disclaimer": "This is prototype demonstration data. Not an official government property record.",
+      "current_owner_name": "Priya Verma",
+      "previous_owner_name": "Sunita Devi",
+      "property_type": "BUILDING",
+      "resident_count": 12,
+      "purchase_price_inr": 6500000.0,
+      "estimated_selling_price_inr": 9200000.0,
+      "valuation_year": 2026
     }
   ]
 }

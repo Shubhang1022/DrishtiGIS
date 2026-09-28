@@ -10,35 +10,35 @@
 
 /** Bhopal UAV orthomosaic coverage bounds (WGS84, EPSG:4326) */
 export const BHOPAL_UAV_BOUNDS = {
-  minLon:    77.41299311,
-  maxLon:    77.42267457,
-  minLat:    23.25573135,
-  maxLat:    23.25667101,
-  centerLon: 77.41783386,
-  centerLat: 23.25620125,
+  minLon:    77.41295100,
+  maxLon:    77.42268900,
+  minLat:    23.25429200,
+  maxLat:    23.25667100,
+  centerLon: 77.41782000,
+  centerLat: 23.25548200,
   /** Source CRS of the original imagery */
   epsgSource: "EPSG:32643",
   /** CRS used for storage and web display */
   epsgDisplay: "EPSG:4326",
   widthM:    992.63,
-  heightM:   87.57,
-  tileCount: 30,
+  heightM:   264.44,
+  tileCount: 121,
   resolutionM: 0.021713,
-  datasetLabel: "Prototype Dataset \u2014 Bhopal",
+  datasetLabel: "Bhopal High-Res UAV Aerial Dataset",
 } as const;
 
 /** Bhopal city centre (for initial map load before zooming to dataset) */
 export const BHOPAL_CITY = {
-  centerLon: 77.4126,
-  centerLat: 23.2599,
-  zoom: 12,
+  centerLon: 77.417820,
+  centerLat: 23.255482,
+  zoom: 17,
 } as const;
 
 /** MapLibre camera settings for the UAV dataset extent */
 export const BHOPAL_MAP_CONFIG = {
   center:    [BHOPAL_UAV_BOUNDS.centerLon, BHOPAL_UAV_BOUNDS.centerLat] as [number, number],
-  zoom:      17,
-  minZoom:   14,
+  zoom:      18,
+  minZoom:   12,
   maxZoom:   22,
   /** LngLatBoundsLike for fitBounds */
   bounds: [

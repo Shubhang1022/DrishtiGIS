@@ -30,6 +30,8 @@ export const metadata: Metadata = {
     "cadastral feature extraction, and discrepancy detection.",
 };
 
+import { AuthProvider } from "@/lib/auth/Context";
+
 export default function RootLayout({
   children,
 }: {
@@ -41,7 +43,9 @@ export default function RootLayout({
       className={cn(playfair.variable, inter.variable, "font-sans", geist.variable)}
       suppressHydrationWarning
     >
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <AuthProvider>{children}</AuthProvider>
+      </body>
     </html>
   );
 }

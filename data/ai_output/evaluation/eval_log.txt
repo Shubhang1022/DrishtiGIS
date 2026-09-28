@@ -1,0 +1,46 @@
+Evaluating 12 official test tiles
+Checkpoint: data\ai_models\uavpal\best_model.pth
+
+Model loaded: 14,339,846 parameters
+
+  00_01: bld_iou=0.2052  bld_f1=0.3405  miou=0.2799  time=11.5s
+    Visuals saved: data\ai_output\evaluation\00_01
+  00_02: bld_iou=0.5584  bld_f1=0.7167  miou=0.2609  time=11.2s
+    Visuals saved: data\ai_output\evaluation\00_02
+  00_04: bld_iou=0.4779  bld_f1=0.6468  miou=0.3087  time=11.1s
+    Visuals saved: data\ai_output\evaluation\00_04
+  00_07: bld_iou=0.4932  bld_f1=0.6606  miou=0.2889  time=11.5s
+    Visuals saved: data\ai_output\evaluation\00_07
+  00_10: bld_iou=0.6950  bld_f1=0.8200  miou=0.2748  time=11.1s
+    Visuals saved: data\ai_output\evaluation\00_10
+  00_13: bld_iou=0.4676  bld_f1=0.6373  miou=0.2958  time=10.9s
+    Visuals saved: data\ai_output\evaluation\00_13
+  00_14: bld_iou=0.4694  bld_f1=0.6389  miou=0.2674  time=11.1s
+  00_19: bld_iou=0.5848  bld_f1=0.7380  miou=0.2966  time=11.6s
+  01_00: bld_iou=0.4616  bld_f1=0.6316  miou=0.1710  time=11.4s
+  01_03: bld_iou=0.5480  bld_f1=0.7081  miou=0.2943  time=11.2s
+  01_04: bld_iou=0.6645  bld_f1=0.7984  miou=0.1938  time=11.4s
+  01_05: bld_iou=0.5428  bld_f1=0.7036  miou=0.2946  time=11.1s
+
+============================================================
+FINAL TEST RESULTS (12 official test tiles)
+============================================================
+  Pixel accuracy  : 0.5852
+  Mean IoU        : 0.3123
+  Building IoU    : 0.5240
+  Building Prec.  : 0.8518
+  Building Recall : 0.5766
+  Building F1     : 0.6877
+
+  Per-class IoU:
+    Background  : 0.3170
+    Water       : 0.0000
+    Road        : 0.2984
+    Car         : 0.0948
+    Building    : 0.5240
+    Tree        : 0.6394
+
+Metrics saved: data\ai_output\evaluation\metrics.json
+Report saved: data\ai_output\evaluation\test_report.md
+
+Evaluation complete.
