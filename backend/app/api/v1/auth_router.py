@@ -12,7 +12,7 @@ from backend.app.auth.user_model import User, UserCreate, UserResponse, UserUpda
 from backend.app.auth.roles import Permission, UserRole
 from backend.app.auth.auth_service import verify_password, create_access_token
 from backend.app.auth.user_store import user_store
-from backend.app.auth.dependencies import get_current_user, require_permission
+from backend.app.auth.dependencies import get_current_user, get_optional_user, require_permission
 from backend.app.auth.audit_logger import security_audit_logger
 
 router = APIRouter()
@@ -121,16 +121,17 @@ async def login(req: LoginRequest, response: Response):
     return AuthTokenResponse(access_token=token, user=user_resp)
 
 @router.post("/logout", summary="Logout User Session")
-async def logout(response: Response, current_user: User = Depends(get_current_user)):
+async def logout(response: Response, current_user: User = Depends(get_optional_user)):
     response.delete_cookie(key="drishtigis_token", path="/")
-    security_audit_logger.log_event(
-        user_id=current_user.user_id,
-        user_email=current_user.email,
-        role=current_user.role.value,
-        action="LOGOUT",
-        resource_type="session",
-        region_id=current_user.region_id
-    )
+    if current_user and current_user.user_id != "usr-anonymous-public":
+        security_audit_logger.log_event(
+            user_id=current_user.user_id,
+            user_email=current_user.email,
+            role=current_user.role.value,
+            action="LOGOUT",
+            resource_type="session",
+            region_id=current_user.region_id
+        )
     return {"message": "Logged out successfully."}
 
 @router.get("/me", response_model=UserResponse, summary="Get Current Authenticated User")

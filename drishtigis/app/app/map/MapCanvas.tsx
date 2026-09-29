@@ -67,6 +67,7 @@ export function MapCanvas() {
 
   // User Home & GPS Consent state
   const [userHome, setUserHome] = useState<UserHomeData | null>(null);
+  const [currentLocation, setCurrentLocation] = useState<{ latitude: number; longitude: number; accuracy: number } | null>(null);
   const [tempGpsCoords, setTempGpsCoords] = useState<{ latitude: number; longitude: number; accuracy: number } | null>(null);
   const [isConsentModalOpen, setIsConsentModalOpen] = useState(false);
   const [userMenuOpen, setUserMenuOpen] = useState(false);
@@ -133,20 +134,39 @@ export function MapCanvas() {
 
   // Load User HOME & User Properties on mount & account change
   useEffect(() => {
+    // Immediately clear all ephemeral GPS and previous user's location state
     setTempGpsCoords(null);
+    setCurrentLocation(null);
     setDraggablePin(null);
+    setUserHome(null); // CRITICAL: Never retain previous user's HOME marker
+
+    // Sanitize any legacy un-scoped location keys in localStorage
+    if (typeof window !== "undefined") {
+      try {
+        const legacyKeys = ["homeLocation", "HOME_LOCATION", "savedHome", "userHome", "home_lat", "home_lng", "lastLocation"];
+        legacyKeys.forEach((k) => localStorage.removeItem(k));
+      } catch {}
+    }
+
+    if (!token || !user) {
+      return;
+    }
+
     let isMounted = true;
 
-    // Load HOME
+    // Load HOME strictly for the authenticated user
     fetchUserHome(token).then((homeData) => {
       if (!isMounted) return;
-      setUserHome(homeData);
-      if (homeData && Number.isFinite(homeData.latitude) && Number.isFinite(homeData.longitude) && !flyTo) {
-        setFlyTo({
-          center: [homeData.longitude, homeData.latitude],
-          zoom: 17,
-        });
+      // Scoping verification: HOME must belong to the active user
+      if (homeData && homeData.user_id === user.user_id) {
+        setUserHome(homeData);
+      } else if (homeData && !homeData.user_id) {
+        setUserHome(homeData);
+      } else {
+        setUserHome(null);
       }
+      // CRITICAL REQUIREMENT 1: NEVER call setFlyTo here!
+      // Map view must remain the default neutral India-level geographic overview.
     });
 
     // Load Properties
@@ -163,7 +183,7 @@ export function MapCanvas() {
     loadProps();
 
     return () => { isMounted = false; };
-  }, [token, user]);
+  }, [token, user?.user_id]);
 
   const handleLayerChange = useCallback(
     (layer: keyof LayerVisibility, visible: any) => {
@@ -222,6 +242,7 @@ export function MapCanvas() {
 
   // GPS Consent Granted Callback
   const handleConsentGranted = (coords: { latitude: number; longitude: number; accuracy: number }) => {
+    setCurrentLocation(coords);
     setTempGpsCoords(coords);
     setFlyTo({
       center: [coords.longitude, coords.latitude],
@@ -231,9 +252,9 @@ export function MapCanvas() {
 
   // Save current device/temp GPS position as HOME
   const handleSaveHome = async (lat?: number, lon?: number) => {
-    const targetLat = lat ?? tempGpsCoords?.latitude;
-    const targetLon = lon ?? tempGpsCoords?.longitude;
-    if (!targetLat || !targetLon) return;
+    const targetLat = lat ?? tempGpsCoords?.latitude ?? currentLocation?.latitude;
+    const targetLon = lon ?? tempGpsCoords?.longitude ?? currentLocation?.longitude;
+    if (targetLat === undefined || targetLon === undefined) return;
 
     try {
       const saved = await saveUserHome(
@@ -241,7 +262,7 @@ export function MapCanvas() {
         targetLat,
         targetLon,
         "HOME",
-        tempGpsCoords?.accuracy
+        tempGpsCoords?.accuracy ?? currentLocation?.accuracy
       );
       setUserHome(saved);
       setTempGpsCoords(null);
@@ -461,9 +482,13 @@ export function MapCanvas() {
 
                 <div className="border-t border-[#E8E0D0] pt-1">
                   <button
-                    onClick={() => {
+                    onClick={async () => {
                       setUserMenuOpen(false);
-                      logout();
+                      await logout();
+                      setUserHome(null);
+                      setCurrentLocation(null);
+                      setTempGpsCoords(null);
+                      setDraggablePin(null);
                     }}
                     className="w-full flex items-center gap-2 px-3 py-1.5 text-red-600 hover:bg-red-50 transition-colors font-semibold"
                   >
@@ -568,7 +593,7 @@ export function MapCanvas() {
           flyToLocation={flyTo}
           selectedContext={mapContext}
           userHomeLocation={userHome}
-          currentLocation={tempGpsCoords}
+          currentLocation={currentLocation}
           userProperties={userProperties}
           draggableMarkerLocation={draggablePin}
           onDraggableMarkerMove={(coords) => {

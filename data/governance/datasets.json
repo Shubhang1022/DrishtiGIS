@@ -8972,22 +8972,22 @@
     },
     {
       "dataset_id": "DS-TEST-PUBLISHED-001",
-      "job_id": "JOB-INGEST-648C1AF6",
+      "job_id": "JOB-INGEST-EC923A9B",
       "name": "Test Published Bhopal UAV Dataset",
       "filename": "test_bhopal_raster.tif",
       "format": "uav_raster",
       "file_size_bytes": 197142,
-      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpth5wdu3i\\test_bhopal_raster.tif",
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpxvgry7q4\\test_bhopal_raster.tif",
       "state": "Madhya Pradesh",
       "city": "Bhopal",
       "region_id": "bhopal_mp",
       "uploaded_by": "admin@drishtigis.in",
-      "uploaded_at": "2026-09-24T13:37:43.251514+00:00",
+      "uploaded_at": "2026-09-29T14:33:08.618990+00:00",
       "processing_started_at": null,
-      "last_updated_at": "2026-09-24T13:37:43.251514+00:00",
+      "last_updated_at": "2026-09-29T14:33:08.619243+00:00",
       "completed_at": null,
-      "status": "ARCHIVED",
-      "current_stage": "Archived Test Ingestion Record",
+      "status": "PUBLISHED",
+      "current_stage": "Published & Active on WebGIS",
       "progress_percent": 100,
       "completed_steps": [
         "File Received",
@@ -9027,27 +9027,27 @@
           "template": "/api/v1/datasets/DS-TEST-PUBLISHED-001/tiles/{z}/{x}/{y}.png"
         }
       ],
-      "is_published": false,
+      "is_published": true,
       "retry_eligible": false
     },
     {
       "dataset_id": "DS-TEST-UNPUBLISHED-002",
-      "job_id": "JOB-INGEST-F4ECF964",
+      "job_id": "JOB-INGEST-F5240F7E",
       "name": "Test Draft Dataset",
       "filename": "test_bhopal_raster.tif",
       "format": "uav_raster",
       "file_size_bytes": 197142,
-      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpth5wdu3i\\test_bhopal_raster.tif",
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpxvgry7q4\\test_bhopal_raster.tif",
       "state": "Madhya Pradesh",
       "city": "Bhopal",
       "region_id": "bhopal_mp",
       "uploaded_by": "admin@drishtigis.in",
-      "uploaded_at": "2026-09-24T13:37:43.251514+00:00",
+      "uploaded_at": "2026-09-29T14:33:08.619190+00:00",
       "processing_started_at": null,
-      "last_updated_at": "2026-09-24T13:47:35.412952+00:00",
-      "completed_at": "2026-09-24T13:47:35.412952+00:00",
-      "status": "FAILED",
-      "current_stage": "Source File Missing on Restart",
+      "last_updated_at": "2026-09-29T14:33:08.619200+00:00",
+      "completed_at": null,
+      "status": "PROCESSING",
+      "current_stage": "File Received & Job Registered",
       "progress_percent": 10,
       "completed_steps": [
         "File Received",
@@ -9061,7 +9061,7 @@
         "Quality Assurance Verification"
       ],
       "failed_steps": [],
-      "error_details": "Server restarted and source file was no longer available on disk.",
+      "error_details": null,
       "crs": "EPSG:4326 (WGS 84)",
       "bounds": [
         77.4,
@@ -9077,55 +9077,6 @@
       ],
       "outputs": [],
       "is_published": false,
-      "retry_eligible": false
-    },
-    {
-      "dataset_id": "DS-TEST-UTM-001",
-      "job_id": "JOB-INGEST-06CAFB0F",
-      "name": "Test Bhopal UTM Dataset",
-      "filename": "test_bhopal_utm.tif",
-      "format": "uav_raster",
-      "file_size_bytes": 197136,
-      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmp0ndb8wa8\\test_bhopal_utm.tif",
-      "state": "Madhya Pradesh",
-      "city": "Bhopal",
-      "region_id": "bhopal_mp",
-      "uploaded_by": "admin@drishtigis.in",
-      "uploaded_at": "2026-09-27T07:19:13.675245+00:00",
-      "processing_started_at": null,
-      "last_updated_at": "2026-09-27T07:19:13.675245+00:00",
-      "completed_at": null,
-      "status": "PUBLISHED",
-      "current_stage": "Published & Active on WebGIS",
-      "progress_percent": 100,
-      "completed_steps": [
-        "File Received",
-        "Metadata Form Initialized"
-      ],
-      "pending_steps": [
-        "Spatial CRS Validation",
-        "Geospatial Bounds Inspection",
-        "Tiling & Index Generation",
-        "AI Feature Alignment Check",
-        "Quality Assurance Verification"
-      ],
-      "failed_steps": [],
-      "error_details": null,
-      "crs": "EPSG:32643",
-      "bounds": [
-        77.4129,
-        23.2562,
-        77.4135,
-        23.2567
-      ],
-      "dimensions": "256 x 256 x 3",
-      "spatial_resolution_m": 0.02,
-      "feature_count": 0,
-      "layer_names": [
-        "UAV_Orthomosaic_RGB"
-      ],
-      "outputs": [],
-      "is_published": true,
       "retry_eligible": false
     }
   ]

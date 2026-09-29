@@ -21,9 +21,18 @@ from typing import List, Dict, Any, Optional
 from fastapi import APIRouter, HTTPException, Query, Response, Path as FPath
 from fastapi.responses import FileResponse
 
-import rasterio
-from rasterio.warp import transform_bounds, reproject, Resampling
-from rasterio.windows import from_bounds
+try:
+    import rasterio
+    from rasterio.warp import transform_bounds, reproject, Resampling
+    from rasterio.windows import from_bounds
+    HAS_RASTERIO = True
+except ImportError:
+    rasterio = None
+    transform_bounds = None
+    reproject = None
+    Resampling = None
+    from_bounds = None
+    HAS_RASTERIO = False
 from PIL import Image
 
 from backend.app.services.dataset_store import dataset_store, DatasetItem
@@ -87,6 +96,8 @@ def get_indexed_tiffs(target_path: str, ds_bounds: List[float]) -> List[Any]:
     Returns cached list of (filepath, wgs84_bounds, src_crs) for a directory or single GeoTIFF.
     Avoids opening hundreds of TIFF files sequentially on every single XYZ tile request.
     """
+    if not HAS_RASTERIO:
+        return []
     if target_path in _TIFF_INDEX_CACHE:
         return _TIFF_INDEX_CACHE[target_path]
 
@@ -121,6 +132,9 @@ def generate_tile_png_from_dataset(ds: DatasetItem, z: int, x: int, y: int) -> b
     Renders an authoritative 256x256 WebMercator (EPSG:3857) RGBA tile image for a dataset
     using rasterio.warp.reproject. Supports single GeoTIFF files and directories of GeoTIFFs.
     """
+    if not HAS_RASTERIO:
+        return TRANSPARENT_1X1_PNG
+
     import numpy as np
     from rasterio.warp import reproject, Resampling, transform_bounds
     from rasterio.transform import from_bounds

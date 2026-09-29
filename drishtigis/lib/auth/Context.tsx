@@ -3,6 +3,7 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { User, UserRole } from "@/lib/types/auth";
 import { loginUser, registerUser, getCurrentUser } from "@/lib/api/auth";
+import { API_V1_BASE } from "@/lib/api/client";
 
 interface AuthContextType {
   user: User | null;
@@ -10,7 +11,7 @@ interface AuthContextType {
   loading: boolean;
   login: (email: string, password: string) => Promise<void>;
   register: (data: any) => Promise<void>;
-  logout: () => void;
+  logout: () => Promise<void>;
   hasRole: (roles: UserRole[]) => boolean;
 }
 
@@ -20,7 +21,7 @@ const defaultAuthContext: AuthContextType = {
   loading: false,
   login: async () => {},
   register: async () => {},
-  logout: () => {},
+  logout: async () => {},
   hasRole: (roles: UserRole[]) => roles.includes("PUBLIC"),
 };
 
@@ -41,7 +42,32 @@ function setCookieToken(token: string) {
 function clearCookieToken() {
   if (typeof document !== "undefined") {
     document.cookie = "drishtigis_token=; path=/; max-age=0; SameSite=Lax";
+    document.cookie = "drishtigis_token=; path=/; max-age=0; SameSite=Strict";
+    document.cookie = "drishtigis_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
   }
+}
+
+function clearLegacyLocationStorage() {
+  if (typeof window === "undefined") return;
+  try {
+    const keysToRemove: string[] = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (
+        key &&
+        (key.startsWith("homeLocation") ||
+          key.startsWith("userHome") ||
+          key.startsWith("savedHome") ||
+          key === "HOME_LOCATION" ||
+          key === "home_lat" ||
+          key === "home_lng" ||
+          key === "lastLocation")
+      ) {
+        keysToRemove.push(key);
+      }
+    }
+    keysToRemove.forEach((k) => localStorage.removeItem(k));
+  } catch {}
 }
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
@@ -59,6 +85,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         .catch(() => {
           localStorage.removeItem("drishtigis_token");
           clearCookieToken();
+          clearLegacyLocationStorage();
           setToken(null);
           setUser(null);
         })
@@ -69,6 +96,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const login = async (email: string, password: string) => {
+    clearLegacyLocationStorage();
     const data = await loginUser(email, password);
     setToken(data.access_token);
     setUser(data.user);
@@ -77,6 +105,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   const register = async (formData: any) => {
+    clearLegacyLocationStorage();
     const data = await registerUser(formData);
     setToken(data.access_token);
     setUser(data.user);
@@ -84,11 +113,26 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setCookieToken(data.access_token);
   };
 
-  const logout = () => {
+  const logout = async () => {
+    const activeToken = token || localStorage.getItem("drishtigis_token") || getCookieToken();
+    if (activeToken) {
+      try {
+        await fetch(`${API_V1_BASE}/auth/logout`, {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${activeToken}`,
+          },
+          credentials: "include",
+        });
+      } catch (e) {
+        console.warn("Server logout notification failed:", e);
+      }
+    }
     setToken(null);
     setUser(null);
     localStorage.removeItem("drishtigis_token");
     clearCookieToken();
+    clearLegacyLocationStorage();
   };
 
   const hasRole = (roles: UserRole[]): boolean => {

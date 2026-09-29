@@ -17,18 +17,23 @@ export interface UserHomeData {
 }
 
 export async function fetchUserHome(token?: string | null): Promise<UserHomeData | null> {
+  // CRITICAL PRIVACY: If no authenticated token is provided, never make ambient network requests
+  if (!token || !token.trim()) {
+    return null;
+  }
+
   try {
-    const headers: Record<string, string> = {};
-    if (token) {
-      headers["Authorization"] = `Bearer ${token}`;
-    }
+    const headers: Record<string, string> = {
+      Authorization: `Bearer ${token.trim()}`,
+    };
     const res = await fetch(`${API_BASE}/user/home`, {
       headers,
       credentials: "include",
     });
-    if (res.status === 404) return null;
+    if (res.status === 404 || res.status === 401) return null;
     if (!res.ok) throw new Error("Failed to fetch HOME location");
-    return await res.json();
+    const data: UserHomeData = await res.json();
+    return data;
   } catch {
     return null;
   }
@@ -41,12 +46,14 @@ export async function saveUserHome(
   address_label: string = "HOME",
   accuracy_m?: number
 ): Promise<UserHomeData> {
+  if (!token || !token.trim()) {
+    throw new Error("Authentication required to save private HOME location.");
+  }
+
   const headers: Record<string, string> = {
     "Content-Type": "application/json",
+    Authorization: `Bearer ${token.trim()}`,
   };
-  if (token) {
-    headers["Authorization"] = `Bearer ${token}`;
-  }
 
   const res = await fetch(`${API_BASE}/user/home`, {
     method: "POST",
@@ -69,10 +76,13 @@ export async function saveUserHome(
 }
 
 export async function deleteUserHome(token?: string | null): Promise<boolean> {
-  const headers: Record<string, string> = {};
-  if (token) {
-    headers["Authorization"] = `Bearer ${token}`;
+  if (!token || !token.trim()) {
+    return false;
   }
+
+  const headers: Record<string, string> = {
+    Authorization: `Bearer ${token.trim()}`,
+  };
   const res = await fetch(`${API_BASE}/user/home`, {
     method: "DELETE",
     headers,
