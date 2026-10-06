@@ -66,6 +66,7 @@ class Settings(BaseSettings):
     # Supabase (optional — used when DATABASE_URL points to Supabase)
     SUPABASE_URL: str = ""
     SUPABASE_SERVICE_KEY: str = ""
+    SUPABASE_PUBLISHABLE_KEY: str = ""
 
     # Gemini / LLM (AI assistant)
     GEMINI_API_KEY: str = ""

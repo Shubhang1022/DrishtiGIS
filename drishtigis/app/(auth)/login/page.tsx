@@ -3,8 +3,9 @@
 import { useState, Suspense } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { ArrowLeft, Lock, Mail, ArrowRight, ShieldCheck, UserCheck } from "lucide-react";
+import { ArrowLeft, Lock, Mail, ArrowRight, ShieldCheck, UserCheck, Info } from "lucide-react";
 import { useAuth } from "@/lib/auth/Context";
+import { SIH_DEMO_ACCOUNTS } from "@/lib/auth/demoAccounts";
 
 function LoginForm() {
   const router = useRouter();
@@ -69,45 +70,38 @@ function LoginForm() {
             </p>
           </div>
 
-          {/* Quick Demo Account Selector */}
-          <div className="bg-[#F7F3EC] border border-[#E8E0D0] rounded-xl p-3 space-y-2">
-            <div className="text-[10px] font-bold text-[#2D5016] uppercase tracking-wider flex items-center gap-1">
-              <UserCheck className="w-3.5 h-3.5" />
-              <span>Select SIH Demo Evaluation Account:</span>
+          {/* Privacy Notice */}
+          <div className="bg-[#EBF3E8] border border-[#C5DEC0] rounded-xl p-3 flex items-start gap-2 text-[11px] text-[#244212]">
+            <Info className="w-4 h-4 flex-shrink-0 mt-0.5 text-[#2D5016]" />
+            <div>
+              <span className="font-semibold">Private HOME Isolation:</span> Sign in with a personal email/password account for private, strictly isolated HOME locations on the map.
             </div>
-            <div className="grid grid-cols-2 gap-1.5 text-[11px]">
-              <button
-                type="button"
-                onClick={() => handleDemoSelect("demo-public@drishtigis.in", "Public123!")}
-                className="bg-[#FBF9F5] border border-[#E8E0D0] hover:border-[#2D5016] p-1.5 rounded text-left"
-              >
-                <div className="font-bold text-[#2C2C2C]">Public Citizen</div>
-                <div className="text-[9px] text-[#8A8A8A]">Read-only public data</div>
-              </button>
-              <button
-                type="button"
-                onClick={() => handleDemoSelect("demo-surveyor@drishtigis.in", "Surveyor123!")}
-                className="bg-[#FBF9F5] border border-[#E8E0D0] hover:border-[#2D5016] p-1.5 rounded text-left"
-              >
-                <div className="font-bold text-[#2D5016]">Field Surveyor</div>
-                <div className="text-[9px] text-[#8A8A8A]">Geometry editing</div>
-              </button>
-              <button
-                type="button"
-                onClick={() => handleDemoSelect("demo-reviewer@drishtigis.in", "Reviewer123!")}
-                className="bg-[#FBF9F5] border border-[#E8E0D0] hover:border-[#2D5016] p-1.5 rounded text-left"
-              >
-                <div className="font-bold text-amber-900">Reviewer / Approver</div>
-                <div className="text-[9px] text-[#8A8A8A]">Approve/reject edits</div>
-              </button>
-              <button
-                type="button"
-                onClick={() => handleDemoSelect("demo-admin@drishtigis.in", "Admin123!")}
-                className="bg-[#FBF9F5] border border-[#E8E0D0] hover:border-[#2D5016] p-1.5 rounded text-left"
-              >
-                <div className="font-bold text-rose-900">System Admin</div>
-                <div className="text-[9px] text-[#8A8A8A]">Full governance</div>
-              </button>
+          </div>
+
+          {/* SIH Demo Account Selector */}
+          <div className="bg-[#F7F3EC] border border-[#E8E0D0] rounded-xl p-3 space-y-2">
+            <div className="flex items-center justify-between">
+              <div className="text-[10px] font-bold text-[#2D5016] uppercase tracking-wider flex items-center gap-1">
+                <UserCheck className="w-3.5 h-3.5" />
+                <span>SIH Demo Accounts</span>
+              </div>
+              <span className="text-[9px] text-[#8A8A8A]">Evaluation Only</span>
+            </div>
+            <p className="text-[10px] text-[#6B6B6B] leading-tight">
+              Demo accounts are shared testing accounts. Use a personal account for private HOME locations.
+            </p>
+            <div className="grid grid-cols-2 gap-1.5 text-[11px] pt-1">
+              {SIH_DEMO_ACCOUNTS.map((demo) => (
+                <button
+                  key={demo.email}
+                  type="button"
+                  onClick={() => handleDemoSelect(demo.email, demo.defaultPass)}
+                  className="bg-[#FBF9F5] border border-[#E8E0D0] hover:border-[#2D5016] p-2 rounded text-left transition-colors"
+                >
+                  <div className="font-bold text-[#2C2C2C] text-[11px]">{demo.label}</div>
+                  <div className="text-[9px] text-[#8A8A8A] leading-tight">{demo.description}</div>
+                </button>
+              ))}
             </div>
           </div>
 
@@ -174,7 +168,7 @@ function LoginForm() {
           <div className="text-center text-xs text-[#6B6B6B] border-t border-[#E8E0D0] pt-4">
             Don't have an account?{" "}
             <Link href="/register" className="font-semibold text-[#2D5016] hover:underline">
-              Register Organization
+              Register Personal Account
             </Link>
           </div>
 
@@ -182,6 +176,9 @@ function LoginForm() {
       </main>
 
       {/* Footer */}
+      <footer className="text-center text-[11px] text-[#8A8A8A] py-2">
+        DrishtiGIS &nbsp;&middot;&nbsp; SIH26012 &nbsp;&middot;&nbsp; Smart India Hackathon
+      </footer>
     </div>
   );
 }

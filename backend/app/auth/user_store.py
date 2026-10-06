@@ -172,6 +172,50 @@ class UserStore:
     def get_by_id(self, user_id: str) -> Optional[User]:
         return next((u for u in self.users.values() if u.user_id == user_id), None)
 
+    def get_or_create_supabase_user(self, supabase_data: Dict[str, Any]) -> User:
+        """
+        Retrieve or register a real user authenticated via Supabase Auth.
+        The user_id MUST strictly be the canonical Supabase UUID.
+        Strictly enforces default role as PUBLIC for self-registered real users.
+        """
+        sb_uuid = str(supabase_data["sub"]).strip()
+        email = str(supabase_data.get("email", "")).lower().strip()
+
+        # Check by canonical Supabase UUID
+        existing = self.get_by_id(sb_uuid)
+        if existing:
+            return existing
+
+        # Check by email if previously created
+        if email and email in self.users:
+            u = self.users[email]
+            if not u.email.startswith("demo-"):
+                u.user_id = sb_uuid
+                self._save_users()
+                return u
+
+        # Create new real user record with canonical Supabase UUID
+        now = datetime.now(timezone.utc).isoformat()
+        new_user = User(
+            user_id=sb_uuid,
+            email=email or f"user-{sb_uuid[:8]}@supabase.auth",
+            name=supabase_data.get("name") or "Real User",
+            hashed_password="",  # Real users do not store password hashes in DrishtiGIS
+            role=UserRole.PUBLIC,  # Strict default role for real users
+            organization=supabase_data.get("organization") or "DrishtiGIS Public User",
+            country="India",
+            state=supabase_data.get("state") or "Madhya Pradesh",
+            city=supabase_data.get("city") or "Bhopal",
+            region_id="bhopal_mp",
+            allowed_datasets=["uavpal_bhopal", "bhopal_synthetic_parcels"],
+            is_active=True,
+            created_at=now,
+            updated_at=now
+        )
+        self.users[new_user.email] = new_user
+        self._save_users()
+        return new_user
+
     def create_user(self, create_req: UserCreate) -> User:
         email = create_req.email.lower().strip()
         if email in self.users:

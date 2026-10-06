@@ -19,6 +19,10 @@ router = APIRouter()
 
 @router.post("/register", response_model=AuthTokenResponse, summary="Register User Account")
 async def register(req: UserCreate, response: Response):
+    # Phase 16: Public registration must never grant ADMIN, REVIEWER, or privileged roles
+    if req.role in (UserRole.ADMIN, UserRole.REVIEWER, UserRole.DATA_MANAGER):
+        req.role = UserRole.PUBLIC
+
     try:
         user = user_store.create_user(req)
     except ValueError as e:
